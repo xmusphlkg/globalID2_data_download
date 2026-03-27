@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D079",
+    "dataset_slug": "plasmodium-malariae-malaria",
+    "dataset_name": "Plasmodium malariae malaria",
+    "generated_at": "2026-03-27T07:40:13.841640+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D079",
+    "name_en": "Plasmodium malariae malaria",
+    "name_zh": "三日疟",
+    "category": "Parasitic",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

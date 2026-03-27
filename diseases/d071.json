@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D071",
+    "dataset_slug": "unspecified-viral-hepatitis",
+    "dataset_name": "Unspecified viral hepatitis",
+    "generated_at": "2026-03-27T07:40:13.841640+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D071",
+    "name_en": "Unspecified viral hepatitis",
+    "name_zh": "未明示的病毒性肝炎",
+    "category": "Viral",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

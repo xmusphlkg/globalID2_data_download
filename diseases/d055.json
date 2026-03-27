@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D055",
+    "dataset_slug": "clonorchiasis",
+    "dataset_name": "Clonorchiasis",
+    "generated_at": "2026-03-27T07:40:13.841640+00:00",
+    "record_count": 2,
+    "country_count": 1,
+    "countries": [
+      "CN"
+    ],
+    "source_info": [
+      {
+        "country_code": "CN",
+        "primary_scope": "cdc_weekly",
+        "primary_label": "China CDC Weekly",
+        "primary_url": "https://weekly.chinacdc.cn",
+        "primary_type": "web",
+        "parser_primary": "china_cdc_weekly",
+        "notes": "Auto bootstrapped by country library",
+        "sources": [
+          {
+            "scope": "cdc_weekly",
+            "label": "China CDC Weekly",
+            "url": "https://weekly.chinacdc.cn",
+            "machine_url": null,
+            "type": "web",
+            "cadence": "MONTHLY",
+            "description": "Monthly notifiable infectious disease reports published by China CDC."
+          },
+          {
+            "scope": "nhc",
+            "label": "National Disease Control and Prevention Administration",
+            "url": "https://www.ndcpa.gov.cn",
+            "machine_url": "https://www.ndcpa.gov.cn/queryList",
+            "type": "web",
+            "cadence": "MONTHLY",
+            "description": "Official China public health bulletin and query portal."
+          },
+          {
+            "scope": "pubmed",
+            "label": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov",
+            "machine_url": "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/",
+            "type": "web",
+            "cadence": "MONTHLY",
+            "description": "Biomedical literature discovery feed used as supplementary context."
+          }
+        ],
+        "country_name": "China"
+      }
+    ]
+  },
+  "summary": {
+    "disease_id": "D055",
+    "name_en": "Clonorchiasis",
+    "name_zh": "肝吸虫病",
+    "category": "Parasitic",
+    "total_cases": 15678,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [
+        "2026-01",
+        "2026-02"
+      ],
+      "cases": [
+        9408,
+        6270
+      ],
+      "deaths": [
+        0,
+        0
+      ]
+    }
+  },
+  "records": [
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D055",
+      "dataset_slug": "clonorchiasis",
+      "dataset_name": "Clonorchiasis",
+      "country_code": "CN",
+      "country_name": "China",
+      "disease_id": "D055",
+      "disease_name_en": "Clonorchiasis",
+      "disease_name_zh": "肝吸虫病",
+      "category": "Parasitic",
+      "date": "2026-01-01",
+      "year_month": "2026-01",
+      "cases": 9408,
+      "weekly_equiv_cases": 2124.3870967741937,
+      "deaths": 0,
+      "incidence_rate_per_100k": 0.6658578944447973,
+      "incidence_rate_source": "wpp_computed",
+      "mortality_rate": null,
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-02-01",
+      "generated_at": "2026-03-27T07:40:13.841640+00:00",
+      "primary_source_scope": "cdc_weekly",
+      "primary_source_label": "China CDC Weekly",
+      "primary_source_url": "https://weekly.chinacdc.cn",
+      "primary_source_type": "web",
+      "source_scopes": "cdc_weekly; nhc; pubmed",
+      "source_labels": "China CDC Weekly; National Disease Control and Prevention Administration; PubMed",
+      "source_urls": "https://weekly.chinacdc.cn; https://www.ndcpa.gov.cn; https://pubmed.ncbi.nlm.nih.gov",
+      "source_types": "web; web; web"
+    },
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D055",
+      "dataset_slug": "clonorchiasis",
+      "dataset_name": "Clonorchiasis",
+      "country_code": "CN",
+      "country_name": "China",
+      "disease_id": "D055",
+      "disease_name_en": "Clonorchiasis",
+      "disease_name_zh": "肝吸虫病",
+      "category": "Parasitic",
+      "date": "2026-02-01",
+      "year_month": "2026-02",
+      "cases": 6270,
+      "weekly_equiv_cases": 1415.8064516129032,
+      "deaths": 0,
+      "incidence_rate_per_100k": 0.44376371154005945,
+      "incidence_rate_source": "wpp_computed",
+      "mortality_rate": null,
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-02-01",
+      "generated_at": "2026-03-27T07:40:13.841640+00:00",
+      "primary_source_scope": "cdc_weekly",
+      "primary_source_label": "China CDC Weekly",
+      "primary_source_url": "https://weekly.chinacdc.cn",
+      "primary_source_type": "web",
+      "source_scopes": "cdc_weekly; nhc; pubmed",
+      "source_labels": "China CDC Weekly; National Disease Control and Prevention Administration; PubMed",
+      "source_urls": "https://weekly.chinacdc.cn; https://www.ndcpa.gov.cn; https://pubmed.ncbi.nlm.nih.gov",
+      "source_types": "web; web; web"
+    }
+  ]
+}

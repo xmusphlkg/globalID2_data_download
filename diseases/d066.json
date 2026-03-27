@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D066",
+    "dataset_slug": "other-viral-infections-characterized-by-skin-lesions",
+    "dataset_name": "Other viral infections characterized by skin lesions",
+    "generated_at": "2026-03-27T07:40:13.841640+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D066",
+    "name_en": "Other viral infections characterized by skin lesions",
+    "name_zh": "其他以皮损为特征的病毒感染",
+    "category": "",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

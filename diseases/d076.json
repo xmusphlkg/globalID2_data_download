@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D076",
+    "dataset_slug": "viral-infection-of-unspecified-site",
+    "dataset_name": "Viral infection of unspecified site",
+    "generated_at": "2026-03-27T07:40:13.841640+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D076",
+    "name_en": "Viral infection of unspecified site",
+    "name_zh": "未指定部位的病毒感染",
+    "category": "",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

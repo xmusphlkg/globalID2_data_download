@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D056",
+    "dataset_slug": "streptococcus-suis",
+    "dataset_name": "Streptococcus suis",
+    "generated_at": "2026-03-27T07:40:13.841640+00:00",
+    "record_count": 2,
+    "country_count": 1,
+    "countries": [
+      "CN"
+    ],
+    "source_info": [
+      {
+        "country_code": "CN",
+        "primary_scope": "cdc_weekly",
+        "primary_label": "China CDC Weekly",
+        "primary_url": "https://weekly.chinacdc.cn",
+        "primary_type": "web",
+        "parser_primary": "china_cdc_weekly",
+        "notes": "Auto bootstrapped by country library",
+        "sources": [
+          {
+            "scope": "cdc_weekly",
+            "label": "China CDC Weekly",
+            "url": "https://weekly.chinacdc.cn",
+            "machine_url": null,
+            "type": "web",
+            "cadence": "MONTHLY",
+            "description": "Monthly notifiable infectious disease reports published by China CDC."
+          },
+          {
+            "scope": "nhc",
+            "label": "National Disease Control and Prevention Administration",
+            "url": "https://www.ndcpa.gov.cn",
+            "machine_url": "https://www.ndcpa.gov.cn/queryList",
+            "type": "web",
+            "cadence": "MONTHLY",
+            "description": "Official China public health bulletin and query portal."
+          },
+          {
+            "scope": "pubmed",
+            "label": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov",
+            "machine_url": "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/",
+            "type": "web",
+            "cadence": "MONTHLY",
+            "description": "Biomedical literature discovery feed used as supplementary context."
+          }
+        ],
+        "country_name": "China"
+      }
+    ]
+  },
+  "summary": {
+    "disease_id": "D056",
+    "name_en": "Streptococcus suis",
+    "name_zh": "人感染猪链球菌病",
+    "category": "Bacterial",
+    "total_cases": 53,
+    "total_deaths": 1,
+    "global_monthly": {
+      "months": [
+        "2026-01",
+        "2026-02"
+      ],
+      "cases": [
+        25,
+        28
+      ],
+      "deaths": [
+        1,
+        0
+      ]
+    }
+  },
+  "records": [
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D056",
+      "dataset_slug": "streptococcus-suis",
+      "dataset_name": "Streptococcus suis",
+      "country_code": "CN",
+      "country_name": "China",
+      "disease_id": "D056",
+      "disease_name_en": "Streptococcus suis",
+      "disease_name_zh": "人感染猪链球菌病",
+      "category": "Bacterial",
+      "date": "2026-01-01",
+      "year_month": "2026-01",
+      "cases": 25,
+      "weekly_equiv_cases": 5.64516129032258,
+      "deaths": 1,
+      "incidence_rate_per_100k": 0.0017693927892346868,
+      "incidence_rate_source": "wpp_computed",
+      "mortality_rate": null,
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-02-01",
+      "generated_at": "2026-03-27T07:40:13.841640+00:00",
+      "primary_source_scope": "cdc_weekly",
+      "primary_source_label": "China CDC Weekly",
+      "primary_source_url": "https://weekly.chinacdc.cn",
+      "primary_source_type": "web",
+      "source_scopes": "cdc_weekly; nhc; pubmed",
+      "source_labels": "China CDC Weekly; National Disease Control and Prevention Administration; PubMed",
+      "source_urls": "https://weekly.chinacdc.cn; https://www.ndcpa.gov.cn; https://pubmed.ncbi.nlm.nih.gov",
+      "source_types": "web; web; web"
+    },
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D056",
+      "dataset_slug": "streptococcus-suis",
+      "dataset_name": "Streptococcus suis",
+      "country_code": "CN",
+      "country_name": "China",
+      "disease_id": "D056",
+      "disease_name_en": "Streptococcus suis",
+      "disease_name_zh": "人感染猪链球菌病",
+      "category": "Bacterial",
+      "date": "2026-02-01",
+      "year_month": "2026-02",
+      "cases": 28,
+      "weekly_equiv_cases": 6.32258064516129,
+      "deaths": 0,
+      "incidence_rate_per_100k": 0.001981719923942849,
+      "incidence_rate_source": "wpp_computed",
+      "mortality_rate": null,
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-02-01",
+      "generated_at": "2026-03-27T07:40:13.841640+00:00",
+      "primary_source_scope": "cdc_weekly",
+      "primary_source_label": "China CDC Weekly",
+      "primary_source_url": "https://weekly.chinacdc.cn",
+      "primary_source_type": "web",
+      "source_scopes": "cdc_weekly; nhc; pubmed",
+      "source_labels": "China CDC Weekly; National Disease Control and Prevention Administration; PubMed",
+      "source_urls": "https://weekly.chinacdc.cn; https://www.ndcpa.gov.cn; https://pubmed.ncbi.nlm.nih.gov",
+      "source_types": "web; web; web"
+    }
+  ]
+}
