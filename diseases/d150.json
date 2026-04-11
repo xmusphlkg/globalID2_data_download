@@ -39,7 +39,7 @@
     "name_en": "Gonococcal infection",
     "name_zh": "淋球菌感染",
     "category": "Bacterial",
-    "total_cases": 503745,
+    "total_cases": 503796,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -675,8 +675,8 @@
         2666,
         3844,
         3597,
-        3918,
-        705
+        3921,
+        753
       ],
       "deaths": [
         0,
@@ -10746,10 +10746,10 @@
       "category": "Bacterial",
       "date": "2026-03-01",
       "year_month": "2026-03",
-      "cases": 3918,
-      "weekly_equiv_cases": 979.4999999999999,
+      "cases": 3921,
+      "weekly_equiv_cases": 980.25,
       "deaths": 0,
-      "incidence_rate_per_100k": 14.390076708878537,
+      "incidence_rate_per_100k": 14.401095144337097,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10777,10 +10777,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 705,
-      "weekly_equiv_cases": 159.19354838709677,
+      "cases": 753,
+      "weekly_equiv_cases": 170.03225806451613,
       "deaths": 0,
-      "incidence_rate_per_100k": 2.589332332761452,
+      "incidence_rate_per_100k": 2.765627300098402,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
