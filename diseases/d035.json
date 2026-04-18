@@ -123,7 +123,7 @@
     "name_en": "Leptospirosis",
     "name_zh": "钩端螺旋体病",
     "category": "Bacterial",
-    "total_cases": 10253,
+    "total_cases": 10254,
     "total_deaths": 61,
     "global_monthly": {
       "months": [
@@ -759,7 +759,7 @@
         29,
         25,
         6,
-        31,
+        32,
         4
       ],
       "deaths": [
@@ -10830,10 +10830,10 @@
       "category": "Bacterial",
       "date": "2026-03-01",
       "year_month": "2026-03",
-      "cases": 17,
-      "weekly_equiv_cases": 4.25,
+      "cases": 18,
+      "weekly_equiv_cases": 4.5,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.06243780093183643,
+      "incidence_rate_per_100k": 0.06611061275135623,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
