@@ -101,7 +101,7 @@
     "name_en": "Hepatitis B",
     "name_zh": "乙型肝炎",
     "category": "Viral",
-    "total_cases": 20232316,
+    "total_cases": 20232349,
     "total_deaths": 7733,
     "global_monthly": {
       "months": [
@@ -737,8 +737,8 @@
         109926,
         109654,
         96771,
-        123649,
-        227
+        123648,
+        261
       ],
       "deaths": [
         0,
@@ -10808,10 +10808,10 @@
       "category": "Viral",
       "date": "2026-03-01",
       "year_month": "2026-03",
-      "cases": 458,
-      "weekly_equiv_cases": 114.5,
+      "cases": 457,
+      "weekly_equiv_cases": 114.25000000000001,
       "deaths": 0,
-      "incidence_rate_per_100k": 1.682147813340064,
+      "incidence_rate_per_100k": 1.678475001520544,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10839,10 +10839,10 @@
       "category": "Viral",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 227,
-      "weekly_equiv_cases": 51.25806451612903,
+      "cases": 261,
+      "weekly_equiv_cases": 58.935483870967744,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.8337282830309923,
+      "incidence_rate_per_100k": 0.9586038848946652,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
