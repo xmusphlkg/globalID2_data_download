@@ -4,7 +4,7 @@ This repository stores the generated download artifacts for the GlobalID public 
 
 - Data version: `2026-04-18T00:00:00+00:00`
 - Country datasets: `4`
-- Disease datasets: `154`
+- Disease datasets: `150`
 - Manifest: [`manifest.json`](./manifest.json)
 
 The publishing pipeline copies:

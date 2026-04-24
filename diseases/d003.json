@@ -80,7 +80,7 @@
     "name_zh": "传染性非典型肺炎",
     "category": "Viral",
     "total_cases": 0,
-    "total_deaths": 1093,
+    "total_deaths": 0,
     "global_monthly": {
       "months": [
         "2010-01",
@@ -507,7 +507,7 @@
         0,
         0,
         0,
-        1093,
+        0,
         0,
         0,
         0,
@@ -1562,7 +1562,7 @@
       "year_month": "2012-05",
       "cases": 0,
       "weekly_equiv_cases": 0.0,
-      "deaths": 1093,
+      "deaths": 0,
       "incidence_rate_per_100k": 0.0,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,

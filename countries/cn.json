@@ -72,7 +72,7 @@
     "country_code": "CN",
     "country_name": "China",
     "total_cases": 187489398,
-    "total_deaths": 362190,
+    "total_deaths": 361097,
     "disease_count": 58
   },
   "records": [
@@ -13049,7 +13049,7 @@
       "year_month": "2012-05",
       "cases": 0,
       "weekly_equiv_cases": 0.0,
-      "deaths": 1093,
+      "deaths": 0,
       "incidence_rate_per_100k": 0.0,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,

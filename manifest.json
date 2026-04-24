@@ -2500,24 +2500,6 @@
     },
     {
       "kind": "disease",
-      "id": "d022",
-      "disease_id": "D022",
-      "slug": "meningococcal-infection",
-      "name_en": "Meningococcal infection",
-      "name_zh": "脑膜炎球菌感染",
-      "generated_at": "2026-04-18T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d022.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d022.csv",
-      "relative_json_path": "diseases/d022.json",
-      "relative_csv_path": "diseases/d022.csv",
-      "site_json_path": "/site-data/diseases/d022.json",
-      "source_info": []
-    },
-    {
-      "kind": "disease",
       "id": "d023",
       "disease_id": "D023",
       "slug": "anthrax",
@@ -3017,24 +2999,6 @@
           "country_name": "United States"
         }
       ]
-    },
-    {
-      "kind": "disease",
-      "id": "d027",
-      "disease_id": "D027",
-      "slug": "meningococcal-meningitis",
-      "name_en": "Meningococcal Meningitis",
-      "name_zh": "流行性脑脊髓膜炎",
-      "generated_at": "2026-04-18T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d027.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d027.csv",
-      "relative_json_path": "diseases/d027.json",
-      "relative_csv_path": "diseases/d027.csv",
-      "site_json_path": "/site-data/diseases/d027.json",
-      "source_info": []
     },
     {
       "kind": "disease",
@@ -8576,24 +8540,6 @@
     },
     {
       "kind": "disease",
-      "id": "d111",
-      "disease_id": "D111",
-      "slug": "novel-influenza-a-(deprecated-duplicate)",
-      "name_en": "Novel influenza A (deprecated duplicate)",
-      "name_zh": "新型甲型流感（废弃重复ID）",
-      "generated_at": "2026-04-18T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d111.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d111.csv",
-      "relative_json_path": "diseases/d111.json",
-      "relative_csv_path": "diseases/d111.csv",
-      "site_json_path": "/site-data/diseases/d111.json",
-      "source_info": []
-    },
-    {
-      "kind": "disease",
       "id": "d112",
       "disease_id": "D112",
       "slug": "psittacosis",
@@ -9849,24 +9795,6 @@
           "country_name": "United States"
         }
       ]
-    },
-    {
-      "kind": "disease",
-      "id": "d130",
-      "disease_id": "D130",
-      "slug": "zika-virus",
-      "name_en": "Zika virus",
-      "name_zh": "寨卡病毒",
-      "generated_at": "2026-04-18T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d130.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d130.csv",
-      "relative_json_path": "diseases/d130.json",
-      "relative_csv_path": "diseases/d130.csv",
-      "site_json_path": "/site-data/diseases/d130.json",
-      "source_info": []
     },
     {
       "kind": "disease",
