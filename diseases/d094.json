@@ -61,7 +61,7 @@
     "name_en": "Chlamydia trachomatis infection",
     "name_zh": "沙眼衣原体感染",
     "category": "Bacterial",
-    "total_cases": 12258001,
+    "total_cases": 12258597,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -697,8 +697,8 @@
         52033,
         57431,
         57312,
-        58870,
-        40516
+        58871,
+        41111
       ],
       "deaths": [
         0,
@@ -10768,10 +10768,10 @@
       "category": "Bacterial",
       "date": "2026-03-01",
       "year_month": "2026-03",
-      "cases": 7978,
-      "weekly_equiv_cases": 1994.5,
+      "cases": 7979,
+      "weekly_equiv_cases": 1994.75,
       "deaths": 0,
-      "incidence_rate_per_100k": 29.301692696128885,
+      "incidence_rate_per_100k": 29.30536550794841,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10799,10 +10799,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 5608,
-      "weekly_equiv_cases": 1266.3225806451612,
+      "cases": 6203,
+      "weekly_equiv_cases": 1400.6774193548388,
       "deaths": 0,
-      "incidence_rate_per_100k": 20.597128683866984,
+      "incidence_rate_per_100k": 22.78245171648126,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
