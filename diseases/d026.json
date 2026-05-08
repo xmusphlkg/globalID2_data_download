@@ -123,7 +123,7 @@
     "name_en": "Typhoid and Paratyphoid fever",
     "name_zh": "伤寒和副伤寒",
     "category": "Bacterial",
-    "total_cases": 163782,
+    "total_cases": 163787,
     "total_deaths": 41,
     "global_monthly": {
       "months": [
@@ -761,7 +761,7 @@
         260,
         185,
         249,
-        3,
+        8,
         0
       ],
       "deaths": [
@@ -10864,10 +10864,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 0,
-      "weekly_equiv_cases": 0.0,
+      "cases": 5,
+      "weekly_equiv_cases": 1.129032258064516,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.0,
+      "incidence_rate_per_100k": 0.01836405909759895,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

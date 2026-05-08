@@ -61,7 +61,7 @@
     "name_en": "Vibriosis",
     "name_zh": "弧菌病",
     "category": "Bacterial",
-    "total_cases": 2958,
+    "total_cases": 2959,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -699,7 +699,7 @@
         40,
         28,
         36,
-        66,
+        67,
         11
       ],
       "deaths": [
@@ -10802,10 +10802,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 32,
-      "weekly_equiv_cases": 7.225806451612903,
+      "cases": 33,
+      "weekly_equiv_cases": 7.451612903225806,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.11752997822463329,
+      "incidence_rate_per_100k": 0.12120279004415307,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
