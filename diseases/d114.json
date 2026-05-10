@@ -61,7 +61,7 @@
     "name_en": "Salmonellosis",
     "name_zh": "沙门氏菌病",
     "category": "Bacterial",
-    "total_cases": 707664,
+    "total_cases": 707672,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -699,8 +699,8 @@
         2598,
         2431,
         2768,
-        2961,
-        680
+        2959,
+        690
       ],
       "deaths": [
         0,
@@ -10802,10 +10802,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 1339,
-      "weekly_equiv_cases": 302.35483870967744,
+      "cases": 1337,
+      "weekly_equiv_cases": 301.90322580645164,
       "deaths": 0,
-      "incidence_rate_per_100k": 4.917895026336999,
+      "incidence_rate_per_100k": 4.91054940269796,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10833,10 +10833,10 @@
       "category": "Bacterial",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 192,
-      "weekly_equiv_cases": 44.800000000000004,
+      "cases": 202,
+      "weekly_equiv_cases": 47.13333333333333,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.7051798693477997,
+      "incidence_rate_per_100k": 0.7419079875429976,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
