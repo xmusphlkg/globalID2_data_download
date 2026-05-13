@@ -61,7 +61,7 @@
     "name_en": "Respiratory syncytial virus infection (RSV)",
     "name_zh": "呼吸道合胞病毒感染",
     "category": "Viral",
-    "total_cases": 2252454,
+    "total_cases": 2253076,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -699,8 +699,8 @@
         9931,
         12194,
         16368,
-        16814,
-        5479
+        16815,
+        6100
       ],
       "deaths": [
         0,
@@ -10802,10 +10802,10 @@
       "category": "Viral",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 12089,
-      "weekly_equiv_cases": 2729.774193548387,
+      "cases": 12090,
+      "weekly_equiv_cases": 2730.0,
       "deaths": 0,
-      "incidence_rate_per_100k": 44.40062208617474,
+      "incidence_rate_per_100k": 44.40429489799426,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10833,10 +10833,10 @@
       "category": "Viral",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 4278,
-      "weekly_equiv_cases": 998.1999999999999,
+      "cases": 4899,
+      "weekly_equiv_cases": 1143.1000000000001,
       "deaths": 0,
-      "incidence_rate_per_100k": 15.712288963905662,
+      "incidence_rate_per_100k": 17.993105103827453,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
