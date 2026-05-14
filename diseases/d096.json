@@ -83,7 +83,7 @@
     "name_en": "Cryptosporidiosis",
     "name_zh": "隐孢子虫病",
     "category": "Parasitic",
-    "total_cases": 164952,
+    "total_cases": 164968,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -721,8 +721,8 @@
         558,
         507,
         436,
-        506,
-        203
+        507,
+        218
       ],
       "deaths": [
         0,
@@ -10824,10 +10824,10 @@
       "category": "Parasitic",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 214,
-      "weekly_equiv_cases": 48.32258064516129,
+      "cases": 215,
+      "weekly_equiv_cases": 48.54838709677419,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.7859817293772351,
+      "incidence_rate_per_100k": 0.7896545411967548,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10855,10 +10855,10 @@
       "category": "Parasitic",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 55,
-      "weekly_equiv_cases": 12.833333333333332,
+      "cases": 70,
+      "weekly_equiv_cases": 16.333333333333336,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.20200465007358848,
+      "incidence_rate_per_100k": 0.25709682736638534,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
