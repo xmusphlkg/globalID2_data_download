@@ -105,10 +105,10 @@
       "code": "JP",
       "name": "Japan",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 59110,
+      "record_count": 59196,
       "date_range": {
         "start": "2012-09-14",
-        "end": "2026-05-02"
+        "end": "2026-05-09"
       },
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/jp.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/jp.csv",
@@ -183,7 +183,7 @@
       "name_en": "Plague",
       "name_zh": "鼠疫",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1135,
+      "record_count": 1136,
       "country_count": 3,
       "countries": [
         {
@@ -296,7 +296,7 @@
       "name_en": "Cholera",
       "name_zh": "霍乱",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1450,
+      "record_count": 1451,
       "country_count": 4,
       "countries": [
         {
@@ -434,7 +434,7 @@
       "name_en": "SARS",
       "name_zh": "传染性非典型肺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 906,
+      "record_count": 907,
       "country_count": 2,
       "countries": [
         {
@@ -522,7 +522,7 @@
       "name_en": "COVID-19",
       "name_zh": "新型冠状病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 523,
+      "record_count": 524,
       "country_count": 3,
       "countries": [
         {
@@ -635,7 +635,7 @@
       "name_en": "HIV/AIDS",
       "name_zh": "艾滋病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 906,
+      "record_count": 907,
       "country_count": 2,
       "countries": [
         {
@@ -723,7 +723,7 @@
       "name_en": "Viral Hepatitis",
       "name_zh": "病毒性肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -836,7 +836,7 @@
       "name_en": "Hepatitis A",
       "name_zh": "甲型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1432,
+      "record_count": 1433,
       "country_count": 4,
       "countries": [
         {
@@ -1288,7 +1288,7 @@
       "name_en": "Hepatitis E",
       "name_zh": "戊型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -1464,7 +1464,7 @@
       "name_en": "Poliomyelitis",
       "name_zh": "脊髓灰质炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -1577,7 +1577,7 @@
       "name_en": "H5N1",
       "name_zh": "人感染高致病性禽流感",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 865,
+      "record_count": 866,
       "country_count": 2,
       "countries": [
         {
@@ -1665,7 +1665,7 @@
       "name_en": "H7N9",
       "name_zh": "人感染H7N9禽流感",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 818,
+      "record_count": 819,
       "country_count": 2,
       "countries": [
         {
@@ -1753,7 +1753,7 @@
       "name_en": "Novel influenza A",
       "name_zh": "人感染新亚型流感",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1257,
+      "record_count": 1258,
       "country_count": 4,
       "countries": [
         {
@@ -1891,7 +1891,7 @@
       "name_en": "Measles",
       "name_zh": "麻疹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1263,
+      "record_count": 1264,
       "country_count": 4,
       "countries": [
         {
@@ -2029,7 +2029,7 @@
       "name_en": "Hemorrhagic Fever",
       "name_zh": "流行性出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 906,
+      "record_count": 907,
       "country_count": 2,
       "countries": [
         {
@@ -2117,7 +2117,7 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1450,
+      "record_count": 1451,
       "country_count": 4,
       "countries": [
         {
@@ -2255,7 +2255,7 @@
       "name_en": "Japanese Encephalitis",
       "name_zh": "流行性乙型脑炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -2368,7 +2368,7 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1343,
+      "record_count": 1344,
       "country_count": 4,
       "countries": [
         {
@@ -2506,7 +2506,7 @@
       "name_en": "Anthrax",
       "name_zh": "炭疽",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1450,
+      "record_count": 1451,
       "country_count": 4,
       "countries": [
         {
@@ -2644,7 +2644,7 @@
       "name_en": "Dysentery",
       "name_zh": "细菌性和阿米巴性痢疾",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 906,
+      "record_count": 907,
       "country_count": 2,
       "countries": [
         {
@@ -2732,7 +2732,7 @@
       "name_en": "Tuberculosis",
       "name_zh": "肺结核",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1552,
+      "record_count": 1553,
       "country_count": 4,
       "countries": [
         {
@@ -2870,7 +2870,7 @@
       "name_en": "Typhoid and Paratyphoid fever",
       "name_zh": "伤寒和副伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1429,
+      "record_count": 1430,
       "country_count": 4,
       "countries": [
         {
@@ -3008,7 +3008,7 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2283,
+      "record_count": 2284,
       "country_count": 4,
       "countries": [
         {
@@ -3146,7 +3146,7 @@
       "name_en": "Diphtheria",
       "name_zh": "白喉",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -3385,7 +3385,7 @@
       "name_en": "Brucellosis",
       "name_zh": "布鲁氏菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1512,
+      "record_count": 1513,
       "country_count": 4,
       "countries": [
         {
@@ -3611,7 +3611,7 @@
       "name_en": "Syphilis",
       "name_zh": "梅毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -3724,7 +3724,7 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1464,
+      "record_count": 1465,
       "country_count": 4,
       "countries": [
         {
@@ -3925,7 +3925,7 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2266,
+      "record_count": 2267,
       "country_count": 4,
       "countries": [
         {
@@ -4063,7 +4063,7 @@
       "name_en": "Influenza",
       "name_zh": "流行性感冒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1220,
+      "record_count": 1221,
       "country_count": 3,
       "countries": [
         {
@@ -4176,7 +4176,7 @@
       "name_en": "Mumps",
       "name_zh": "流行性腮腺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1925,
+      "record_count": 1926,
       "country_count": 4,
       "countries": [
         {
@@ -4314,7 +4314,7 @@
       "name_en": "Rubella",
       "name_zh": "风疹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1477,
+      "record_count": 1478,
       "country_count": 4,
       "countries": [
         {
@@ -4452,7 +4452,7 @@
       "name_en": "Acute Hemorrhagic Conjunctivitis",
       "name_zh": "急性出血性结膜炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 894,
+      "record_count": 895,
       "country_count": 2,
       "countries": [
         {
@@ -4653,7 +4653,7 @@
       "name_en": "Typhus",
       "name_zh": "流行性和地方性斑疹伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 860,
+      "record_count": 861,
       "country_count": 2,
       "countries": [
         {
@@ -4804,7 +4804,7 @@
       "name_en": "Echinococcosis",
       "name_zh": "包虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -4980,7 +4980,7 @@
       "name_en": "Infectious Diarrhea",
       "name_zh": "其他感染性腹泻病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1223,
+      "record_count": 1224,
       "country_count": 3,
       "countries": [
         {
@@ -5093,7 +5093,7 @@
       "name_en": "Hand-Foot-Mouth Disease",
       "name_zh": "手足口病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 906,
+      "record_count": 907,
       "country_count": 2,
       "countries": [
         {
@@ -5181,7 +5181,7 @@
       "name_en": "MERS",
       "name_zh": "中东呼吸综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 617,
+      "record_count": 618,
       "country_count": 2,
       "countries": [
         {
@@ -5269,7 +5269,7 @@
       "name_en": "Ebola",
       "name_zh": "埃博拉出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 715,
+      "record_count": 716,
       "country_count": 3,
       "countries": [
         {
@@ -5382,7 +5382,7 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 763,
+      "record_count": 764,
       "country_count": 3,
       "countries": [
         {
@@ -5495,7 +5495,7 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1265,
+      "record_count": 1266,
       "country_count": 4,
       "countries": [
         {
@@ -5633,7 +5633,7 @@
       "name_en": "Lassa",
       "name_zh": "拉沙热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 715,
+      "record_count": 716,
       "country_count": 3,
       "countries": [
         {
@@ -5746,7 +5746,7 @@
       "name_en": "Varicella",
       "name_zh": "水痘",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1786,
+      "record_count": 1787,
       "country_count": 4,
       "countries": [
         {
@@ -6010,7 +6010,7 @@
       "name_en": "SFTS",
       "name_zh": "发热伴血小板减少综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 689,
+      "record_count": 690,
       "country_count": 2,
       "countries": [
         {
@@ -6098,7 +6098,7 @@
       "name_en": "Scrub Typhus",
       "name_zh": "恙虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 756,
+      "record_count": 757,
       "country_count": 2,
       "countries": [
         {
@@ -6186,7 +6186,7 @@
       "name_en": "Yellow fever",
       "name_zh": "黄热病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 937,
+      "record_count": 938,
       "country_count": 2,
       "countries": [
         {
@@ -6292,7 +6292,7 @@
       "name_en": "Herpesviral infections",
       "name_zh": "疱疹病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -6382,7 +6382,7 @@
       "name_en": "Smallpox",
       "name_zh": "天花",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 937,
+      "record_count": 938,
       "country_count": 2,
       "countries": [
         {
@@ -6452,7 +6452,7 @@
       "name_en": "Monkeypox",
       "name_zh": "猴痘",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 625,
+      "record_count": 626,
       "country_count": 4,
       "countries": [
         {
@@ -6761,7 +6761,7 @@
       "name_en": "Other viral diseases",
       "name_zh": "其他病毒性疾病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -7040,7 +7040,7 @@
       "name_en": "Arboviral diseases",
       "name_zh": "虫媒病毒病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -7130,7 +7130,7 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1027,
+      "record_count": 1028,
       "country_count": 2,
       "countries": [
         {
@@ -7410,7 +7410,7 @@
       "name_en": "Coccidioidomycosis",
       "name_zh": "球孢子菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1717,
+      "record_count": 1718,
       "country_count": 2,
       "countries": [
         {
@@ -7480,7 +7480,7 @@
       "name_en": "Cryptosporidiosis",
       "name_zh": "隐孢子虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2089,
+      "record_count": 2090,
       "country_count": 3,
       "countries": [
         {
@@ -7638,7 +7638,7 @@
       "name_en": "Giardiasis",
       "name_zh": "贾第虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1772,
+      "record_count": 1773,
       "country_count": 2,
       "countries": [
         {
@@ -7708,7 +7708,7 @@
       "name_en": "Haemophilus influenzae",
       "name_zh": "流感嗜血杆菌",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2057,
+      "record_count": 2058,
       "country_count": 3,
       "countries": [
         {
@@ -7848,7 +7848,7 @@
       "name_en": "Hantavirus infection",
       "name_zh": "汉坦病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 937,
+      "record_count": 938,
       "country_count": 2,
       "countries": [
         {
@@ -8078,7 +8078,7 @@
       "name_en": "Invasive pneumococcal disease",
       "name_zh": "侵袭性肺炎球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1641,
+      "record_count": 1642,
       "country_count": 3,
       "countries": [
         {
@@ -8173,7 +8173,7 @@
       "name_en": "Legionellosis",
       "name_zh": "军团菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2089,
+      "record_count": 2090,
       "country_count": 3,
       "countries": [
         {
@@ -8338,7 +8338,7 @@
       "name_en": "Lyme disease",
       "name_zh": "莱姆病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1284,
+      "record_count": 1285,
       "country_count": 2,
       "countries": [
         {
@@ -8408,7 +8408,7 @@
       "name_en": "Meningococcal disease",
       "name_zh": "脑膜炎球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2129,
+      "record_count": 2130,
       "country_count": 4,
       "countries": [
         {
@@ -8546,7 +8546,7 @@
       "name_en": "Psittacosis",
       "name_zh": "鹦鹉热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1258,
+      "record_count": 1259,
       "country_count": 3,
       "countries": [
         {
@@ -8641,7 +8641,7 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1313,
+      "record_count": 1314,
       "country_count": 3,
       "countries": [
         {
@@ -8806,7 +8806,7 @@
       "name_en": "Shiga toxin-producing Escherichia coli infection",
       "name_zh": "产志贺毒素大肠杆菌感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2088,
+      "record_count": 2089,
       "country_count": 3,
       "countries": [
         {
@@ -8901,7 +8901,7 @@
       "name_en": "Melioidosis",
       "name_zh": "类鼻疽",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 885,
+      "record_count": 886,
       "country_count": 2,
       "countries": [
         {
@@ -9016,7 +9016,7 @@
       "name_en": "Spotted fever rickettsiosis",
       "name_zh": "斑点热立克次体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 913,
+      "record_count": 914,
       "country_count": 2,
       "countries": [
         {
@@ -9086,7 +9086,7 @@
       "name_en": "Streptococcal disease",
       "name_zh": "链球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1027,
+      "record_count": 1028,
       "country_count": 2,
       "countries": [
         {
@@ -9156,7 +9156,7 @@
       "name_en": "Tetanus",
       "name_zh": "破伤风",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1326,
+      "record_count": 1327,
       "country_count": 3,
       "countries": [
         {
@@ -9314,7 +9314,7 @@
       "name_en": "Tularemia",
       "name_zh": "土拉菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1308,
+      "record_count": 1309,
       "country_count": 3,
       "countries": [
         {
@@ -9409,7 +9409,7 @@
       "name_en": "Typhoid fever",
       "name_zh": "伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1336,
+      "record_count": 1337,
       "country_count": 3,
       "countries": [
         {
@@ -9504,7 +9504,7 @@
       "name_en": "Vancomycin resistance",
       "name_zh": "万古霉素耐药性",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -9619,7 +9619,7 @@
       "name_en": "Viral hemorrhagic fevers",
       "name_zh": "病毒性出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -9664,7 +9664,7 @@
       "name_en": "West Nile virus",
       "name_zh": "西尼罗病毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1075,
+      "record_count": 1076,
       "country_count": 3,
       "countries": [
         {
@@ -9849,7 +9849,7 @@
       "name_en": "Vancomycin-resistant Staphylococcus aureus infection",
       "name_zh": "万古霉素耐药金黄色葡萄球菌感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 937,
+      "record_count": 938,
       "country_count": 2,
       "countries": [
         {
@@ -9919,7 +9919,7 @@
       "name_en": "Carbapenemase-producing organism infection",
       "name_zh": "产碳青霉烯酶微生物感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 905,
+      "record_count": 906,
       "country_count": 2,
       "countries": [
         {
@@ -9989,7 +9989,7 @@
       "name_en": "Aseptic meningitis",
       "name_zh": "无菌性脑膜炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10034,7 +10034,7 @@
       "name_en": "Bacterial meningitis",
       "name_zh": "细菌性脑膜炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10079,7 +10079,7 @@
       "name_en": "Chlamydial pneumonia",
       "name_zh": "衣原体肺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 555,
+      "record_count": 556,
       "country_count": 1,
       "countries": [
         {
@@ -10124,7 +10124,7 @@
       "name_en": "Epidemic keratoconjunctivitis",
       "name_zh": "流行性角结膜炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10169,7 +10169,7 @@
       "name_en": "Erythema infectiosum (Fifth disease)",
       "name_zh": "传染性红斑（第五病）",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10214,7 +10214,7 @@
       "name_en": "Herpangina",
       "name_zh": "疱疹性咽峡炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10259,7 +10259,7 @@
       "name_en": "Mycoplasma pneumonia",
       "name_zh": "支原体肺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10304,7 +10304,7 @@
       "name_en": "Pharyngoconjunctival fever",
       "name_zh": "咽结膜热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10349,7 +10349,7 @@
       "name_en": "Respiratory syncytial virus infection (RSV)",
       "name_zh": "呼吸道合胞病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1027,
+      "record_count": 1028,
       "country_count": 2,
       "countries": [
         {
@@ -10419,7 +10419,7 @@
       "name_en": "Roseola (Exanthem subitum)",
       "name_zh": "幼儿急疹（突发性发疹）",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10464,7 +10464,7 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1027,
+      "record_count": 1028,
       "country_count": 2,
       "countries": [
         {
@@ -10534,7 +10534,7 @@
       "name_en": "Relapsing fever",
       "name_zh": "回归热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 710,
+      "record_count": 711,
       "country_count": 1,
       "countries": [
         {
@@ -10579,7 +10579,7 @@
       "name_en": "Disseminated cryptococcosis",
       "name_zh": "播散性隐球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 605,
+      "record_count": 606,
       "country_count": 1,
       "countries": [
         {
