@@ -101,7 +101,7 @@
     "name_en": "COVID-19",
     "name_zh": "新型冠状病毒感染",
     "category": "Viral",
-    "total_cases": 18078849,
+    "total_cases": 18079140,
     "total_deaths": 4005,
     "global_monthly": {
       "months": [
@@ -740,7 +740,7 @@
         61609,
         54992,
         42559,
-        7989
+        8280
       ],
       "deaths": [
         0,
@@ -10873,10 +10873,10 @@
       "category": "Viral",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 3291,
-      "weekly_equiv_cases": 767.9,
+      "cases": 3582,
+      "weekly_equiv_cases": 835.8000000000001,
       "deaths": 0,
-      "incidence_rate_per_100k": 12.08722369803963,
+      "incidence_rate_per_100k": 13.156011937519887,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

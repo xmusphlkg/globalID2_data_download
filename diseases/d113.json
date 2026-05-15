@@ -83,7 +83,7 @@
     "name_en": "Q fever",
     "name_zh": "Q热",
     "category": "Bacterial",
-    "total_cases": 13951,
+    "total_cases": 13952,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -721,7 +721,7 @@
         74,
         67,
         50,
-        50,
+        51,
         2
       ],
       "deaths": [
@@ -10824,10 +10824,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 46,
-      "weekly_equiv_cases": 10.387096774193548,
+      "cases": 47,
+      "weekly_equiv_cases": 10.612903225806452,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.16894934369791034,
+      "incidence_rate_per_100k": 0.17262215551743015,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
