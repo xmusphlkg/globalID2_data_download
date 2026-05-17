@@ -61,7 +61,7 @@
     "name_en": "Streptococcal disease",
     "name_zh": "链球菌病",
     "category": "Bacterial",
-    "total_cases": 3967932,
+    "total_cases": 3967940,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -699,8 +699,8 @@
         18173,
         26066,
         24510,
-        22809,
-        14535
+        22810,
+        14542
       ],
       "deaths": [
         0,
@@ -10802,10 +10802,10 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 118,
-      "weekly_equiv_cases": 26.645161290322584,
+      "cases": 119,
+      "weekly_equiv_cases": 26.870967741935484,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.4333917947033352,
+      "incidence_rate_per_100k": 0.43706460652285506,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10833,10 +10833,10 @@
       "category": "Bacterial",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 39,
-      "weekly_equiv_cases": 9.1,
+      "cases": 46,
+      "weekly_equiv_cases": 10.733333333333334,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.1432396609612718,
+      "incidence_rate_per_100k": 0.16894934369791034,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
