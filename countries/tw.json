@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "dataset_kind": "country",
+    "dataset_id": "tw",
+    "dataset_slug": "tw",
+    "dataset_name": "Taiwan",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "date_range": {
+      "start": null,
+      "end": null
+    },
+    "frequency_meta": {
+      "source_frequency": "UNKNOWN",
+      "canonical_frequency": "WEEKLY_EQUIVALENT_7D",
+      "aggregation_rule": "normalize_counts_to_7_day_equivalent"
+    },
+    "source_info": {
+      "country_code": "TW",
+      "primary_scope": "nidss_open_data",
+      "primary_label": "Taiwan CDC NIDSS",
+      "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+      "primary_type": "open_data_csv",
+      "parser_primary": "tw_nidss_open_data_monthly",
+      "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+      "sources": [
+        {
+          "scope": "nidss_open_data",
+          "label": "Taiwan CDC NIDSS",
+          "url": "https://nidss.cdc.gov.tw/Home/Index",
+          "machine_url": null,
+          "type": "open_data_csv",
+          "cadence": "monthly",
+          "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+        }
+      ]
+    },
+    "comparison_basis": {
+      "frequency": "WEEKLY_EQUIVALENT_7D",
+      "metric": "weekly_equiv_cases"
+    },
+    "incidence_rate_basis": {
+      "formula": "cases / population * 100000",
+      "unit": "per_100k",
+      "population_source": "WPP",
+      "source_counts": {},
+      "note_en": "Incidence Rate is computed from WPP population data during site generation; when population is unavailable, original database incidence is shown.",
+      "note_zh": "发病率在网页数据生成阶段按 WPP 人口重算（每10万人）；若缺少人口数据则回退显示数据库原始发病率。"
+    }
+  },
+  "summary": {
+    "country_code": "TW",
+    "country_name": "Taiwan",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "disease_count": 0
+  },
+  "records": []
+}

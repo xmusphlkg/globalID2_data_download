@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D181",
+    "dataset_slug": "severe-complicated-covid-19",
+    "dataset_name": "Severe complicated COVID-19",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D181",
+    "name_en": "Severe complicated COVID-19",
+    "name_zh": "新冠并发重症",
+    "category": "Viral",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

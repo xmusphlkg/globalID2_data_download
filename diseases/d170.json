@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D170",
+    "dataset_slug": "complicated-varicella",
+    "dataset_name": "Complicated varicella",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D170",
+    "name_en": "Complicated varicella",
+    "name_zh": "水痘并发症",
+    "category": "Viral",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

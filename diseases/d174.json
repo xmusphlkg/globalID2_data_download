@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D174",
+    "dataset_slug": "marburg-virus-disease",
+    "dataset_name": "Marburg virus disease",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D174",
+    "name_en": "Marburg virus disease",
+    "name_zh": "马堡病毒病",
+    "category": "Viral",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D180",
+    "dataset_slug": "enterovirus-infection-with-severe-complications",
+    "dataset_name": "Enterovirus infection with severe complications",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D180",
+    "name_en": "Enterovirus infection with severe complications",
+    "name_zh": "肠病毒感染并发重症",
+    "category": "Viral",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

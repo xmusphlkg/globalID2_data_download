@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D178",
+    "dataset_slug": "acute-flaccid-paralysis",
+    "dataset_name": "Acute flaccid paralysis",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D178",
+    "name_en": "Acute flaccid paralysis",
+    "name_zh": "急性无力肢体麻痹",
+    "category": "Other",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}
