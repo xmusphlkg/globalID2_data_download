@@ -177,7 +177,7 @@
       "kind": "country",
       "id": "tw",
       "code": "TW",
-      "name": "Taiwan",
+      "name": "Taiwan, China",
       "generated_at": "2026-05-09T00:00:00+00:00",
       "record_count": 6432,
       "date_range": {
@@ -192,20 +192,20 @@
       "source_info": {
         "country_code": "TW",
         "primary_scope": "nidss_open_data",
-        "primary_label": "Taiwan CDC NIDSS",
+        "primary_label": "Taiwan, China CDC NIDSS",
         "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
         "primary_type": "open_data_csv",
         "parser_primary": "tw_nidss_open_data_monthly",
-        "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+        "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
         "sources": [
           {
             "scope": "nidss_open_data",
-            "label": "Taiwan CDC NIDSS",
+            "label": "Taiwan, China CDC NIDSS",
             "url": "https://nidss.cdc.gov.tw/Home/Index",
-            "machine_url": null,
+            "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
             "type": "open_data_csv",
             "cadence": "monthly",
-            "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
           }
         ]
       }
@@ -387,7 +387,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -484,23 +484,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -546,7 +546,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d003.json",
@@ -618,23 +618,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -667,7 +667,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d004.json",
@@ -781,23 +781,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -1031,7 +1031,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -1149,23 +1149,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -1353,7 +1353,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -1450,23 +1450,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -1512,7 +1512,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d010.json",
@@ -1584,23 +1584,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -1629,7 +1629,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d011.json",
@@ -1722,23 +1722,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -2119,7 +2119,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -2216,23 +2216,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -2286,7 +2286,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -2404,23 +2404,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -2558,7 +2558,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -2655,23 +2655,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -2721,7 +2721,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d020.json",
@@ -2814,23 +2814,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -2863,7 +2863,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -2981,23 +2981,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -3181,7 +3181,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d024.json",
@@ -3253,23 +3253,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -3465,7 +3465,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -3583,23 +3583,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -3653,7 +3653,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -3771,23 +3771,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -4076,7 +4076,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -4173,23 +4173,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -4444,7 +4444,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -4562,23 +4562,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -4695,7 +4695,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -4813,23 +4813,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -4996,7 +4996,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -5114,23 +5114,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -5184,7 +5184,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -5302,23 +5302,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -6294,7 +6294,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -6370,23 +6370,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -6436,7 +6436,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -6533,23 +6533,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -7060,7 +7060,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d058.json",
@@ -7132,23 +7132,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -7447,7 +7447,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -7565,23 +7565,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -7659,7 +7659,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d068.json",
@@ -7692,23 +7692,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -7761,7 +7761,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d071.json",
@@ -7773,23 +7773,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -8219,7 +8219,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d091.json",
@@ -8273,23 +8273,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -8901,7 +8901,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -8980,23 +8980,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -9346,7 +9346,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -9425,23 +9425,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -9491,7 +9491,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -9570,23 +9570,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -9632,7 +9632,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -9690,23 +9690,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -9748,7 +9748,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -9785,23 +9785,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -9855,7 +9855,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -9973,23 +9973,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -10134,7 +10134,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -10213,23 +10213,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -10370,7 +10370,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -10428,23 +10428,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -10486,7 +10486,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -10523,23 +10523,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -10928,7 +10928,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -10986,23 +10986,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -11052,7 +11052,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         },
         {
           "code": "US",
@@ -11131,23 +11131,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         },
         {
           "country_code": "US",
@@ -12153,7 +12153,7 @@
         },
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d144.json",
@@ -12207,23 +12207,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13021,7 +13021,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d163.json",
@@ -13033,23 +13033,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13084,7 +13084,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d165.json",
@@ -13096,23 +13096,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13165,7 +13165,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d168.json",
@@ -13177,23 +13177,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13210,7 +13210,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d169.json",
@@ -13222,23 +13222,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13255,7 +13255,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d170.json",
@@ -13267,23 +13267,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13318,7 +13318,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d172.json",
@@ -13330,23 +13330,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13453,7 +13453,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d178.json",
@@ -13465,23 +13465,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13498,7 +13498,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d179.json",
@@ -13510,23 +13510,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13543,7 +13543,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d180.json",
@@ -13555,23 +13555,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
@@ -13588,7 +13588,7 @@
       "countries": [
         {
           "code": "TW",
-          "name": "Taiwan"
+          "name": "Taiwan, China"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d181.json",
@@ -13600,23 +13600,23 @@
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan CDC NIDSS",
+          "primary_label": "Taiwan, China CDC NIDSS",
           "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
           "primary_type": "open_data_csv",
           "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
           "sources": [
             {
               "scope": "nidss_open_data",
-              "label": "Taiwan CDC NIDSS",
+              "label": "Taiwan, China CDC NIDSS",
               "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": null,
+              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
               "type": "open_data_csv",
               "cadence": "monthly",
-              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
             }
           ],
-          "country_name": "Taiwan"
+          "country_name": "Taiwan, China"
         }
       ]
     },
