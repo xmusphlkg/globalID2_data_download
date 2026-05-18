@@ -17,4 +17,4 @@ The publishing pipeline copies:
 
 Primary public base configured during generation:
 
-`https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/master`
+`https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main`
