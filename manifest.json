@@ -179,10 +179,10 @@
       "code": "TW",
       "name": "Taiwan",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
+      "record_count": 6432,
       "date_range": {
-        "start": null,
-        "end": null
+        "start": "2003-01-01",
+        "end": "2026-05-01"
       },
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/tw.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/tw.csv",
@@ -370,8 +370,8 @@
       "name_en": "Cholera",
       "name_zh": "霍乱",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1451,
-      "country_count": 4,
+      "record_count": 1492,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -384,6 +384,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -478,6 +482,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -508,8 +533,8 @@
       "name_en": "SARS",
       "name_zh": "传染性非典型肺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 907,
-      "country_count": 2,
+      "record_count": 913,
+      "country_count": 3,
       "countries": [
         {
           "code": "CN",
@@ -518,6 +543,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d003.json",
@@ -585,6 +614,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -596,8 +646,8 @@
       "name_en": "COVID-19",
       "name_zh": "新型冠状病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 596,
-      "country_count": 4,
+      "record_count": 652,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -614,6 +664,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d004.json",
@@ -723,6 +777,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -935,8 +1010,8 @@
       "name_en": "Hepatitis A",
       "name_zh": "甲型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1556,
-      "country_count": 5,
+      "record_count": 1837,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -953,6 +1028,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -1066,6 +1145,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -1236,8 +1336,8 @@
       "name_en": "Hepatitis C",
       "name_zh": "丙型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 863,
-      "country_count": 4,
+      "record_count": 1138,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -1250,6 +1350,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -1344,6 +1448,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -1374,8 +1499,8 @@
       "name_en": "Hepatitis D",
       "name_zh": "丁型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 441,
-      "country_count": 2,
+      "record_count": 475,
+      "country_count": 3,
       "countries": [
         {
           "code": "AU",
@@ -1384,6 +1509,10 @@
         {
           "code": "CN",
           "name": "China"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d010.json",
@@ -1451,6 +1580,27 @@
             }
           ],
           "country_name": "China"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -1462,8 +1612,8 @@
       "name_en": "Hepatitis E",
       "name_zh": "戊型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1224,
-      "country_count": 3,
+      "record_count": 1387,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -1476,6 +1626,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d011.json",
@@ -1564,6 +1718,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -1927,8 +2102,8 @@
       "name_en": "Novel influenza A",
       "name_zh": "人感染新亚型流感",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1258,
-      "country_count": 4,
+      "record_count": 1263,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -1941,6 +2116,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -2035,6 +2214,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -2065,8 +2265,8 @@
       "name_en": "Measles",
       "name_zh": "麻疹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1387,
-      "country_count": 5,
+      "record_count": 1508,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -2083,6 +2283,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -2196,6 +2400,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -2316,8 +2541,8 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1451,
-      "country_count": 4,
+      "record_count": 1453,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -2330,6 +2555,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -2424,6 +2653,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -2454,8 +2704,8 @@
       "name_en": "Japanese Encephalitis",
       "name_zh": "流行性乙型脑炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1224,
-      "country_count": 3,
+      "record_count": 1334,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -2468,6 +2718,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d020.json",
@@ -2556,6 +2810,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -2567,8 +2842,8 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1467,
-      "country_count": 5,
+      "record_count": 1739,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -2585,6 +2860,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -2698,6 +2977,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -2868,8 +3168,8 @@
       "name_en": "Dysentery",
       "name_zh": "细菌性和阿米巴性痢疾",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 907,
-      "country_count": 2,
+      "record_count": 1188,
+      "country_count": 3,
       "countries": [
         {
           "code": "CN",
@@ -2878,6 +3178,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d024.json",
@@ -2945,6 +3249,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -3119,8 +3444,8 @@
       "name_en": "Typhoid and Paratyphoid fever",
       "name_zh": "伤寒和副伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1553,
-      "country_count": 5,
+      "record_count": 1665,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -3137,6 +3462,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -3252,6 +3581,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -3282,8 +3632,8 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2407,
-      "country_count": 5,
+      "record_count": 2606,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -3300,6 +3650,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -3413,6 +3767,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -3684,8 +4059,8 @@
       "name_en": "Brucellosis",
       "name_zh": "布鲁氏菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1513,
-      "country_count": 4,
+      "record_count": 1516,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -3698,6 +4073,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -3790,6 +4169,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -4023,8 +4423,8 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1588,
-      "country_count": 5,
+      "record_count": 1859,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -4041,6 +4441,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -4156,6 +4560,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -4249,8 +4674,8 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2390,
-      "country_count": 5,
+      "record_count": 2558,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -4267,6 +4692,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -4380,6 +4809,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -4525,8 +4975,8 @@
       "name_en": "Mumps",
       "name_zh": "流行性腮腺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2049,
-      "country_count": 5,
+      "record_count": 2079,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -4543,6 +4993,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -4658,6 +5112,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -4688,8 +5163,8 @@
       "name_en": "Rubella",
       "name_zh": "风疹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1481,
-      "country_count": 5,
+      "record_count": 1585,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -4706,6 +5181,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -4819,6 +5298,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -5781,8 +6281,8 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 764,
-      "country_count": 3,
+      "record_count": 786,
+      "country_count": 4,
       "countries": [
         {
           "code": "CN",
@@ -5791,6 +6291,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -5864,6 +6368,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -5894,8 +6419,8 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1266,
-      "country_count": 4,
+      "record_count": 1374,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -5908,6 +6433,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -6000,6 +6529,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -6497,8 +7047,8 @@
       "name_en": "Scrub Typhus",
       "name_zh": "恙虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 757,
-      "country_count": 2,
+      "record_count": 1037,
+      "country_count": 3,
       "countries": [
         {
           "code": "CN",
@@ -6507,6 +7057,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d058.json",
@@ -6574,6 +7128,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -6851,8 +7426,8 @@
       "name_en": "Monkeypox",
       "name_zh": "猴痘",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 677,
-      "country_count": 5,
+      "record_count": 718,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -6869,6 +7444,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -6984,6 +7563,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -7050,12 +7650,16 @@
       "name_en": "Acute hepatitis B",
       "name_zh": "急性乙型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 317,
-      "country_count": 1,
+      "record_count": 598,
+      "country_count": 2,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d068.json",
@@ -7084,6 +7688,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -7131,15 +7756,42 @@
       "name_en": "Unspecified viral hepatitis",
       "name_zh": "未明示的病毒性肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 98,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d071.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d071.csv",
       "relative_json_path": "diseases/d071.json",
       "relative_csv_path": "diseases/d071.csv",
       "site_json_path": "/site-data/diseases/d071.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -7554,8 +8206,8 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1028,
-      "country_count": 2,
+      "record_count": 1059,
+      "country_count": 3,
       "countries": [
         {
           "code": "AU",
@@ -7564,6 +8216,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d091.json",
@@ -7613,6 +8269,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -8207,8 +8884,8 @@
       "name_en": "Haemophilus influenzae",
       "name_zh": "流感嗜血杆菌",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2180,
-      "country_count": 4,
+      "record_count": 2289,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -8221,6 +8898,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -8295,6 +8976,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -8627,8 +9329,8 @@
       "name_en": "Invasive pneumococcal disease",
       "name_zh": "侵袭性肺炎球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1765,
-      "country_count": 4,
+      "record_count": 1990,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -8641,6 +9343,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -8717,6 +9423,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -8747,8 +9474,8 @@
       "name_en": "Legionellosis",
       "name_zh": "军团菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2213,
-      "country_count": 4,
+      "record_count": 2493,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -8761,6 +9488,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -8837,6 +9568,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -8867,8 +9619,8 @@
       "name_en": "Listeriosis",
       "name_zh": "李斯特菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 719,
-      "country_count": 3,
+      "record_count": 821,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -8877,6 +9629,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -8932,6 +9688,27 @@
           "country_name": "New Zealand"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -8962,12 +9739,16 @@
       "name_en": "Lyme disease",
       "name_zh": "莱姆病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1285,
-      "country_count": 2,
+      "record_count": 1304,
+      "country_count": 3,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -9002,6 +9783,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -9032,8 +9834,8 @@
       "name_en": "Meningococcal disease",
       "name_zh": "脑膜炎球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2253,
-      "country_count": 5,
+      "record_count": 2381,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -9050,6 +9852,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -9163,6 +9969,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -9290,8 +10117,8 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1317,
-      "country_count": 4,
+      "record_count": 1526,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -9304,6 +10131,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -9378,6 +10209,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -9505,8 +10357,8 @@
       "name_en": "Shiga toxin-producing Escherichia coli infection",
       "name_zh": "产志贺毒素大肠杆菌感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2089,
-      "country_count": 3,
+      "record_count": 2092,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -9515,6 +10367,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -9570,6 +10426,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -9600,12 +10477,16 @@
       "name_en": "Melioidosis",
       "name_zh": "类鼻疽",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 886,
-      "country_count": 2,
+      "record_count": 1117,
+      "country_count": 3,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -9638,6 +10519,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -10013,8 +10915,8 @@
       "name_en": "Tularemia",
       "name_zh": "土拉菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1309,
-      "country_count": 3,
+      "record_count": 1313,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -10023,6 +10925,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -10078,6 +10984,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -10108,8 +11035,8 @@
       "name_en": "Typhoid fever",
       "name_zh": "伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1460,
-      "country_count": 4,
+      "record_count": 1668,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -10122,6 +11049,10 @@
         {
           "code": "NZ",
           "name": "New Zealand"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         },
         {
           "code": "US",
@@ -10196,6 +11127,27 @@
             }
           ],
           "country_name": "New Zealand"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         },
         {
           "country_code": "US",
@@ -11188,8 +12140,8 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1028,
-      "country_count": 2,
+      "record_count": 1033,
+      "country_count": 3,
       "countries": [
         {
           "code": "AU",
@@ -11198,6 +12150,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "TW",
+          "name": "Taiwan"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d144.json",
@@ -11247,6 +12203,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
         }
       ]
     },
@@ -12039,15 +13016,42 @@
       "name_en": "Hantavirus hemorrhagic fever",
       "name_zh": "汉他病毒出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 35,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d163.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d163.csv",
       "relative_json_path": "diseases/d163.json",
       "relative_csv_path": "diseases/d163.csv",
       "site_json_path": "/site-data/diseases/d163.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12075,15 +13079,42 @@
       "name_en": "Amebiasis",
       "name_zh": "阿米巴病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 281,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d165.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d165.csv",
       "relative_json_path": "diseases/d165.json",
       "relative_csv_path": "diseases/d165.csv",
       "site_json_path": "/site-data/diseases/d165.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12129,15 +13160,42 @@
       "name_en": "Congenital rubella syndrome",
       "name_zh": "先天性风疹综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 3,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d168.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d168.csv",
       "relative_json_path": "diseases/d168.json",
       "relative_csv_path": "diseases/d168.csv",
       "site_json_path": "/site-data/diseases/d168.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12147,15 +13205,42 @@
       "name_en": "Endemic typhus fever",
       "name_zh": "地方性斑疹伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 218,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d169.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d169.csv",
       "relative_json_path": "diseases/d169.json",
       "relative_csv_path": "diseases/d169.csv",
       "site_json_path": "/site-data/diseases/d169.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12165,15 +13250,42 @@
       "name_en": "Complicated varicella",
       "name_zh": "水痘并发症",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 147,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d170.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d170.csv",
       "relative_json_path": "diseases/d170.json",
       "relative_csv_path": "diseases/d170.csv",
       "site_json_path": "/site-data/diseases/d170.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12201,15 +13313,42 @@
       "name_en": "Severe complicated influenza",
       "name_zh": "流感并发重症",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 225,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d172.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d172.csv",
       "relative_json_path": "diseases/d172.json",
       "relative_csv_path": "diseases/d172.csv",
       "site_json_path": "/site-data/diseases/d172.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12309,15 +13448,42 @@
       "name_en": "Acute flaccid paralysis",
       "name_zh": "急性无力肢体麻痹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 260,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d178.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d178.csv",
       "relative_json_path": "diseases/d178.json",
       "relative_csv_path": "diseases/d178.csv",
       "site_json_path": "/site-data/diseases/d178.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12327,15 +13493,42 @@
       "name_en": "Toxoplasmosis",
       "name_zh": "弓形虫感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 148,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d179.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d179.csv",
       "relative_json_path": "diseases/d179.json",
       "relative_csv_path": "diseases/d179.csv",
       "site_json_path": "/site-data/diseases/d179.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12345,15 +13538,42 @@
       "name_en": "Enterovirus infection with severe complications",
       "name_zh": "肠病毒感染并发重症",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 175,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d180.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d180.csv",
       "relative_json_path": "diseases/d180.json",
       "relative_csv_path": "diseases/d180.csv",
       "site_json_path": "/site-data/diseases/d180.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -12363,15 +13583,42 @@
       "name_en": "Severe complicated COVID-19",
       "name_zh": "新冠并发重症",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 22,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "TW",
+          "name": "Taiwan"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d181.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d181.csv",
       "relative_json_path": "diseases/d181.json",
       "relative_csv_path": "diseases/d181.csv",
       "site_json_path": "/site-data/diseases/d181.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "TW",
+          "primary_scope": "nidss_open_data",
+          "primary_label": "Taiwan CDC NIDSS",
+          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+          "primary_type": "open_data_csv",
+          "parser_primary": "tw_nidss_open_data_monthly",
+          "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "nidss_open_data",
+              "label": "Taiwan CDC NIDSS",
+              "url": "https://nidss.cdc.gov.tw/Home/Index",
+              "machine_url": null,
+              "type": "open_data_csv",
+              "cadence": "monthly",
+              "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+            }
+          ],
+          "country_name": "Taiwan"
+        }
+      ]
     },
     {
       "kind": "disease",

@@ -5,23 +5,153 @@
     "dataset_slug": "congenital-rubella-syndrome",
     "dataset_name": "Congenital rubella syndrome",
     "generated_at": "2026-05-09T00:00:00+00:00",
-    "record_count": 0,
-    "country_count": 0,
-    "countries": [],
-    "source_info": []
+    "record_count": 3,
+    "country_count": 1,
+    "countries": [
+      "TW"
+    ],
+    "source_info": [
+      {
+        "country_code": "TW",
+        "primary_scope": "nidss_open_data",
+        "primary_label": "Taiwan CDC NIDSS",
+        "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
+        "primary_type": "open_data_csv",
+        "parser_primary": "tw_nidss_open_data_monthly",
+        "notes": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals",
+        "sources": [
+          {
+            "scope": "nidss_open_data",
+            "label": "Taiwan CDC NIDSS",
+            "url": "https://nidss.cdc.gov.tw/Home/Index",
+            "machine_url": null,
+            "type": "open_data_csv",
+            "cadence": "monthly",
+            "description": "Taiwan CDC NIDSS open data CSV aggregated to national monthly totals"
+          }
+        ],
+        "country_name": "Taiwan"
+      }
+    ]
   },
   "summary": {
     "disease_id": "D168",
     "name_en": "Congenital rubella syndrome",
     "name_zh": "先天性风疹综合征",
     "category": "Viral",
-    "total_cases": 0,
+    "total_cases": 3,
     "total_deaths": 0,
     "global_monthly": {
-      "months": [],
-      "cases": [],
-      "deaths": []
+      "months": [
+        "2007-01",
+        "2008-01",
+        "2017-08"
+      ],
+      "cases": [
+        1,
+        1,
+        1
+      ],
+      "deaths": [
+        0,
+        0,
+        0
+      ]
     }
   },
-  "records": []
+  "records": [
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D168",
+      "dataset_slug": "congenital-rubella-syndrome",
+      "dataset_name": "Congenital rubella syndrome",
+      "country_code": "TW",
+      "country_name": "Taiwan",
+      "disease_id": "D168",
+      "disease_name_en": "Congenital rubella syndrome",
+      "disease_name_zh": "先天性风疹综合征",
+      "category": "Viral",
+      "date": "2007-01-01",
+      "year_month": "2007-01",
+      "cases": 1,
+      "weekly_equiv_cases": 0.019178082191780823,
+      "deaths": 0,
+      "incidence_rate_per_100k": null,
+      "incidence_rate_source": "missing_population",
+      "mortality_rate": null,
+      "coverage_start": "2007-01-01",
+      "coverage_end": "2017-08-01",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "primary_source_scope": "nidss_open_data",
+      "primary_source_label": "Taiwan CDC NIDSS",
+      "primary_source_url": "https://nidss.cdc.gov.tw/Home/Index",
+      "primary_source_type": "open_data_csv",
+      "source_scopes": "nidss_open_data",
+      "source_labels": "Taiwan CDC NIDSS",
+      "source_urls": "https://nidss.cdc.gov.tw/Home/Index",
+      "source_types": "open_data_csv"
+    },
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D168",
+      "dataset_slug": "congenital-rubella-syndrome",
+      "dataset_name": "Congenital rubella syndrome",
+      "country_code": "TW",
+      "country_name": "Taiwan",
+      "disease_id": "D168",
+      "disease_name_en": "Congenital rubella syndrome",
+      "disease_name_zh": "先天性风疹综合征",
+      "category": "Viral",
+      "date": "2008-01-01",
+      "year_month": "2008-01",
+      "cases": 1,
+      "weekly_equiv_cases": 0.019178082191780823,
+      "deaths": 0,
+      "incidence_rate_per_100k": null,
+      "incidence_rate_source": "missing_population",
+      "mortality_rate": null,
+      "coverage_start": "2007-01-01",
+      "coverage_end": "2017-08-01",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "primary_source_scope": "nidss_open_data",
+      "primary_source_label": "Taiwan CDC NIDSS",
+      "primary_source_url": "https://nidss.cdc.gov.tw/Home/Index",
+      "primary_source_type": "open_data_csv",
+      "source_scopes": "nidss_open_data",
+      "source_labels": "Taiwan CDC NIDSS",
+      "source_urls": "https://nidss.cdc.gov.tw/Home/Index",
+      "source_types": "open_data_csv"
+    },
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D168",
+      "dataset_slug": "congenital-rubella-syndrome",
+      "dataset_name": "Congenital rubella syndrome",
+      "country_code": "TW",
+      "country_name": "Taiwan",
+      "disease_id": "D168",
+      "disease_name_en": "Congenital rubella syndrome",
+      "disease_name_zh": "先天性风疹综合征",
+      "category": "Viral",
+      "date": "2017-08-01",
+      "year_month": "2017-08",
+      "cases": 1,
+      "weekly_equiv_cases": 0.002,
+      "deaths": 0,
+      "incidence_rate_per_100k": null,
+      "incidence_rate_source": "missing_population",
+      "mortality_rate": null,
+      "coverage_start": "2007-01-01",
+      "coverage_end": "2017-08-01",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "primary_source_scope": "nidss_open_data",
+      "primary_source_label": "Taiwan CDC NIDSS",
+      "primary_source_url": "https://nidss.cdc.gov.tw/Home/Index",
+      "primary_source_type": "open_data_csv",
+      "source_scopes": "nidss_open_data",
+      "source_labels": "Taiwan CDC NIDSS",
+      "source_urls": "https://nidss.cdc.gov.tw/Home/Index",
+      "source_types": "open_data_csv"
+    }
+  ]
 }
