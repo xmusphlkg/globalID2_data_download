@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D205",
+    "dataset_slug": "tick-borne-encephalitis",
+    "dataset_name": "Tick-borne encephalitis",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D205",
+    "name_en": "Tick-borne encephalitis",
+    "name_zh": "蜱传脑炎",
+    "category": "Viral",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

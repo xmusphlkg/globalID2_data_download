@@ -50,10 +50,10 @@
       "code": "BR",
       "name": "Brazil",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
+      "record_count": 5590,
       "date_range": {
-        "start": null,
-        "end": null
+        "start": "2000-01-01",
+        "end": "2026-05-01"
       },
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/br.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/br.csv",
@@ -169,6 +169,43 @@
             "type": "web",
             "cadence": "weekly",
             "description": "Japan weekly infectious disease surveillance via NIID/JIHS."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "country",
+      "id": "kr",
+      "code": "KR",
+      "name": "South Korea",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "record_count": 0,
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/kr.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/kr.csv",
+      "relative_json_path": "countries/kr.json",
+      "relative_csv_path": "countries/kr.csv",
+      "site_json_path": "/site-data/countries/kr.json",
+      "source_info": {
+        "country_code": "KR",
+        "primary_scope": "kdca_open_api",
+        "primary_label": "Korea KDCA EID",
+        "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+        "primary_type": "open_api_or_portal_download",
+        "parser_primary": "kr_kdca_period_region_monthly",
+        "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+        "sources": [
+          {
+            "scope": "kdca_open_api",
+            "label": "Korea KDCA EID",
+            "url": "https://www.data.go.kr/data/15139178/openapi.do",
+            "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+            "type": "open_api_or_portal_download",
+            "cadence": "monthly",
+            "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
           }
         ]
       }
@@ -294,9 +331,13 @@
       "name_en": "Plague",
       "name_zh": "鼠疫",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1136,
-      "country_count": 3,
+      "record_count": 1209,
+      "country_count": 4,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -316,6 +357,27 @@
       "relative_csv_path": "diseases/d001.csv",
       "site_json_path": "/site-data/diseases/d001.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -407,12 +469,16 @@
       "name_en": "Cholera",
       "name_zh": "霍乱",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1492,
-      "country_count": 5,
+      "record_count": 1495,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -457,6 +523,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -2578,12 +2665,16 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1453,
-      "country_count": 5,
+      "record_count": 1570,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -2628,6 +2719,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -2879,12 +2991,16 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1739,
-      "country_count": 6,
+      "record_count": 1948,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -2933,6 +3049,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -3318,12 +3455,16 @@
       "name_en": "Tuberculosis",
       "name_zh": "肺结核",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1676,
-      "country_count": 5,
+      "record_count": 1880,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -3368,6 +3509,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -3669,12 +3831,16 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2606,
-      "country_count": 6,
+      "record_count": 2743,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -3723,6 +3889,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -3857,12 +4044,16 @@
       "name_en": "Diphtheria",
       "name_zh": "白喉",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1224,
-      "country_count": 3,
+      "record_count": 1347,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -3899,6 +4090,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -3970,9 +4182,13 @@
       "name_en": "Neonatal Tetanus",
       "name_zh": "新生儿破伤风",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 196,
-      "country_count": 1,
+      "record_count": 199,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -3984,6 +4200,27 @@
       "relative_csv_path": "diseases/d030.csv",
       "site_json_path": "/site-data/diseases/d030.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -4460,12 +4697,16 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1859,
-      "country_count": 6,
+      "record_count": 2064,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -4514,6 +4755,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -4648,9 +4910,13 @@
       "name_en": "Schistosomiasis",
       "name_zh": "血吸虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 196,
-      "country_count": 1,
+      "record_count": 328,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -4662,6 +4928,27 @@
       "relative_csv_path": "diseases/d036.csv",
       "site_json_path": "/site-data/diseases/d036.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -4711,12 +4998,16 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2558,
-      "country_count": 6,
+      "record_count": 2726,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -4765,6 +5056,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -5476,12 +5788,16 @@
       "name_en": "Leprosy",
       "name_zh": "麻风病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 759,
-      "country_count": 3,
+      "record_count": 965,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -5518,6 +5834,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -5677,9 +6014,13 @@
       "name_en": "Kala-azar",
       "name_zh": "黑热病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 196,
-      "country_count": 1,
+      "record_count": 388,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -5691,6 +6032,27 @@
       "relative_csv_path": "diseases/d044.csv",
       "site_json_path": "/site-data/diseases/d044.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -6318,9 +6680,13 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 786,
-      "country_count": 4,
+      "record_count": 825,
+      "country_count": 5,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -6344,6 +6710,27 @@
       "relative_csv_path": "diseases/d051.csv",
       "site_json_path": "/site-data/diseases/d051.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -6456,12 +6843,16 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1374,
-      "country_count": 5,
+      "record_count": 1415,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -6506,6 +6897,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -6732,12 +7144,16 @@
       "name_en": "Varicella",
       "name_zh": "水痘",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1787,
-      "country_count": 4,
+      "record_count": 1931,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "CN",
@@ -6778,6 +7194,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "CN",
@@ -8027,15 +8464,42 @@
       "name_en": "Leishmaniasis",
       "name_zh": "利什曼病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 204,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d082.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d082.csv",
       "relative_json_path": "diseases/d082.json",
       "relative_csv_path": "diseases/d082.csv",
       "site_json_path": "/site-data/diseases/d082.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -8063,15 +8527,42 @@
       "name_en": "Chagas disease",
       "name_zh": "恰加斯病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 213,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d084.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d084.csv",
       "relative_json_path": "diseases/d084.json",
       "relative_csv_path": "diseases/d084.csv",
       "site_json_path": "/site-data/diseases/d084.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -8243,12 +8734,16 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1059,
-      "country_count": 3,
+      "record_count": 1093,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "JP",
@@ -8285,6 +8780,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "JP",
@@ -9111,9 +9627,13 @@
       "name_en": "Hantavirus infection",
       "name_zh": "汉坦病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 938,
-      "country_count": 2,
+      "record_count": 1134,
+      "country_count": 3,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "JP",
           "name": "Japan"
@@ -9129,6 +9649,27 @@
       "relative_csv_path": "diseases/d102.csv",
       "site_json_path": "/site-data/diseases/d102.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "JP",
           "primary_scope": "jp_weekly",
@@ -10654,9 +11195,13 @@
       "name_en": "Spotted fever rickettsiosis",
       "name_zh": "斑点热立克次体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 914,
-      "country_count": 2,
+      "record_count": 1046,
+      "country_count": 3,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "JP",
           "name": "Japan"
@@ -10672,6 +11217,27 @@
       "relative_csv_path": "diseases/d118.csv",
       "site_json_path": "/site-data/diseases/d118.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "JP",
           "primary_scope": "jp_weekly",
@@ -10794,12 +11360,16 @@
       "name_en": "Tetanus",
       "name_zh": "破伤风",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1327,
-      "country_count": 3,
+      "record_count": 1464,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "JP",
@@ -10836,6 +11406,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "JP",
@@ -11072,12 +11663,16 @@
       "name_en": "Typhoid fever",
       "name_zh": "伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1668,
-      "country_count": 5,
+      "record_count": 1788,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "JP",
@@ -11122,6 +11717,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "JP",
@@ -11747,9 +12363,13 @@
       "name_en": "Bacterial meningitis",
       "name_zh": "细菌性脑膜炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 711,
-      "country_count": 1,
+      "record_count": 848,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "JP",
           "name": "Japan"
@@ -11761,6 +12381,27 @@
       "relative_csv_path": "diseases/d135.csv",
       "site_json_path": "/site-data/diseases/d135.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "JP",
           "primary_scope": "jp_weekly",
@@ -12177,12 +12818,16 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1033,
-      "country_count": 3,
+      "record_count": 1152,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil"
         },
         {
           "code": "JP",
@@ -12219,6 +12864,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
         },
         {
           "country_code": "JP",
@@ -13197,9 +13863,13 @@
       "name_en": "Congenital rubella syndrome",
       "name_zh": "先天性风疹综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 3,
-      "country_count": 1,
+      "record_count": 139,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "TW",
           "name": "Taiwan, China"
@@ -13211,6 +13881,27 @@
       "relative_csv_path": "diseases/d168.csv",
       "site_json_path": "/site-data/diseases/d168.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
@@ -13485,9 +14176,13 @@
       "name_en": "Acute flaccid paralysis",
       "name_zh": "急性无力肢体麻痹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 260,
-      "country_count": 1,
+      "record_count": 392,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "TW",
           "name": "Taiwan, China"
@@ -13499,6 +14194,27 @@
       "relative_csv_path": "diseases/d178.csv",
       "site_json_path": "/site-data/diseases/d178.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
@@ -13530,9 +14246,13 @@
       "name_en": "Toxoplasmosis",
       "name_zh": "弓形虫感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 148,
-      "country_count": 1,
+      "record_count": 162,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        },
         {
           "code": "TW",
           "name": "Taiwan, China"
@@ -13544,6 +14264,27 @@
       "relative_csv_path": "diseases/d179.csv",
       "site_json_path": "/site-data/diseases/d179.json",
       "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        },
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
@@ -13701,15 +14442,42 @@
       "name_en": "Accident caused by venomous animals",
       "name_zh": "毒性动物伤害",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 137,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d184.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d184.csv",
       "relative_json_path": "diseases/d184.json",
       "relative_csv_path": "diseases/d184.csv",
       "site_json_path": "/site-data/diseases/d184.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13719,15 +14487,42 @@
       "name_en": "Work accident with biological material",
       "name_zh": "生物材料职业暴露事故",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 144,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d185.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d185.csv",
       "relative_json_path": "diseases/d185.json",
       "relative_csv_path": "diseases/d185.csv",
       "site_json_path": "/site-data/diseases/d185.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13737,15 +14532,42 @@
       "name_en": "Serious work accident",
       "name_zh": "严重工伤",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 144,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d186.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d186.csv",
       "relative_json_path": "diseases/d186.json",
       "relative_csv_path": "diseases/d186.csv",
       "site_json_path": "/site-data/diseases/d186.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13755,15 +14577,42 @@
       "name_en": "Rabies post-exposure prophylaxis",
       "name_zh": "狂犬病暴露后处置",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 144,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d187.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d187.csv",
       "relative_json_path": "diseases/d187.json",
       "relative_csv_path": "diseases/d187.csv",
       "site_json_path": "/site-data/diseases/d187.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13773,15 +14622,42 @@
       "name_en": "Work-related cancer",
       "name_zh": "职业相关癌症",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 104,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d188.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d188.csv",
       "relative_json_path": "diseases/d188.json",
       "relative_csv_path": "diseases/d188.csv",
       "site_json_path": "/site-data/diseases/d188.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13791,15 +14667,42 @@
       "name_en": "Work-related dermatosis",
       "name_zh": "职业性皮肤病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 123,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d189.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d189.csv",
       "relative_json_path": "diseases/d189.json",
       "relative_csv_path": "diseases/d189.csv",
       "site_json_path": "/site-data/diseases/d189.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13809,15 +14712,42 @@
       "name_en": "Sporotrichosis",
       "name_zh": "孢子丝菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 39,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d190.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d190.csv",
       "relative_json_path": "diseases/d190.json",
       "relative_csv_path": "diseases/d190.csv",
       "site_json_path": "/site-data/diseases/d190.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13827,15 +14757,42 @@
       "name_en": "Exogenous poisoning",
       "name_zh": "外源性中毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 130,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d191.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d191.csv",
       "relative_json_path": "diseases/d191.json",
       "relative_csv_path": "diseases/d191.csv",
       "site_json_path": "/site-data/diseases/d191.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13845,15 +14802,42 @@
       "name_en": "Work-related repetitive strain injury",
       "name_zh": "职业相关重复性劳损",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 120,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d192.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d192.csv",
       "relative_json_path": "diseases/d192.json",
       "relative_csv_path": "diseases/d192.csv",
       "site_json_path": "/site-data/diseases/d192.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13863,15 +14847,42 @@
       "name_en": "Work-related mental disorder",
       "name_zh": "职业相关精神障碍",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 140,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d193.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d193.csv",
       "relative_json_path": "diseases/d193.json",
       "relative_csv_path": "diseases/d193.csv",
       "site_json_path": "/site-data/diseases/d193.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13881,15 +14892,42 @@
       "name_en": "Noise-induced hearing loss",
       "name_zh": "噪声性听力损失",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 138,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d194.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d194.csv",
       "relative_json_path": "diseases/d194.json",
       "relative_csv_path": "diseases/d194.csv",
       "site_json_path": "/site-data/diseases/d194.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13899,15 +14937,42 @@
       "name_en": "Pneumoconiosis",
       "name_zh": "尘肺病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 130,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d195.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d195.csv",
       "relative_json_path": "diseases/d195.json",
       "relative_csv_path": "diseases/d195.csv",
       "site_json_path": "/site-data/diseases/d195.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13917,15 +14982,42 @@
       "name_en": "Foodborne disease outbreak",
       "name_zh": "食源性疾病暴发",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 48,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d196.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d196.csv",
       "relative_json_path": "diseases/d196.json",
       "relative_csv_path": "diseases/d196.csv",
       "site_json_path": "/site-data/diseases/d196.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13953,15 +15045,42 @@
       "name_en": "Toxoplasmosis in pregnancy",
       "name_zh": "妊娠期弓形虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 14,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d198.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d198.csv",
       "relative_json_path": "diseases/d198.json",
       "relative_csv_path": "diseases/d198.csv",
       "site_json_path": "/site-data/diseases/d198.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13971,15 +15090,42 @@
       "name_en": "Rotavirus infection",
       "name_zh": "轮状病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 112,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d199.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d199.csv",
       "relative_json_path": "diseases/d199.json",
       "relative_csv_path": "diseases/d199.csv",
       "site_json_path": "/site-data/diseases/d199.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13989,15 +15135,42 @@
       "name_en": "Trachoma",
       "name_zh": "沙眼",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 108,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d200.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d200.csv",
       "relative_json_path": "diseases/d200.json",
       "relative_csv_path": "diseases/d200.csv",
       "site_json_path": "/site-data/diseases/d200.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -14007,15 +15180,42 @@
       "name_en": "Exanthematous diseases",
       "name_zh": "出疹性疾病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 149,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d201.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d201.csv",
       "relative_json_path": "diseases/d201.json",
       "relative_csv_path": "diseases/d201.csv",
       "site_json_path": "/site-data/diseases/d201.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -14025,14 +15225,95 @@
       "name_en": "Domestic sexual and other violence",
       "name_zh": "家庭/性及其他暴力",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 96,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "BR",
+          "name": "Brazil"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d202.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d202.csv",
       "relative_json_path": "diseases/d202.json",
       "relative_csv_path": "diseases/d202.csv",
       "site_json_path": "/site-data/diseases/d202.json",
+      "source_info": [
+        {
+          "country_code": "BR",
+          "primary_scope": "sinan_datasus",
+          "primary_label": "Brazil DATASUS SINAN",
+          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "primary_type": "ftp_dbc",
+          "parser_primary": "br_sinan_datasus_dbc_monthly",
+          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
+          "sources": [
+            {
+              "scope": "sinan_datasus",
+              "label": "Brazil DATASUS SINAN",
+              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
+              "type": "ftp_dbc",
+              "cadence": "monthly",
+              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "Brazil"
+        }
+      ]
+    },
+    {
+      "kind": "disease",
+      "id": "d203",
+      "disease_id": "D203",
+      "slug": "crimean-congo-hemorrhagic-fever",
+      "name_en": "Crimean-Congo hemorrhagic fever",
+      "name_zh": "克里米亚-刚果出血热",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "record_count": 0,
+      "country_count": 0,
+      "countries": [],
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d203.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d203.csv",
+      "relative_json_path": "diseases/d203.json",
+      "relative_csv_path": "diseases/d203.csv",
+      "site_json_path": "/site-data/diseases/d203.json",
+      "source_info": []
+    },
+    {
+      "kind": "disease",
+      "id": "d204",
+      "disease_id": "D204",
+      "slug": "south-american-hemorrhagic-fever",
+      "name_en": "South American hemorrhagic fever",
+      "name_zh": "南美出血热",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "record_count": 0,
+      "country_count": 0,
+      "countries": [],
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d204.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d204.csv",
+      "relative_json_path": "diseases/d204.json",
+      "relative_csv_path": "diseases/d204.csv",
+      "site_json_path": "/site-data/diseases/d204.json",
+      "source_info": []
+    },
+    {
+      "kind": "disease",
+      "id": "d205",
+      "disease_id": "D205",
+      "slug": "tick-borne-encephalitis",
+      "name_en": "Tick-borne encephalitis",
+      "name_zh": "蜱传脑炎",
+      "generated_at": "2026-05-09T00:00:00+00:00",
+      "record_count": 0,
+      "country_count": 0,
+      "countries": [],
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d205.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d205.csv",
+      "relative_json_path": "diseases/d205.json",
+      "relative_csv_path": "diseases/d205.csv",
+      "site_json_path": "/site-data/diseases/d205.json",
       "source_info": []
     }
   ]
