@@ -19,19 +19,19 @@
       "country_code": "BR",
       "primary_scope": "sinan_datasus",
       "primary_label": "Brazil DATASUS SINAN",
-      "primary_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/",
+      "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
       "primary_type": "ftp_dbc",
       "parser_primary": "br_sinan_datasus_dbc_monthly",
-      "notes": "Brazil DATASUS SINAN public DBC microdata aggregated to national monthly notification counts",
+      "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
       "sources": [
         {
           "scope": "sinan_datasus",
           "label": "Brazil DATASUS SINAN",
-          "url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/",
-          "machine_url": null,
+          "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
+          "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
           "type": "ftp_dbc",
           "cadence": "monthly",
-          "description": "Brazil DATASUS SINAN public DBC microdata aggregated to national monthly notification counts"
+          "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
         }
       ]
     },
