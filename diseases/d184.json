@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D184",
+    "dataset_slug": "accident-caused-by-venomous-animals",
+    "dataset_name": "Accident caused by venomous animals",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D184",
+    "name_en": "Accident caused by venomous animals",
+    "name_zh": "毒性动物伤害",
+    "category": "Other",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D198",
+    "dataset_slug": "toxoplasmosis-in-pregnancy",
+    "dataset_name": "Toxoplasmosis in pregnancy",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D198",
+    "name_en": "Toxoplasmosis in pregnancy",
+    "name_zh": "妊娠期弓形虫病",
+    "category": "Parasitic",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

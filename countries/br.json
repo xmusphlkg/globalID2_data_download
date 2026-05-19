@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "dataset_kind": "country",
+    "dataset_id": "br",
+    "dataset_slug": "br",
+    "dataset_name": "Brazil",
+    "generated_at": "2026-05-09T00:00:00+00:00",
+    "record_count": 0,
+    "date_range": {
+      "start": null,
+      "end": null
+    },
+    "frequency_meta": {
+      "source_frequency": "UNKNOWN",
+      "canonical_frequency": "WEEKLY_EQUIVALENT_7D",
+      "aggregation_rule": "normalize_counts_to_7_day_equivalent"
+    },
+    "source_info": {
+      "country_code": "BR",
+      "primary_scope": "sinan_datasus",
+      "primary_label": "Brazil DATASUS SINAN",
+      "primary_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/",
+      "primary_type": "ftp_dbc",
+      "parser_primary": "br_sinan_datasus_dbc_monthly",
+      "notes": "Brazil DATASUS SINAN public DBC microdata aggregated to national monthly notification counts",
+      "sources": [
+        {
+          "scope": "sinan_datasus",
+          "label": "Brazil DATASUS SINAN",
+          "url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/",
+          "machine_url": null,
+          "type": "ftp_dbc",
+          "cadence": "monthly",
+          "description": "Brazil DATASUS SINAN public DBC microdata aggregated to national monthly notification counts"
+        }
+      ]
+    },
+    "comparison_basis": {
+      "frequency": "WEEKLY_EQUIVALENT_7D",
+      "metric": "weekly_equiv_cases"
+    },
+    "incidence_rate_basis": {
+      "formula": "cases / population * 100000",
+      "unit": "per_100k",
+      "population_source": "WPP",
+      "source_counts": {},
+      "note_en": "Incidence Rate is computed from WPP population data during site generation; when population is unavailable, original database incidence is shown.",
+      "note_zh": "发病率在网页数据生成阶段按 WPP 人口重算（每10万人）；若缺少人口数据则回退显示数据库原始发病率。"
+    }
+  },
+  "summary": {
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "disease_count": 0
+  },
+  "records": []
+}
