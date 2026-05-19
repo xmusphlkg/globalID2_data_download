@@ -50,7 +50,7 @@
       "code": "BR",
       "name": "Brazil",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 5590,
+      "record_count": 5974,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-05-01"
@@ -179,10 +179,10 @@
       "code": "KR",
       "name": "South Korea",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
+      "record_count": 16448,
       "date_range": {
-        "start": null,
-        "end": null
+        "start": "2005-01-01",
+        "end": "2026-05-01"
       },
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/kr.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/kr.csv",
@@ -331,8 +331,8 @@
       "name_en": "Plague",
       "name_zh": "鼠疫",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1209,
-      "country_count": 4,
+      "record_count": 1471,
+      "country_count": 5,
       "countries": [
         {
           "code": "BR",
@@ -345,6 +345,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -439,6 +443,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -469,8 +494,8 @@
       "name_en": "Cholera",
       "name_zh": "霍乱",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1495,
-      "country_count": 6,
+      "record_count": 1752,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -487,6 +512,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -606,6 +635,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -657,8 +707,8 @@
       "name_en": "SARS",
       "name_zh": "传染性非典型肺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 913,
-      "country_count": 3,
+      "record_count": 1170,
+      "country_count": 4,
       "countries": [
         {
           "code": "CN",
@@ -667,6 +717,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -738,6 +792,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -1134,8 +1209,8 @@
       "name_en": "Hepatitis A",
       "name_zh": "甲型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1837,
-      "country_count": 6,
+      "record_count": 2094,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -1148,6 +1223,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -1250,6 +1329,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -1322,8 +1422,8 @@
       "name_en": "Hepatitis B",
       "name_zh": "乙型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 797,
-      "country_count": 4,
+      "record_count": 1054,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -1332,6 +1432,10 @@
         {
           "code": "CN",
           "name": "China"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -1409,6 +1513,27 @@
           "country_name": "China"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -1460,8 +1585,8 @@
       "name_en": "Hepatitis C",
       "name_zh": "丙型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1138,
-      "country_count": 5,
+      "record_count": 1395,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -1470,6 +1595,10 @@
         {
           "code": "CN",
           "name": "China"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -1549,6 +1678,27 @@
             }
           ],
           "country_name": "China"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -1736,8 +1886,8 @@
       "name_en": "Hepatitis E",
       "name_zh": "戊型肝炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1387,
-      "country_count": 4,
+      "record_count": 1644,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -1750,6 +1900,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -1842,6 +1996,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -1937,8 +2112,8 @@
       "name_en": "Poliomyelitis",
       "name_zh": "脊髓灰质炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1224,
-      "country_count": 3,
+      "record_count": 1481,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -1951,6 +2126,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d013.json",
@@ -2039,6 +2218,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -2226,8 +2426,8 @@
       "name_en": "Novel influenza A",
       "name_zh": "人感染新亚型流感",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1263,
-      "country_count": 5,
+      "record_count": 1520,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -2240,6 +2440,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -2338,6 +2542,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -2389,8 +2614,8 @@
       "name_en": "Measles",
       "name_zh": "麻疹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1508,
-      "country_count": 6,
+      "record_count": 1765,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -2403,6 +2628,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -2505,6 +2734,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -2577,8 +2827,8 @@
       "name_en": "Hemorrhagic Fever",
       "name_zh": "流行性出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 907,
-      "country_count": 2,
+      "record_count": 1164,
+      "country_count": 3,
       "countries": [
         {
           "code": "CN",
@@ -2587,6 +2837,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d018.json",
@@ -2654,6 +2908,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -2665,8 +2940,8 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1570,
-      "country_count": 6,
+      "record_count": 1835,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -2683,6 +2958,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -2802,6 +3081,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -2853,8 +3153,8 @@
       "name_en": "Japanese Encephalitis",
       "name_zh": "流行性乙型脑炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1334,
-      "country_count": 4,
+      "record_count": 1591,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -2867,6 +3167,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -2961,6 +3265,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -2991,8 +3316,8 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1948,
-      "country_count": 7,
+      "record_count": 2217,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
@@ -3009,6 +3334,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -3132,6 +3461,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -3204,8 +3554,8 @@
       "name_en": "Anthrax",
       "name_zh": "炭疽",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1451,
-      "country_count": 4,
+      "record_count": 1708,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -3218,6 +3568,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -3310,6 +3664,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -3455,7 +3830,7 @@
       "name_en": "Tuberculosis",
       "name_zh": "肺结核",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1880,
+      "record_count": 1892,
       "country_count": 6,
       "countries": [
         {
@@ -3643,8 +4018,8 @@
       "name_en": "Typhoid and Paratyphoid fever",
       "name_zh": "伤寒和副伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1665,
-      "country_count": 6,
+      "record_count": 1922,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -3657,6 +4032,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -3759,6 +4138,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -3831,8 +4231,8 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2743,
-      "country_count": 7,
+      "record_count": 3012,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
@@ -3849,6 +4249,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -3972,6 +4376,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -4044,8 +4469,8 @@
       "name_en": "Diphtheria",
       "name_zh": "白喉",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1347,
-      "country_count": 4,
+      "record_count": 1604,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -4062,6 +4487,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d029.json",
@@ -4171,6 +4600,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -4270,12 +4720,16 @@
       "name_en": "Scarlet fever",
       "name_zh": "猩红热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 196,
-      "country_count": 1,
+      "record_count": 453,
+      "country_count": 2,
       "countries": [
         {
           "code": "CN",
           "name": "China"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d031.json",
@@ -4322,6 +4776,27 @@
             }
           ],
           "country_name": "China"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -4333,8 +4808,8 @@
       "name_en": "Brucellosis",
       "name_zh": "布鲁氏菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1516,
-      "country_count": 5,
+      "record_count": 1773,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -4347,6 +4822,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -4443,6 +4922,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -4584,8 +5084,8 @@
       "name_en": "Syphilis",
       "name_zh": "梅毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1224,
-      "country_count": 3,
+      "record_count": 1481,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -4598,6 +5098,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d034.json",
@@ -4686,6 +5190,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -4697,8 +5222,8 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2064,
-      "country_count": 7,
+      "record_count": 2321,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
@@ -4715,6 +5240,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -4838,6 +5367,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -4910,7 +5460,7 @@
       "name_en": "Schistosomiasis",
       "name_zh": "血吸虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 328,
+      "record_count": 340,
       "country_count": 2,
       "countries": [
         {
@@ -4998,8 +5548,8 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2726,
-      "country_count": 7,
+      "record_count": 2983,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
@@ -5016,6 +5566,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -5137,6 +5691,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -5324,8 +5899,8 @@
       "name_en": "Mumps",
       "name_zh": "流行性腮腺炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2079,
-      "country_count": 6,
+      "record_count": 2336,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -5338,6 +5913,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -5440,6 +6019,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
           "primary_label": "All Sources",
@@ -5512,8 +6112,8 @@
       "name_en": "Rubella",
       "name_zh": "风疹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1585,
-      "country_count": 6,
+      "record_count": 1842,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -5526,6 +6126,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -5626,6 +6230,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -5788,8 +6413,8 @@
       "name_en": "Leprosy",
       "name_zh": "麻风病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 965,
-      "country_count": 4,
+      "record_count": 1234,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -5802,6 +6427,10 @@
         {
           "code": "CN",
           "name": "China"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -5894,6 +6523,27 @@
             }
           ],
           "country_name": "China"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -6479,8 +7129,8 @@
       "name_en": "MERS",
       "name_zh": "中东呼吸综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 618,
-      "country_count": 2,
+      "record_count": 875,
+      "country_count": 3,
       "countries": [
         {
           "code": "CN",
@@ -6489,6 +7139,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d049.json",
@@ -6556,6 +7210,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -6567,8 +7242,8 @@
       "name_en": "Ebola",
       "name_zh": "埃博拉出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 716,
-      "country_count": 3,
+      "record_count": 973,
+      "country_count": 4,
       "countries": [
         {
           "code": "CN",
@@ -6577,6 +7252,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -6650,6 +7329,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -6680,8 +7380,8 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 825,
-      "country_count": 5,
+      "record_count": 1082,
+      "country_count": 6,
       "countries": [
         {
           "code": "BR",
@@ -6694,6 +7394,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -6792,6 +7496,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -6843,8 +7568,8 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1415,
-      "country_count": 6,
+      "record_count": 1684,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -6861,6 +7586,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -6980,6 +7709,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -7031,8 +7781,8 @@
       "name_en": "Lassa",
       "name_zh": "拉沙热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 716,
-      "country_count": 3,
+      "record_count": 973,
+      "country_count": 4,
       "countries": [
         {
           "code": "CN",
@@ -7041,6 +7791,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -7114,6 +7868,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -7144,8 +7919,8 @@
       "name_en": "Varicella",
       "name_zh": "水痘",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1931,
-      "country_count": 5,
+      "record_count": 2200,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -7162,6 +7937,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -7275,6 +8054,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -7433,8 +8233,8 @@
       "name_en": "SFTS",
       "name_zh": "发热伴血小板减少综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 690,
-      "country_count": 2,
+      "record_count": 947,
+      "country_count": 3,
       "countries": [
         {
           "code": "CN",
@@ -7443,6 +8243,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         }
       ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d057.json",
@@ -7510,6 +8314,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         }
       ]
     },
@@ -7521,8 +8346,8 @@
       "name_en": "Scrub Typhus",
       "name_zh": "恙虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1037,
-      "country_count": 3,
+      "record_count": 1294,
+      "country_count": 4,
       "countries": [
         {
           "code": "CN",
@@ -7531,6 +8356,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -7604,6 +8433,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -7634,12 +8484,16 @@
       "name_en": "Yellow fever",
       "name_zh": "黄热病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 938,
-      "country_count": 2,
+      "record_count": 1195,
+      "country_count": 3,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -7672,6 +8526,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -7830,12 +8705,16 @@
       "name_en": "Smallpox",
       "name_zh": "天花",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 938,
-      "country_count": 2,
+      "record_count": 1195,
+      "country_count": 3,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -7870,6 +8749,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -7900,8 +8800,8 @@
       "name_en": "Monkeypox",
       "name_zh": "猴痘",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 718,
-      "country_count": 6,
+      "record_count": 975,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -7914,6 +8814,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -8014,6 +8918,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -8464,7 +9389,7 @@
       "name_en": "Leishmaniasis",
       "name_zh": "利什曼病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 204,
+      "record_count": 216,
       "country_count": 1,
       "countries": [
         {
@@ -8527,7 +9452,7 @@
       "name_en": "Chagas disease",
       "name_zh": "恰加斯病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 213,
+      "record_count": 225,
       "country_count": 1,
       "countries": [
         {
@@ -8734,8 +9659,8 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1093,
-      "country_count": 4,
+      "record_count": 1361,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -8748,6 +9673,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -8822,6 +9751,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -9437,8 +10387,8 @@
       "name_en": "Haemophilus influenzae",
       "name_zh": "流感嗜血杆菌",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2289,
-      "country_count": 5,
+      "record_count": 2546,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -9447,6 +10397,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -9508,6 +10462,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -9627,7 +10602,7 @@
       "name_en": "Hantavirus infection",
       "name_zh": "汉坦病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1134,
+      "record_count": 1146,
       "country_count": 3,
       "countries": [
         {
@@ -9812,12 +10787,16 @@
       "name_en": "Shigellosis",
       "name_zh": "志贺菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1502,
-      "country_count": 3,
+      "record_count": 1759,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -9854,6 +10833,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -9907,8 +10907,8 @@
       "name_en": "Invasive pneumococcal disease",
       "name_zh": "侵袭性肺炎球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1990,
-      "country_count": 5,
+      "record_count": 2247,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -9917,6 +10917,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -9978,6 +10982,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -10052,8 +11077,8 @@
       "name_en": "Legionellosis",
       "name_zh": "军团菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2493,
-      "country_count": 5,
+      "record_count": 2750,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -10062,6 +11087,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -10123,6 +11152,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -10317,12 +11367,16 @@
       "name_en": "Lyme disease",
       "name_zh": "莱姆病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1304,
-      "country_count": 3,
+      "record_count": 1561,
+      "country_count": 4,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -10359,6 +11413,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -10412,8 +11487,8 @@
       "name_en": "Meningococcal disease",
       "name_zh": "脑膜炎球菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2381,
-      "country_count": 6,
+      "record_count": 2638,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -10426,6 +11501,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -10526,6 +11605,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -10695,8 +11795,8 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1526,
-      "country_count": 5,
+      "record_count": 1783,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
@@ -10705,6 +11805,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -10766,6 +11870,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -10935,8 +12060,8 @@
       "name_en": "Shiga toxin-producing Escherichia coli infection",
       "name_zh": "产志贺毒素大肠杆菌感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 2092,
-      "country_count": 4,
+      "record_count": 2349,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -10945,6 +12070,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -11004,6 +12133,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -11055,12 +12205,16 @@
       "name_en": "Melioidosis",
       "name_zh": "类鼻疽",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1117,
-      "country_count": 3,
+      "record_count": 1374,
+      "country_count": 4,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -11097,6 +12251,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -11195,7 +12370,7 @@
       "name_en": "Spotted fever rickettsiosis",
       "name_zh": "斑点热立克次体病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1046,
+      "record_count": 1058,
       "country_count": 3,
       "countries": [
         {
@@ -11360,8 +12535,8 @@
       "name_en": "Tetanus",
       "name_zh": "破伤风",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1464,
-      "country_count": 4,
+      "record_count": 1721,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -11374,6 +12549,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -11448,6 +12627,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -11543,8 +12743,8 @@
       "name_en": "Tularemia",
       "name_zh": "土拉菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1313,
-      "country_count": 4,
+      "record_count": 1570,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -11553,6 +12753,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -11612,6 +12816,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -11663,8 +12888,8 @@
       "name_en": "Typhoid fever",
       "name_zh": "伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1788,
-      "country_count": 6,
+      "record_count": 2057,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -11677,6 +12902,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "NZ",
@@ -11759,6 +12988,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "NZ",
@@ -11878,12 +13128,16 @@
       "name_en": "Vibriosis",
       "name_zh": "弧菌病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 645,
-      "country_count": 2,
+      "record_count": 902,
+      "country_count": 3,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -11916,6 +13170,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -11993,8 +13268,8 @@
       "name_en": "West Nile virus",
       "name_zh": "西尼罗病毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1076,
-      "country_count": 3,
+      "record_count": 1333,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
@@ -12003,6 +13278,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -12056,6 +13335,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -12178,12 +13478,16 @@
       "name_en": "Vancomycin-resistant Staphylococcus aureus infection",
       "name_zh": "万古霉素耐药金黄色葡萄球菌感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 938,
-      "country_count": 2,
+      "record_count": 1195,
+      "country_count": 3,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -12218,6 +13522,27 @@
           "country_name": "Japan"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "US",
           "primary_scope": "nndss_api",
           "primary_label": "US CDC NNDSS",
@@ -12248,12 +13573,16 @@
       "name_en": "Carbapenemase-producing organism infection",
       "name_zh": "产碳青霉烯酶微生物感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 906,
-      "country_count": 2,
+      "record_count": 1163,
+      "country_count": 3,
       "countries": [
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "US",
@@ -12286,6 +13615,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "US",
@@ -12363,7 +13713,7 @@
       "name_en": "Bacterial meningitis",
       "name_zh": "细菌性脑膜炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 848,
+      "record_count": 860,
       "country_count": 2,
       "countries": [
         {
@@ -12818,8 +14168,8 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 1152,
-      "country_count": 4,
+      "record_count": 1421,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
@@ -12832,6 +14182,10 @@
         {
           "code": "JP",
           "name": "Japan"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -12906,6 +14260,27 @@
             }
           ],
           "country_name": "Japan"
+        },
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
         },
         {
           "country_code": "TW",
@@ -13845,15 +15220,42 @@
       "name_en": "Congenital syphilis",
       "name_zh": "先天性梅毒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d167.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d167.csv",
       "relative_json_path": "diseases/d167.json",
       "relative_csv_path": "diseases/d167.csv",
       "site_json_path": "/site-data/diseases/d167.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -13863,12 +15265,16 @@
       "name_en": "Congenital rubella syndrome",
       "name_zh": "先天性风疹综合征",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 139,
-      "country_count": 2,
+      "record_count": 396,
+      "country_count": 3,
       "countries": [
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "KR",
+          "name": "South Korea"
         },
         {
           "code": "TW",
@@ -13903,6 +15309,27 @@
           "country_name": "Brazil"
         },
         {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
+        {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
           "primary_label": "Taiwan, China CDC NIDSS",
@@ -13933,9 +15360,13 @@
       "name_en": "Endemic typhus fever",
       "name_zh": "地方性斑疹伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 218,
-      "country_count": 1,
+      "record_count": 475,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        },
         {
           "code": "TW",
           "name": "Taiwan, China"
@@ -13947,6 +15378,27 @@
       "relative_csv_path": "diseases/d169.csv",
       "site_json_path": "/site-data/diseases/d169.json",
       "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        },
         {
           "country_code": "TW",
           "primary_scope": "nidss_open_data",
@@ -14086,15 +15538,42 @@
       "name_en": "Rift Valley fever",
       "name_zh": "裂谷热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d173.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d173.csv",
       "relative_json_path": "diseases/d173.json",
       "relative_csv_path": "diseases/d173.csv",
       "site_json_path": "/site-data/diseases/d173.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -14104,15 +15583,42 @@
       "name_en": "Marburg virus disease",
       "name_zh": "马堡病毒病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d174.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d174.csv",
       "relative_json_path": "diseases/d174.json",
       "relative_csv_path": "diseases/d174.csv",
       "site_json_path": "/site-data/diseases/d174.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -14176,7 +15682,7 @@
       "name_en": "Acute flaccid paralysis",
       "name_zh": "急性无力肢体麻痹",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 392,
+      "record_count": 404,
       "country_count": 2,
       "countries": [
         {
@@ -14246,7 +15752,7 @@
       "name_en": "Toxoplasmosis",
       "name_zh": "弓形虫感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 162,
+      "record_count": 174,
       "country_count": 2,
       "countries": [
         {
@@ -14424,15 +15930,42 @@
       "name_en": "Epidemic typhus fever",
       "name_zh": "流行性斑疹伤寒",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d183.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d183.csv",
       "relative_json_path": "diseases/d183.json",
       "relative_csv_path": "diseases/d183.csv",
       "site_json_path": "/site-data/diseases/d183.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -14442,7 +15975,7 @@
       "name_en": "Accident caused by venomous animals",
       "name_zh": "毒性动物伤害",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 137,
+      "record_count": 149,
       "country_count": 1,
       "countries": [
         {
@@ -14487,7 +16020,7 @@
       "name_en": "Work accident with biological material",
       "name_zh": "生物材料职业暴露事故",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 144,
+      "record_count": 156,
       "country_count": 1,
       "countries": [
         {
@@ -14532,7 +16065,7 @@
       "name_en": "Serious work accident",
       "name_zh": "严重工伤",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 144,
+      "record_count": 156,
       "country_count": 1,
       "countries": [
         {
@@ -14577,7 +16110,7 @@
       "name_en": "Rabies post-exposure prophylaxis",
       "name_zh": "狂犬病暴露后处置",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 144,
+      "record_count": 156,
       "country_count": 1,
       "countries": [
         {
@@ -14622,7 +16155,7 @@
       "name_en": "Work-related cancer",
       "name_zh": "职业相关癌症",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 104,
+      "record_count": 116,
       "country_count": 1,
       "countries": [
         {
@@ -14667,7 +16200,7 @@
       "name_en": "Work-related dermatosis",
       "name_zh": "职业性皮肤病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 123,
+      "record_count": 135,
       "country_count": 1,
       "countries": [
         {
@@ -14847,7 +16380,7 @@
       "name_en": "Work-related mental disorder",
       "name_zh": "职业相关精神障碍",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 140,
+      "record_count": 152,
       "country_count": 1,
       "countries": [
         {
@@ -14892,7 +16425,7 @@
       "name_en": "Noise-induced hearing loss",
       "name_zh": "噪声性听力损失",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 138,
+      "record_count": 150,
       "country_count": 1,
       "countries": [
         {
@@ -14937,7 +16470,7 @@
       "name_en": "Pneumoconiosis",
       "name_zh": "尘肺病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 130,
+      "record_count": 142,
       "country_count": 1,
       "countries": [
         {
@@ -15045,7 +16578,7 @@
       "name_en": "Toxoplasmosis in pregnancy",
       "name_zh": "妊娠期弓形虫病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 14,
+      "record_count": 26,
       "country_count": 1,
       "countries": [
         {
@@ -15090,7 +16623,7 @@
       "name_en": "Rotavirus infection",
       "name_zh": "轮状病毒感染",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 112,
+      "record_count": 124,
       "country_count": 1,
       "countries": [
         {
@@ -15135,7 +16668,7 @@
       "name_en": "Trachoma",
       "name_zh": "沙眼",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 108,
+      "record_count": 120,
       "country_count": 1,
       "countries": [
         {
@@ -15180,7 +16713,7 @@
       "name_en": "Exanthematous diseases",
       "name_zh": "出疹性疾病",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 149,
+      "record_count": 161,
       "country_count": 1,
       "countries": [
         {
@@ -15225,7 +16758,7 @@
       "name_en": "Domestic sexual and other violence",
       "name_zh": "家庭/性及其他暴力",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 96,
+      "record_count": 108,
       "country_count": 1,
       "countries": [
         {
@@ -15270,15 +16803,42 @@
       "name_en": "Crimean-Congo hemorrhagic fever",
       "name_zh": "克里米亚-刚果出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d203.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d203.csv",
       "relative_json_path": "diseases/d203.json",
       "relative_csv_path": "diseases/d203.csv",
       "site_json_path": "/site-data/diseases/d203.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -15288,15 +16848,42 @@
       "name_en": "South American hemorrhagic fever",
       "name_zh": "南美出血热",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d204.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d204.csv",
       "relative_json_path": "diseases/d204.json",
       "relative_csv_path": "diseases/d204.csv",
       "site_json_path": "/site-data/diseases/d204.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -15306,15 +16893,42 @@
       "name_en": "Tick-borne encephalitis",
       "name_zh": "蜱传脑炎",
       "generated_at": "2026-05-09T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 257,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "KR",
+          "name": "South Korea"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d205.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d205.csv",
       "relative_json_path": "diseases/d205.json",
       "relative_csv_path": "diseases/d205.csv",
       "site_json_path": "/site-data/diseases/d205.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "KR",
+          "primary_scope": "kdca_open_api",
+          "primary_label": "Korea KDCA EID",
+          "primary_url": "https://www.data.go.kr/data/15139178/openapi.do",
+          "primary_type": "open_api_or_portal_download",
+          "parser_primary": "kr_kdca_period_region_monthly",
+          "notes": "Korea KDCA EID data from data.go.kr OpenAPI or KDCA/KOSIS portal downloads aggregated to national monthly totals",
+          "sources": [
+            {
+              "scope": "kdca_open_api",
+              "label": "Korea KDCA EID",
+              "url": "https://www.data.go.kr/data/15139178/openapi.do",
+              "machine_url": "https://apis.data.go.kr/1790387/EIDAPIService/PeriodRegion",
+              "type": "open_api_or_portal_download",
+              "cadence": "monthly",
+              "description": "Korea KDCA notifiable infectious disease OpenAPI or portal/KOSIS downloads aggregated to national monthly notification counts."
+            }
+          ],
+          "country_name": "South Korea"
+        }
+      ]
     }
   ]
 }
