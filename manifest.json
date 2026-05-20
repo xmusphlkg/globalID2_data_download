@@ -50,7 +50,7 @@
       "code": "BR",
       "name": "Brazil",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 5974,
+      "record_count": 7409,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-05-01"
@@ -229,7 +229,7 @@
       "source_info": {
         "country_code": "NZ",
         "primary_scope": "phf_monthly",
-        "primary_label": "All Sources",
+        "primary_label": "phf_monthly",
         "primary_url": "https://www.phfscience.nz/digital-library/",
         "primary_type": "web",
         "parser_primary": "nz_phf_internal_crawler",
@@ -237,7 +237,7 @@
         "sources": [
           {
             "scope": "phf_monthly",
-            "label": "All Sources",
+            "label": "phf_monthly",
             "url": "https://www.phfscience.nz/digital-library/",
             "machine_url": null,
             "type": "web",
@@ -253,7 +253,7 @@
       "code": "TW",
       "name": "Taiwan, China",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 6432,
+      "record_count": 6433,
       "date_range": {
         "start": "2003-01-01",
         "end": "2026-05-01"
@@ -959,7 +959,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -967,7 +967,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -1352,7 +1352,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -1360,7 +1360,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -1536,7 +1536,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -1544,7 +1544,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -1703,7 +1703,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -1711,7 +1711,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -2757,7 +2757,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -2765,7 +2765,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -2940,7 +2940,7 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1836,
+      "record_count": 1860,
       "country_count": 7,
       "countries": [
         {
@@ -3316,7 +3316,7 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2218,
+      "record_count": 2254,
       "country_count": 8,
       "countries": [
         {
@@ -3484,7 +3484,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -3492,7 +3492,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -3830,7 +3830,7 @@
       "name_en": "Tuberculosis",
       "name_zh": "肺结核",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1893,
+      "record_count": 1929,
       "country_count": 6,
       "countries": [
         {
@@ -3969,7 +3969,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -3977,7 +3977,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -4161,7 +4161,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -4169,7 +4169,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -4231,7 +4231,7 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 3013,
+      "record_count": 3049,
       "country_count": 8,
       "countries": [
         {
@@ -4399,7 +4399,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -4407,7 +4407,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -4469,7 +4469,7 @@
       "name_en": "Diphtheria",
       "name_zh": "白喉",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1605,
+      "record_count": 1634,
       "country_count": 5,
       "countries": [
         {
@@ -4632,7 +4632,7 @@
       "name_en": "Neonatal Tetanus",
       "name_zh": "新生儿破伤风",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 199,
+      "record_count": 203,
       "country_count": 2,
       "countries": [
         {
@@ -5222,7 +5222,7 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2322,
+      "record_count": 2358,
       "country_count": 8,
       "countries": [
         {
@@ -5390,7 +5390,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -5398,7 +5398,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -5460,7 +5460,7 @@
       "name_en": "Schistosomiasis",
       "name_zh": "血吸虫病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 340,
+      "record_count": 376,
       "country_count": 2,
       "countries": [
         {
@@ -5548,7 +5548,7 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2984,
+      "record_count": 3020,
       "country_count": 8,
       "countries": [
         {
@@ -5716,7 +5716,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -5724,7 +5724,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -6042,7 +6042,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -6050,7 +6050,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -6255,7 +6255,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -6263,7 +6263,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -6413,7 +6413,7 @@
       "name_en": "Leprosy",
       "name_zh": "麻风病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1234,
+      "record_count": 1270,
       "country_count": 5,
       "countries": [
         {
@@ -6664,7 +6664,7 @@
       "name_en": "Kala-azar",
       "name_zh": "黑热病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 388,
+      "record_count": 424,
       "country_count": 2,
       "countries": [
         {
@@ -7380,7 +7380,7 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1083,
+      "record_count": 1119,
       "country_count": 6,
       "countries": [
         {
@@ -7568,7 +7568,7 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1685,
+      "record_count": 1721,
       "country_count": 7,
       "countries": [
         {
@@ -7919,7 +7919,7 @@
       "name_en": "Varicella",
       "name_zh": "水痘",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2201,
+      "record_count": 2237,
       "country_count": 6,
       "countries": [
         {
@@ -8943,7 +8943,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -8951,7 +8951,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -9389,7 +9389,7 @@
       "name_en": "Leishmaniasis",
       "name_zh": "利什曼病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 216,
+      "record_count": 252,
       "country_count": 1,
       "countries": [
         {
@@ -9452,7 +9452,7 @@
       "name_en": "Chagas disease",
       "name_zh": "恰加斯病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 225,
+      "record_count": 261,
       "country_count": 1,
       "countries": [
         {
@@ -9659,7 +9659,7 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1362,
+      "record_count": 1383,
       "country_count": 5,
       "countries": [
         {
@@ -9850,7 +9850,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -9858,7 +9858,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -10180,7 +10180,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -10188,7 +10188,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -10338,7 +10338,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -10346,7 +10346,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -10487,7 +10487,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -10495,7 +10495,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -10602,7 +10602,7 @@
       "name_en": "Hantavirus infection",
       "name_zh": "汉坦病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1147,
+      "record_count": 1183,
       "country_count": 3,
       "countries": [
         {
@@ -10858,7 +10858,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -10866,7 +10866,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -11007,7 +11007,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -11015,7 +11015,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -11177,7 +11177,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -11185,7 +11185,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -11297,7 +11297,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -11305,7 +11305,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -11630,7 +11630,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -11638,7 +11638,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -11795,7 +11795,7 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1784,
+      "record_count": 1785,
       "country_count": 6,
       "countries": [
         {
@@ -11895,7 +11895,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -11903,7 +11903,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -12011,7 +12011,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -12019,7 +12019,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -12370,7 +12370,7 @@
       "name_en": "Spotted fever rickettsiosis",
       "name_zh": "斑点热立克次体病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1059,
+      "record_count": 1095,
       "country_count": 3,
       "countries": [
         {
@@ -12535,7 +12535,7 @@
       "name_en": "Tetanus",
       "name_zh": "破伤风",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1722,
+      "record_count": 1758,
       "country_count": 5,
       "countries": [
         {
@@ -12888,7 +12888,7 @@
       "name_en": "Typhoid fever",
       "name_zh": "伤寒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2058,
+      "record_count": 2094,
       "country_count": 7,
       "countries": [
         {
@@ -13013,7 +13013,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -13021,7 +13021,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -13713,7 +13713,7 @@
       "name_en": "Bacterial meningitis",
       "name_zh": "细菌性脑膜炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 861,
+      "record_count": 897,
       "country_count": 2,
       "countries": [
         {
@@ -14168,7 +14168,7 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1422,
+      "record_count": 1458,
       "country_count": 5,
       "countries": [
         {
@@ -14805,7 +14805,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -14813,7 +14813,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -14850,7 +14850,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -14858,7 +14858,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -14895,7 +14895,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -14903,7 +14903,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -14940,7 +14940,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -14948,7 +14948,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -14985,7 +14985,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -14993,7 +14993,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -15030,7 +15030,7 @@
         {
           "country_code": "NZ",
           "primary_scope": "phf_monthly",
-          "primary_label": "All Sources",
+          "primary_label": "phf_monthly",
           "primary_url": "https://www.phfscience.nz/digital-library/",
           "primary_type": "web",
           "parser_primary": "nz_phf_internal_crawler",
@@ -15038,7 +15038,7 @@
           "sources": [
             {
               "scope": "phf_monthly",
-              "label": "All Sources",
+              "label": "phf_monthly",
               "url": "https://www.phfscience.nz/digital-library/",
               "machine_url": null,
               "type": "web",
@@ -15265,7 +15265,7 @@
       "name_en": "Congenital rubella syndrome",
       "name_zh": "先天性风疹综合征",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 396,
+      "record_count": 420,
       "country_count": 3,
       "countries": [
         {
@@ -15682,7 +15682,7 @@
       "name_en": "Acute flaccid paralysis",
       "name_zh": "急性无力肢体麻痹",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 404,
+      "record_count": 428,
       "country_count": 2,
       "countries": [
         {
@@ -15752,7 +15752,7 @@
       "name_en": "Toxoplasmosis",
       "name_zh": "弓形虫感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 174,
+      "record_count": 210,
       "country_count": 2,
       "countries": [
         {
@@ -15975,7 +15975,7 @@
       "name_en": "Accident caused by venomous animals",
       "name_zh": "毒性动物伤害",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 149,
+      "record_count": 185,
       "country_count": 1,
       "countries": [
         {
@@ -16020,7 +16020,7 @@
       "name_en": "Work accident with biological material",
       "name_zh": "生物材料职业暴露事故",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 156,
+      "record_count": 192,
       "country_count": 1,
       "countries": [
         {
@@ -16065,7 +16065,7 @@
       "name_en": "Serious work accident",
       "name_zh": "严重工伤",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 156,
+      "record_count": 192,
       "country_count": 1,
       "countries": [
         {
@@ -16110,7 +16110,7 @@
       "name_en": "Rabies post-exposure prophylaxis",
       "name_zh": "狂犬病暴露后处置",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 156,
+      "record_count": 180,
       "country_count": 1,
       "countries": [
         {
@@ -16155,7 +16155,7 @@
       "name_en": "Work-related cancer",
       "name_zh": "职业相关癌症",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 116,
+      "record_count": 152,
       "country_count": 1,
       "countries": [
         {
@@ -16200,7 +16200,7 @@
       "name_en": "Work-related dermatosis",
       "name_zh": "职业性皮肤病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 135,
+      "record_count": 171,
       "country_count": 1,
       "countries": [
         {
@@ -16245,7 +16245,7 @@
       "name_en": "Sporotrichosis",
       "name_zh": "孢子丝菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 39,
+      "record_count": 75,
       "country_count": 1,
       "countries": [
         {
@@ -16290,7 +16290,7 @@
       "name_en": "Exogenous poisoning",
       "name_zh": "外源性中毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 130,
+      "record_count": 166,
       "country_count": 1,
       "countries": [
         {
@@ -16335,7 +16335,7 @@
       "name_en": "Work-related repetitive strain injury",
       "name_zh": "职业相关重复性劳损",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 120,
+      "record_count": 156,
       "country_count": 1,
       "countries": [
         {
@@ -16380,7 +16380,7 @@
       "name_en": "Work-related mental disorder",
       "name_zh": "职业相关精神障碍",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 152,
+      "record_count": 184,
       "country_count": 1,
       "countries": [
         {
@@ -16425,7 +16425,7 @@
       "name_en": "Noise-induced hearing loss",
       "name_zh": "噪声性听力损失",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 150,
+      "record_count": 186,
       "country_count": 1,
       "countries": [
         {
@@ -16470,7 +16470,7 @@
       "name_en": "Pneumoconiosis",
       "name_zh": "尘肺病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 142,
+      "record_count": 166,
       "country_count": 1,
       "countries": [
         {
@@ -16515,7 +16515,7 @@
       "name_en": "Foodborne disease outbreak",
       "name_zh": "食源性疾病暴发",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 48,
+      "record_count": 60,
       "country_count": 1,
       "countries": [
         {
@@ -16578,7 +16578,7 @@
       "name_en": "Toxoplasmosis in pregnancy",
       "name_zh": "妊娠期弓形虫病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 26,
+      "record_count": 62,
       "country_count": 1,
       "countries": [
         {
@@ -16623,7 +16623,7 @@
       "name_en": "Rotavirus infection",
       "name_zh": "轮状病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 124,
+      "record_count": 160,
       "country_count": 1,
       "countries": [
         {
@@ -16668,7 +16668,7 @@
       "name_en": "Trachoma",
       "name_zh": "沙眼",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 120,
+      "record_count": 149,
       "country_count": 1,
       "countries": [
         {
@@ -16713,7 +16713,7 @@
       "name_en": "Exanthematous diseases",
       "name_zh": "出疹性疾病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 161,
+      "record_count": 197,
       "country_count": 1,
       "countries": [
         {
@@ -16758,7 +16758,7 @@
       "name_en": "Domestic sexual and other violence",
       "name_zh": "家庭/性及其他暴力",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 108,
+      "record_count": 144,
       "country_count": 1,
       "countries": [
         {
