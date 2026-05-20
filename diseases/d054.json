@@ -167,7 +167,7 @@
     "name_en": "Varicella",
     "name_zh": "水痘",
     "category": "Viral",
-    "total_cases": 3799282,
+    "total_cases": 3799292,
     "total_deaths": 1,
     "global_monthly": {
       "months": [
@@ -806,7 +806,7 @@
         36525,
         36217,
         42319,
-        2787
+        2797
       ],
       "deaths": [
         0,
@@ -10939,10 +10939,10 @@
       "category": "Viral",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 105,
-      "weekly_equiv_cases": 24.5,
+      "cases": 115,
+      "weekly_equiv_cases": 26.833333333333336,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.385645241049578,
+      "incidence_rate_per_100k": 0.4223733592447758,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

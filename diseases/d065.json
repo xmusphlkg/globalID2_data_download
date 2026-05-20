@@ -189,7 +189,7 @@
     "name_en": "Monkeypox",
     "name_zh": "猴痘",
     "category": "Viral",
-    "total_cases": 6121,
+    "total_cases": 6130,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -828,7 +828,7 @@
         80,
         110,
         122,
-        40
+        49
       ],
       "deaths": [
         0,
@@ -10961,10 +10961,10 @@
       "category": "Viral",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 17,
-      "weekly_equiv_cases": 3.966666666666667,
+      "cases": 26,
+      "weekly_equiv_cases": 6.066666666666666,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.06243780093183643,
+      "incidence_rate_per_100k": 0.09549310730751455,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
