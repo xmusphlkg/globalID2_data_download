@@ -50,7 +50,7 @@
       "code": "BR",
       "name": "Brazil",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 7409,
+      "record_count": 8123,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-05-01"
@@ -216,7 +216,7 @@
       "code": "NZ",
       "name": "New Zealand",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 3474,
+      "record_count": 3351,
       "date_range": {
         "start": "2016-01-01",
         "end": "2026-03-01"
@@ -253,7 +253,7 @@
       "code": "TW",
       "name": "Taiwan, China",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 6433,
+      "record_count": 6285,
       "date_range": {
         "start": "2003-01-01",
         "end": "2026-05-01"
@@ -2940,7 +2940,7 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1860,
+      "record_count": 1871,
       "country_count": 7,
       "countries": [
         {
@@ -3316,7 +3316,7 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2254,
+      "record_count": 2278,
       "country_count": 8,
       "countries": [
         {
@@ -3830,7 +3830,7 @@
       "name_en": "Tuberculosis",
       "name_zh": "肺结核",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1929,
+      "record_count": 1941,
       "country_count": 6,
       "countries": [
         {
@@ -4231,7 +4231,7 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 3049,
+      "record_count": 3073,
       "country_count": 8,
       "countries": [
         {
@@ -4469,7 +4469,7 @@
       "name_en": "Diphtheria",
       "name_zh": "白喉",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1634,
+      "record_count": 1658,
       "country_count": 5,
       "countries": [
         {
@@ -4632,7 +4632,7 @@
       "name_en": "Neonatal Tetanus",
       "name_zh": "新生儿破伤风",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 203,
+      "record_count": 208,
       "country_count": 2,
       "countries": [
         {
@@ -5222,7 +5222,7 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2358,
+      "record_count": 2382,
       "country_count": 8,
       "countries": [
         {
@@ -5460,7 +5460,7 @@
       "name_en": "Schistosomiasis",
       "name_zh": "血吸虫病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 376,
+      "record_count": 395,
       "country_count": 2,
       "countries": [
         {
@@ -5548,7 +5548,7 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 3020,
+      "record_count": 3032,
       "country_count": 8,
       "countries": [
         {
@@ -6413,7 +6413,7 @@
       "name_en": "Leprosy",
       "name_zh": "麻风病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1270,
+      "record_count": 1294,
       "country_count": 5,
       "countries": [
         {
@@ -6664,7 +6664,7 @@
       "name_en": "Kala-azar",
       "name_zh": "黑热病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 424,
+      "record_count": 445,
       "country_count": 2,
       "countries": [
         {
@@ -7380,7 +7380,7 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1119,
+      "record_count": 1143,
       "country_count": 6,
       "countries": [
         {
@@ -7568,7 +7568,7 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1721,
+      "record_count": 1733,
       "country_count": 7,
       "countries": [
         {
@@ -7919,7 +7919,7 @@
       "name_en": "Varicella",
       "name_zh": "水痘",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2237,
+      "record_count": 2245,
       "country_count": 6,
       "countries": [
         {
@@ -9389,7 +9389,7 @@
       "name_en": "Leishmaniasis",
       "name_zh": "利什曼病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 252,
+      "record_count": 273,
       "country_count": 1,
       "countries": [
         {
@@ -9452,7 +9452,7 @@
       "name_en": "Chagas disease",
       "name_zh": "恰加斯病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 261,
+      "record_count": 285,
       "country_count": 1,
       "countries": [
         {
@@ -9659,7 +9659,7 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1383,
+      "record_count": 1404,
       "country_count": 5,
       "countries": [
         {
@@ -10602,7 +10602,7 @@
       "name_en": "Hantavirus infection",
       "name_zh": "汉坦病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1183,
+      "record_count": 1207,
       "country_count": 3,
       "countries": [
         {
@@ -12370,7 +12370,7 @@
       "name_en": "Spotted fever rickettsiosis",
       "name_zh": "斑点热立克次体病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1095,
+      "record_count": 1119,
       "country_count": 3,
       "countries": [
         {
@@ -12535,7 +12535,7 @@
       "name_en": "Tetanus",
       "name_zh": "破伤风",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1758,
+      "record_count": 1782,
       "country_count": 5,
       "countries": [
         {
@@ -12888,7 +12888,7 @@
       "name_en": "Typhoid fever",
       "name_zh": "伤寒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2094,
+      "record_count": 2114,
       "country_count": 7,
       "countries": [
         {
@@ -13713,7 +13713,7 @@
       "name_en": "Bacterial meningitis",
       "name_zh": "细菌性脑膜炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 897,
+      "record_count": 909,
       "country_count": 2,
       "countries": [
         {
@@ -14168,7 +14168,7 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1458,
+      "record_count": 1470,
       "country_count": 5,
       "countries": [
         {
@@ -15007,51 +15007,6 @@
     },
     {
       "kind": "disease",
-      "id": "d160",
-      "disease_id": "D160",
-      "slug": "vtec-stec-infection",
-      "name_en": "VTEC/STEC infection",
-      "name_zh": "产志贺毒素大肠杆菌感染",
-      "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 123,
-      "country_count": 1,
-      "countries": [
-        {
-          "code": "NZ",
-          "name": "New Zealand"
-        }
-      ],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d160.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d160.csv",
-      "relative_json_path": "diseases/d160.json",
-      "relative_csv_path": "diseases/d160.csv",
-      "site_json_path": "/site-data/diseases/d160.json",
-      "source_info": [
-        {
-          "country_code": "NZ",
-          "primary_scope": "phf_monthly",
-          "primary_label": "phf_monthly",
-          "primary_url": "https://www.phfscience.nz/digital-library/",
-          "primary_type": "web",
-          "parser_primary": "nz_phf_internal_crawler",
-          "notes": "PHF Science (formerly ESR) monthly notifiable disease surveillance data via internal globalID2 crawler",
-          "sources": [
-            {
-              "scope": "phf_monthly",
-              "label": "phf_monthly",
-              "url": "https://www.phfscience.nz/digital-library/",
-              "machine_url": null,
-              "type": "web",
-              "cadence": "monthly",
-              "description": "PHF Science (formerly ESR) monthly notifiable disease surveillance data via internal globalID2 crawler"
-            }
-          ],
-          "country_name": "New Zealand"
-        }
-      ]
-    },
-    {
-      "kind": "disease",
       "id": "d161",
       "disease_id": "D161",
       "slug": "decompression-sickness",
@@ -15265,7 +15220,7 @@
       "name_en": "Congenital rubella syndrome",
       "name_zh": "先天性风疹综合征",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 420,
+      "record_count": 444,
       "country_count": 3,
       "countries": [
         {
@@ -15640,24 +15595,6 @@
     },
     {
       "kind": "disease",
-      "id": "d176",
-      "disease_id": "D176",
-      "slug": "relapsing-fever",
-      "name_en": "Relapsing fever",
-      "name_zh": "回归热",
-      "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d176.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d176.csv",
-      "relative_json_path": "diseases/d176.json",
-      "relative_csv_path": "diseases/d176.csv",
-      "site_json_path": "/site-data/diseases/d176.json",
-      "source_info": []
-    },
-    {
-      "kind": "disease",
       "id": "d177",
       "disease_id": "D177",
       "slug": "cat-scratch-disease",
@@ -15682,7 +15619,7 @@
       "name_en": "Acute flaccid paralysis",
       "name_zh": "急性无力肢体麻痹",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 428,
+      "record_count": 450,
       "country_count": 2,
       "countries": [
         {
@@ -15699,76 +15636,6 @@
       "relative_json_path": "diseases/d178.json",
       "relative_csv_path": "diseases/d178.csv",
       "site_json_path": "/site-data/diseases/d178.json",
-      "source_info": [
-        {
-          "country_code": "BR",
-          "primary_scope": "sinan_datasus",
-          "primary_label": "Brazil DATASUS SINAN",
-          "primary_url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
-          "primary_type": "ftp_dbc",
-          "parser_primary": "br_sinan_datasus_dbc_monthly",
-          "notes": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts.",
-          "sources": [
-            {
-              "scope": "sinan_datasus",
-              "label": "Brazil DATASUS SINAN",
-              "url": "http://siab.datasus.gov.br/DATASUS/index.php?acao=41&area=0901&item=1",
-              "machine_url": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/",
-              "type": "ftp_dbc",
-              "cadence": "monthly",
-              "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
-            }
-          ],
-          "country_name": "Brazil"
-        },
-        {
-          "country_code": "TW",
-          "primary_scope": "nidss_open_data",
-          "primary_label": "Taiwan, China CDC NIDSS",
-          "primary_url": "https://nidss.cdc.gov.tw/Home/Index",
-          "primary_type": "open_data_csv",
-          "parser_primary": "tw_nidss_open_data_monthly",
-          "notes": "Taiwan, China CDC NIDSS open data CSV aggregated to national monthly totals",
-          "sources": [
-            {
-              "scope": "nidss_open_data",
-              "label": "Taiwan, China CDC NIDSS",
-              "url": "https://nidss.cdc.gov.tw/Home/Index",
-              "machine_url": "https://od.cdc.gov.tw/eic/Age_County_Gender_{disease_code}.csv",
-              "type": "open_data_csv",
-              "cadence": "monthly",
-              "description": "Taiwan, China monthly notifiable infectious disease open-data CSV feed."
-            }
-          ],
-          "country_name": "Taiwan, China"
-        }
-      ]
-    },
-    {
-      "kind": "disease",
-      "id": "d179",
-      "disease_id": "D179",
-      "slug": "toxoplasmosis",
-      "name_en": "Toxoplasmosis",
-      "name_zh": "弓形虫感染",
-      "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 210,
-      "country_count": 2,
-      "countries": [
-        {
-          "code": "BR",
-          "name": "Brazil"
-        },
-        {
-          "code": "TW",
-          "name": "Taiwan, China"
-        }
-      ],
-      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d179.json",
-      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d179.csv",
-      "relative_json_path": "diseases/d179.json",
-      "relative_csv_path": "diseases/d179.csv",
-      "site_json_path": "/site-data/diseases/d179.json",
       "source_info": [
         {
           "country_code": "BR",
@@ -15975,7 +15842,7 @@
       "name_en": "Accident caused by venomous animals",
       "name_zh": "毒性动物伤害",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 185,
+      "record_count": 209,
       "country_count": 1,
       "countries": [
         {
@@ -16020,7 +15887,7 @@
       "name_en": "Work accident with biological material",
       "name_zh": "生物材料职业暴露事故",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 192,
+      "record_count": 208,
       "country_count": 1,
       "countries": [
         {
@@ -16065,7 +15932,7 @@
       "name_en": "Serious work accident",
       "name_zh": "严重工伤",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 192,
+      "record_count": 212,
       "country_count": 1,
       "countries": [
         {
@@ -16110,7 +15977,7 @@
       "name_en": "Rabies post-exposure prophylaxis",
       "name_zh": "狂犬病暴露后处置",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 180,
+      "record_count": 197,
       "country_count": 1,
       "countries": [
         {
@@ -16155,7 +16022,7 @@
       "name_en": "Work-related cancer",
       "name_zh": "职业相关癌症",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 152,
+      "record_count": 172,
       "country_count": 1,
       "countries": [
         {
@@ -16200,7 +16067,7 @@
       "name_en": "Work-related dermatosis",
       "name_zh": "职业性皮肤病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 171,
+      "record_count": 191,
       "country_count": 1,
       "countries": [
         {
@@ -16290,7 +16157,7 @@
       "name_en": "Exogenous poisoning",
       "name_zh": "外源性中毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 166,
+      "record_count": 190,
       "country_count": 1,
       "countries": [
         {
@@ -16335,7 +16202,7 @@
       "name_en": "Work-related repetitive strain injury",
       "name_zh": "职业相关重复性劳损",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 156,
+      "record_count": 176,
       "country_count": 1,
       "countries": [
         {
@@ -16380,7 +16247,7 @@
       "name_en": "Work-related mental disorder",
       "name_zh": "职业相关精神障碍",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 184,
+      "record_count": 204,
       "country_count": 1,
       "countries": [
         {
@@ -16425,7 +16292,7 @@
       "name_en": "Noise-induced hearing loss",
       "name_zh": "噪声性听力损失",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 186,
+      "record_count": 206,
       "country_count": 1,
       "countries": [
         {
@@ -16470,7 +16337,7 @@
       "name_en": "Pneumoconiosis",
       "name_zh": "尘肺病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 166,
+      "record_count": 178,
       "country_count": 1,
       "countries": [
         {
@@ -16578,7 +16445,7 @@
       "name_en": "Toxoplasmosis in pregnancy",
       "name_zh": "妊娠期弓形虫病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 62,
+      "record_count": 86,
       "country_count": 1,
       "countries": [
         {
@@ -16623,7 +16490,7 @@
       "name_en": "Rotavirus infection",
       "name_zh": "轮状病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 160,
+      "record_count": 184,
       "country_count": 1,
       "countries": [
         {
@@ -16668,7 +16535,7 @@
       "name_en": "Trachoma",
       "name_zh": "沙眼",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 149,
+      "record_count": 156,
       "country_count": 1,
       "countries": [
         {
@@ -16713,7 +16580,7 @@
       "name_en": "Exanthematous diseases",
       "name_zh": "出疹性疾病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 197,
+      "record_count": 221,
       "country_count": 1,
       "countries": [
         {
@@ -16758,7 +16625,7 @@
       "name_en": "Domestic sexual and other violence",
       "name_zh": "家庭/性及其他暴力",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 144,
+      "record_count": 156,
       "country_count": 1,
       "countries": [
         {
