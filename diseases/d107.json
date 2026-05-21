@@ -149,7 +149,7 @@
     "name_en": "Legionellosis",
     "name_zh": "军团菌病",
     "category": "Bacterial",
-    "total_cases": 91326,
+    "total_cases": 91332,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -788,7 +788,7 @@
         401,
         465,
         365,
-        236
+        242
       ],
       "deaths": [
         0,
@@ -53453,8 +53453,8 @@
       "category": "Bacterial",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 26,
-      "weekly_equiv_cases": 6.066666666666666,
+      "cases": 32,
+      "weekly_equiv_cases": 7.466666666666667,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

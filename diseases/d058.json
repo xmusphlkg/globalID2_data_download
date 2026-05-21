@@ -123,7 +123,7 @@
     "name_en": "Scrub Typhus",
     "name_zh": "恙虫病",
     "category": "Bacterial",
-    "total_cases": 277221,
+    "total_cases": 277222,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -689,7 +689,7 @@
         44,
         11,
         4,
-        15,
+        16,
         13
       ],
       "deaths": [
@@ -41074,8 +41074,8 @@
       "category": "Bacterial",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 13,
-      "weekly_equiv_cases": 2.935483870967742,
+      "cases": 14,
+      "weekly_equiv_cases": 3.161290322580645,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
