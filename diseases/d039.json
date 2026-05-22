@@ -211,7 +211,7 @@
     "name_en": "Mumps",
     "name_zh": "流行性腮腺炎",
     "category": "Viral",
-    "total_cases": 4538016,
+    "total_cases": 4538021,
     "total_deaths": 27,
     "global_monthly": {
       "months": [
@@ -922,7 +922,7 @@
         3396,
         6374,
         7804,
-        247
+        252
       ],
       "deaths": [
         0,
@@ -11091,10 +11091,10 @@
       "category": "Viral",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 0,
-      "weekly_equiv_cases": 0.0,
+      "cases": 5,
+      "weekly_equiv_cases": 1.1666666666666665,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.0,
+      "incidence_rate_per_100k": 0.01836405909759895,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

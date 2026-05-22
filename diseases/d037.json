@@ -233,7 +233,7 @@
     "name_en": "Malaria",
     "name_zh": "疟疾",
     "category": "Parasitic",
-    "total_cases": 170341,
+    "total_cases": 170347,
     "total_deaths": 270,
     "global_monthly": {
       "months": [
@@ -943,8 +943,8 @@
         458,
         431,
         272,
-        315,
-        28
+        316,
+        33
       ],
       "deaths": [
         0,
@@ -11082,10 +11082,10 @@
       "category": "Parasitic",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 16,
-      "weekly_equiv_cases": 3.6129032258064515,
+      "cases": 17,
+      "weekly_equiv_cases": 3.8387096774193545,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.058764989112316646,
+      "incidence_rate_per_100k": 0.06243780093183643,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -11113,10 +11113,10 @@
       "category": "Parasitic",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 0,
-      "weekly_equiv_cases": 0.0,
+      "cases": 5,
+      "weekly_equiv_cases": 1.1666666666666665,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.0,
+      "incidence_rate_per_100k": 0.01836405909759895,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

@@ -101,7 +101,7 @@
     "name_en": "Infectious Diarrhea",
     "name_zh": "其他感染性腹泻病",
     "category": "Bacterial",
-    "total_cases": 30274094,
+    "total_cases": 30274104,
     "total_deaths": 320,
     "global_monthly": {
       "months": [
@@ -740,7 +740,7 @@
         275941,
         287046,
         214398,
-        30324
+        30334
       ],
       "deaths": [
         0,
@@ -10873,10 +10873,10 @@
       "category": "Bacterial",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 193,
-      "weekly_equiv_cases": 45.03333333333333,
+      "cases": 203,
+      "weekly_equiv_cases": 47.36666666666667,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.7088526811673195,
+      "incidence_rate_per_100k": 0.7455807993625174,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
