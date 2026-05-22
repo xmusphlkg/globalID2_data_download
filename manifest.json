@@ -253,7 +253,7 @@
       "code": "TW",
       "name": "Taiwan, China",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 6286,
+      "record_count": 6287,
       "date_range": {
         "start": "2003-01-01",
         "end": "2026-05-01"
@@ -2614,7 +2614,7 @@
       "name_en": "Measles",
       "name_zh": "麻疹",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1766,
+      "record_count": 1767,
       "country_count": 7,
       "countries": [
         {
