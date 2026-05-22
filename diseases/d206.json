@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D206",
+    "dataset_slug": "community-associated-methicillin-resistant-staphylococcus-aureus-infection",
+    "dataset_name": "Community-associated methicillin-resistant Staphylococcus aureus infection",
+    "generated_at": "2026-05-16T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D206",
+    "name_en": "Community-associated methicillin-resistant Staphylococcus aureus infection",
+    "name_zh": "社区相关耐甲氧西林金黄色葡萄球菌感染",
+    "category": "Bacterial",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}

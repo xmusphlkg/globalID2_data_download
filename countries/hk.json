@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "dataset_kind": "country",
+    "dataset_id": "hk",
+    "dataset_slug": "hk",
+    "dataset_name": "Hong Kong, China",
+    "generated_at": "2026-05-16T00:00:00+00:00",
+    "record_count": 0,
+    "date_range": {
+      "start": null,
+      "end": null
+    },
+    "frequency_meta": {
+      "source_frequency": "UNKNOWN",
+      "canonical_frequency": "WEEKLY_EQUIVALENT_7D",
+      "aggregation_rule": "normalize_counts_to_7_day_equivalent"
+    },
+    "source_info": {
+      "country_code": "HK",
+      "primary_scope": "chp_notifiable",
+      "primary_label": "Hong Kong, China CHP Notifiable Diseases",
+      "primary_url": "https://www.chp.gov.hk/en/static/24012.html",
+      "primary_type": "open_data_csv",
+      "parser_primary": "hk_chp_notifiable_monthly",
+      "notes": "Hong Kong, China CHP annual notifiable infectious disease CSVs normalized to national monthly totals",
+      "sources": [
+        {
+          "scope": "chp_notifiable",
+          "label": "Hong Kong, China CHP Notifiable Diseases",
+          "url": "https://www.chp.gov.hk/en/static/24012.html",
+          "machine_url": null,
+          "type": "open_data_csv",
+          "cadence": "monthly",
+          "description": "Hong Kong, China CHP annual notifiable infectious disease CSVs normalized to national monthly totals"
+        }
+      ]
+    },
+    "comparison_basis": {
+      "frequency": "WEEKLY_EQUIVALENT_7D",
+      "metric": "weekly_equiv_cases"
+    },
+    "incidence_rate_basis": {
+      "formula": "cases / population * 100000",
+      "unit": "per_100k",
+      "population_source": "WPP",
+      "source_counts": {},
+      "note_en": "Incidence Rate is computed from WPP population data during site generation; when population is unavailable, original database incidence is shown.",
+      "note_zh": "发病率在网页数据生成阶段按 WPP 人口重算（每10万人）；若缺少人口数据则回退显示数据库原始发病率。"
+    }
+  },
+  "summary": {
+    "country_code": "HK",
+    "country_name": "Hong Kong, China",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "disease_count": 0
+  },
+  "records": []
+}

@@ -138,6 +138,43 @@
     },
     {
       "kind": "country",
+      "id": "hk",
+      "code": "HK",
+      "name": "Hong Kong, China",
+      "generated_at": "2026-05-16T00:00:00+00:00",
+      "record_count": 0,
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/hk.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/hk.csv",
+      "relative_json_path": "countries/hk.json",
+      "relative_csv_path": "countries/hk.csv",
+      "site_json_path": "/site-data/countries/hk.json",
+      "source_info": {
+        "country_code": "HK",
+        "primary_scope": "chp_notifiable",
+        "primary_label": "Hong Kong, China CHP Notifiable Diseases",
+        "primary_url": "https://www.chp.gov.hk/en/static/24012.html",
+        "primary_type": "open_data_csv",
+        "parser_primary": "hk_chp_notifiable_monthly",
+        "notes": "Hong Kong, China CHP annual notifiable infectious disease CSVs normalized to national monthly totals",
+        "sources": [
+          {
+            "scope": "chp_notifiable",
+            "label": "Hong Kong, China CHP Notifiable Diseases",
+            "url": "https://www.chp.gov.hk/en/static/24012.html",
+            "machine_url": null,
+            "type": "open_data_csv",
+            "cadence": "monthly",
+            "description": "Hong Kong, China CHP annual notifiable infectious disease CSVs normalized to national monthly totals"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "country",
       "id": "jp",
       "code": "JP",
       "name": "Japan",
@@ -16796,6 +16833,42 @@
           "country_name": "South Korea"
         }
       ]
+    },
+    {
+      "kind": "disease",
+      "id": "d206",
+      "disease_id": "D206",
+      "slug": "community-associated-methicillin-resistant-staphylococcus-aureus-infection",
+      "name_en": "Community-associated methicillin-resistant Staphylococcus aureus infection",
+      "name_zh": "社区相关耐甲氧西林金黄色葡萄球菌感染",
+      "generated_at": "2026-05-16T00:00:00+00:00",
+      "record_count": 0,
+      "country_count": 0,
+      "countries": [],
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d206.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d206.csv",
+      "relative_json_path": "diseases/d206.json",
+      "relative_csv_path": "diseases/d206.csv",
+      "site_json_path": "/site-data/diseases/d206.json",
+      "source_info": []
+    },
+    {
+      "kind": "disease",
+      "id": "d207",
+      "disease_id": "D207",
+      "slug": "enterovirus-71-infection",
+      "name_en": "Enterovirus 71 infection",
+      "name_zh": "肠病毒71型感染",
+      "generated_at": "2026-05-16T00:00:00+00:00",
+      "record_count": 0,
+      "country_count": 0,
+      "countries": [],
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d207.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d207.csv",
+      "relative_json_path": "diseases/d207.json",
+      "relative_csv_path": "diseases/d207.csv",
+      "site_json_path": "/site-data/diseases/d207.json",
+      "source_info": []
     }
   ]
 }
