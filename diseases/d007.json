@@ -211,7 +211,7 @@
     "name_en": "Hepatitis A",
     "name_zh": "甲型肝炎",
     "category": "Viral",
-    "total_cases": 462302,
+    "total_cases": 462316,
     "total_deaths": 140,
     "global_monthly": {
       "months": [
@@ -921,8 +921,8 @@
         1329,
         1093,
         1543,
-        1499,
-        44
+        1500,
+        57
       ],
       "deaths": [
         0,
@@ -70580,8 +70580,8 @@
       "category": "Viral",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 84,
-      "weekly_equiv_cases": 18.96774193548387,
+      "cases": 85,
+      "weekly_equiv_cases": 19.193548387096772,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
@@ -70611,8 +70611,8 @@
       "category": "Viral",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 31,
-      "weekly_equiv_cases": 7.233333333333334,
+      "cases": 44,
+      "weekly_equiv_cases": 10.266666666666666,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
