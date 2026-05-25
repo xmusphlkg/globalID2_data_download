@@ -83,6 +83,43 @@
     },
     {
       "kind": "country",
+      "id": "ch",
+      "code": "CH",
+      "name": "Switzerland",
+      "generated_at": "2026-05-16T00:00:00+00:00",
+      "record_count": 3609,
+      "date_range": {
+        "start": "2013-01-01",
+        "end": "2026-05-11"
+      },
+      "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/ch.json",
+      "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/ch.csv",
+      "relative_json_path": "countries/ch.json",
+      "relative_csv_path": "countries/ch.csv",
+      "site_json_path": "/site-data/countries/ch.json",
+      "source_info": {
+        "country_code": "CH",
+        "primary_scope": "foph_idd",
+        "primary_label": "Switzerland FOPH IDD",
+        "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+        "primary_type": "rest_api",
+        "parser_primary": "ch_foph_idd_cases",
+        "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+        "sources": [
+          {
+            "scope": "foph_idd",
+            "label": "Switzerland FOPH IDD",
+            "url": "https://www.idd.bag.admin.ch/en/portal-data",
+            "machine_url": null,
+            "type": "rest_api",
+            "cadence": "weekly",
+            "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "country",
       "id": "cn",
       "code": "CN",
       "name": "China",
@@ -556,8 +593,8 @@
       "name_en": "Cholera",
       "name_zh": "霍乱",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2105,
-      "country_count": 8,
+      "record_count": 2118,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
@@ -566,6 +603,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -639,6 +680,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -957,12 +1019,16 @@
       "name_en": "COVID-19",
       "name_zh": "新型冠状病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 728,
-      "country_count": 6,
+      "record_count": 1053,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -1011,6 +1077,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -1145,9 +1232,13 @@
       "name_en": "HIV/AIDS",
       "name_zh": "艾滋病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 908,
-      "country_count": 2,
+      "record_count": 920,
+      "country_count": 3,
       "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -1163,6 +1254,27 @@
       "relative_csv_path": "diseases/d005.csv",
       "site_json_path": "/site-data/diseases/d005.json",
       "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -1346,12 +1458,16 @@
       "name_en": "Hepatitis A",
       "name_zh": "甲型肝炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2446,
-      "country_count": 8,
+      "record_count": 2606,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -1408,6 +1524,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -1584,12 +1721,16 @@
       "name_en": "Hepatitis B",
       "name_zh": "乙型肝炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1405,
-      "country_count": 6,
+      "record_count": 1562,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -1638,6 +1779,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -1772,12 +1934,16 @@
       "name_en": "Hepatitis C",
       "name_zh": "丙型肝炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1747,
-      "country_count": 7,
+      "record_count": 1904,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -1830,6 +1996,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -2123,12 +2310,16 @@
       "name_en": "Hepatitis E",
       "name_zh": "戊型肝炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1996,
-      "country_count": 6,
+      "record_count": 2096,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -2177,6 +2368,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -2926,12 +3138,16 @@
       "name_en": "Measles",
       "name_zh": "麻疹",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2118,
-      "country_count": 8,
+      "record_count": 2131,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -2988,6 +3204,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -3703,8 +3940,8 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2629,
-      "country_count": 9,
+      "record_count": 2642,
+      "country_count": 10,
       "countries": [
         {
           "code": "AU",
@@ -3713,6 +3950,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -3790,6 +4031,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -4267,8 +4529,8 @@
       "name_en": "Tuberculosis",
       "name_zh": "肺结核",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2293,
-      "country_count": 7,
+      "record_count": 2306,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
@@ -4277,6 +4539,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -4346,6 +4612,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -4480,12 +4767,16 @@
       "name_en": "Typhoid and Paratyphoid fever",
       "name_zh": "伤寒和副伤寒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2275,
-      "country_count": 8,
+      "record_count": 2288,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -4542,6 +4833,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -4981,8 +5293,8 @@
       "name_en": "Diphtheria",
       "name_zh": "白喉",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2009,
-      "country_count": 6,
+      "record_count": 2022,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -4991,6 +5303,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -5056,6 +5372,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -5370,12 +5707,16 @@
       "name_en": "Brucellosis",
       "name_zh": "布鲁氏菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1775,
-      "country_count": 6,
+      "record_count": 1788,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -5424,6 +5765,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -5558,9 +5920,13 @@
       "name_en": "Gonorrhea",
       "name_zh": "淋病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1259,
-      "country_count": 2,
+      "record_count": 1416,
+      "country_count": 3,
       "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
         {
           "code": "CN",
           "name": "China"
@@ -5576,6 +5942,27 @@
       "relative_csv_path": "diseases/d033.csv",
       "site_json_path": "/site-data/diseases/d033.json",
       "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        },
         {
           "country_code": "CN",
           "primary_scope": "cdc_weekly",
@@ -5646,12 +6033,16 @@
       "name_en": "Syphilis",
       "name_zh": "梅毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1482,
-      "country_count": 4,
+      "record_count": 1567,
+      "country_count": 5,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -5692,6 +6083,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -6135,8 +6547,8 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 3384,
-      "country_count": 9,
+      "record_count": 3397,
+      "country_count": 10,
       "countries": [
         {
           "code": "AU",
@@ -6145,6 +6557,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -6222,6 +6638,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -6398,12 +6835,16 @@
       "name_en": "Influenza",
       "name_zh": "流行性感冒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1222,
-      "country_count": 3,
+      "record_count": 1919,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -6440,6 +6881,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -6749,12 +7211,16 @@
       "name_en": "Rubella",
       "name_zh": "风疹",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2195,
-      "country_count": 8,
+      "record_count": 2208,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -6811,6 +7277,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -8117,12 +8604,16 @@
       "name_en": "Zika virus disease",
       "name_zh": "寨卡病毒病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1267,
-      "country_count": 7,
+      "record_count": 1280,
+      "country_count": 8,
       "countries": [
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -8175,6 +8666,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -8330,8 +8842,8 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1939,
-      "country_count": 8,
+      "record_count": 1952,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
@@ -8340,6 +8852,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -8413,6 +8929,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -9346,9 +9883,13 @@
       "name_en": "Yellow fever",
       "name_zh": "黄热病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1548,
-      "country_count": 4,
+      "record_count": 1561,
+      "country_count": 5,
       "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
         {
           "code": "HK",
           "name": "Hong Kong, China"
@@ -9372,6 +9913,27 @@
       "relative_csv_path": "diseases/d059.csv",
       "site_json_path": "/site-data/diseases/d059.json",
       "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        },
         {
           "country_code": "HK",
           "primary_scope": "chp_notifiable",
@@ -9712,12 +10274,16 @@
       "name_en": "Monkeypox",
       "name_zh": "猴痘",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1024,
-      "country_count": 8,
+      "record_count": 1037,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -9774,6 +10340,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -10621,8 +11208,8 @@
       "name_en": "Botulism",
       "name_zh": "肉毒杆菌中毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1617,
-      "country_count": 6,
+      "record_count": 1630,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -10631,6 +11218,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -10696,6 +11287,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -10791,12 +11403,16 @@
       "name_en": "Campylobacteriosis",
       "name_zh": "弯曲杆菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1032,
-      "country_count": 3,
+      "record_count": 1192,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "NZ",
@@ -10833,6 +11449,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "NZ",
@@ -10956,12 +11593,16 @@
       "name_en": "Chlamydia trachomatis infection",
       "name_zh": "沙眼衣原体感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1171,
-      "country_count": 2,
+      "record_count": 1328,
+      "country_count": 3,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "US",
@@ -10994,6 +11635,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "US",
@@ -11374,12 +12036,16 @@
       "name_en": "Haemophilus influenzae",
       "name_zh": "流感嗜血杆菌",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2761,
-      "country_count": 7,
+      "record_count": 2774,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -11432,6 +12098,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -11614,12 +12301,16 @@
       "name_en": "Hantavirus infection",
       "name_zh": "汉坦病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1421,
-      "country_count": 4,
+      "record_count": 1434,
+      "country_count": 5,
       "countries": [
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -11660,6 +12351,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -11824,12 +12536,16 @@
       "name_en": "Shigellosis",
       "name_zh": "志贺菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2111,
-      "country_count": 5,
+      "record_count": 2271,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -11874,6 +12590,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -11969,12 +12706,16 @@
       "name_en": "Invasive pneumococcal disease",
       "name_zh": "侵袭性肺炎球菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2384,
-      "country_count": 7,
+      "record_count": 2397,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -12027,6 +12768,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -12164,12 +12926,16 @@
       "name_en": "Legionellosis",
       "name_zh": "军团菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 3103,
-      "country_count": 7,
+      "record_count": 3116,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -12222,6 +12988,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -12359,12 +13146,16 @@
       "name_en": "Listeriosis",
       "name_zh": "李斯特菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1035,
-      "country_count": 5,
+      "record_count": 1048,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -12409,6 +13200,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -12504,9 +13316,13 @@
       "name_en": "Lyme disease",
       "name_zh": "莱姆病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1562,
-      "country_count": 4,
+      "record_count": 1722,
+      "country_count": 5,
       "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
         {
           "code": "JP",
           "name": "Japan"
@@ -12530,6 +13346,27 @@
       "relative_csv_path": "diseases/d109.csv",
       "site_json_path": "/site-data/diseases/d109.json",
       "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        },
         {
           "country_code": "JP",
           "primary_scope": "jp_weekly",
@@ -12624,12 +13461,16 @@
       "name_en": "Meningococcal disease",
       "name_zh": "脑膜炎球菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2991,
-      "country_count": 8,
+      "record_count": 3004,
+      "country_count": 9,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "CN",
@@ -12686,6 +13527,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "CN",
@@ -12982,12 +13844,16 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1999,
-      "country_count": 7,
+      "record_count": 2012,
+      "country_count": 8,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -13040,6 +13906,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -13177,12 +14064,16 @@
       "name_en": "Salmonellosis",
       "name_zh": "沙门氏菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1450,
-      "country_count": 3,
+      "record_count": 1610,
+      "country_count": 4,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "NZ",
@@ -13219,6 +14110,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "NZ",
@@ -13272,12 +14184,16 @@
       "name_en": "Shiga toxin-producing Escherichia coli infection",
       "name_zh": "产志贺毒素大肠杆菌感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2564,
-      "country_count": 6,
+      "record_count": 2724,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -13326,6 +14242,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -13822,8 +14759,8 @@
       "name_en": "Tetanus",
       "name_zh": "破伤风",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 2134,
-      "country_count": 6,
+      "record_count": 2147,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -13832,6 +14769,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -13897,6 +14838,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -14010,9 +14972,13 @@
       "name_en": "Trichinellosis",
       "name_zh": "旋毛虫病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 233,
-      "country_count": 1,
+      "record_count": 246,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
         {
           "code": "US",
           "name": "United States"
@@ -14024,6 +14990,27 @@
       "relative_csv_path": "diseases/d122.csv",
       "site_json_path": "/site-data/diseases/d122.json",
       "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        },
         {
           "country_code": "US",
           "primary_scope": "nndss_api",
@@ -14055,12 +15042,16 @@
       "name_en": "Tularemia",
       "name_zh": "土拉菌病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1572,
-      "country_count": 5,
+      "record_count": 1732,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "JP",
@@ -14105,6 +15096,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "JP",
@@ -14630,12 +15642,16 @@
       "name_en": "West Nile virus",
       "name_zh": "西尼罗病毒",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1547,
-      "country_count": 5,
+      "record_count": 1560,
+      "country_count": 6,
       "countries": [
         {
           "code": "AU",
           "name": "Australia"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -14680,6 +15696,27 @@
             }
           ],
           "country_name": "Australia"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -15555,8 +16592,8 @@
       "name_en": "Creutzfeldt-Jakob disease",
       "name_zh": "克雅氏病",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 1683,
-      "country_count": 6,
+      "record_count": 1696,
+      "country_count": 7,
       "countries": [
         {
           "code": "AU",
@@ -15565,6 +16602,10 @@
         {
           "code": "BR",
           "name": "Brazil"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland"
         },
         {
           "code": "HK",
@@ -15630,6 +16671,27 @@
             }
           ],
           "country_name": "Brazil"
+        },
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
         },
         {
           "country_code": "HK",
@@ -16468,15 +17530,42 @@
       "name_en": "HIV infection",
       "name_zh": "人类免疫缺乏病毒感染",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 0,
-      "country_count": 0,
-      "countries": [],
+      "record_count": 157,
+      "country_count": 1,
+      "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        }
+      ],
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d162.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/diseases/d162.csv",
       "relative_json_path": "diseases/d162.json",
       "relative_csv_path": "diseases/d162.csv",
       "site_json_path": "/site-data/diseases/d162.json",
-      "source_info": []
+      "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        }
+      ]
     },
     {
       "kind": "disease",
@@ -18297,9 +19386,13 @@
       "name_en": "Tick-borne encephalitis",
       "name_zh": "蜱传脑炎",
       "generated_at": "2026-05-16T00:00:00+00:00",
-      "record_count": 257,
-      "country_count": 1,
+      "record_count": 417,
+      "country_count": 2,
       "countries": [
+        {
+          "code": "CH",
+          "name": "Switzerland"
+        },
         {
           "code": "KR",
           "name": "South Korea"
@@ -18311,6 +19404,27 @@
       "relative_csv_path": "diseases/d205.csv",
       "site_json_path": "/site-data/diseases/d205.json",
       "source_info": [
+        {
+          "country_code": "CH",
+          "primary_scope": "foph_idd",
+          "primary_label": "Switzerland FOPH IDD",
+          "primary_url": "https://www.idd.bag.admin.ch/en/portal-data",
+          "primary_type": "rest_api",
+          "parser_primary": "ch_foph_idd_cases",
+          "notes": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed.",
+          "sources": [
+            {
+              "scope": "foph_idd",
+              "label": "Switzerland FOPH IDD",
+              "url": "https://www.idd.bag.admin.ch/en/portal-data",
+              "machine_url": null,
+              "type": "rest_api",
+              "cadence": "weekly",
+              "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
+            }
+          ],
+          "country_name": "Switzerland"
+        },
         {
           "country_code": "KR",
           "primary_scope": "kdca_open_api",
