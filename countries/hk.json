@@ -4,6 +4,7 @@
     "dataset_id": "hk",
     "dataset_slug": "hk",
     "dataset_name": "Hong Kong, China",
+    "dataset_name_zh": "中国香港",
     "generated_at": "2026-05-16T00:00:00+00:00",
     "record_count": 16669,
     "date_range": {
@@ -53,6 +54,8 @@
   "summary": {
     "country_code": "HK",
     "country_name": "Hong Kong, China",
+    "country_name_en": "Hong Kong, China",
+    "country_name_zh": "中国香港",
     "total_cases": 3621314,
     "total_deaths": 0,
     "disease_count": 62

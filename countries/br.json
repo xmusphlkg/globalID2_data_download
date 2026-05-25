@@ -4,6 +4,7 @@
     "dataset_id": "br",
     "dataset_slug": "br",
     "dataset_name": "Brazil",
+    "dataset_name_zh": "巴西",
     "generated_at": "2026-05-16T00:00:00+00:00",
     "record_count": 8123,
     "date_range": {
@@ -53,6 +54,8 @@
   "summary": {
     "country_code": "BR",
     "country_name": "Brazil",
+    "country_name_en": "Brazil",
+    "country_name_zh": "巴西",
     "total_cases": 60603848,
     "total_deaths": 0,
     "disease_count": 45

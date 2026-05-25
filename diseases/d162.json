@@ -30,7 +30,9 @@
             "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
           }
         ],
-        "country_name": "Switzerland"
+        "country_name": "Switzerland",
+        "country_name_en": "Switzerland",
+        "country_name_zh": "瑞士"
       }
     ]
   },

@@ -4,6 +4,7 @@
     "dataset_id": "kr",
     "dataset_slug": "kr",
     "dataset_name": "South Korea",
+    "dataset_name_zh": "韩国",
     "generated_at": "2026-05-16T00:00:00+00:00",
     "record_count": 16448,
     "date_range": {
@@ -53,6 +54,8 @@
   "summary": {
     "country_code": "KR",
     "country_name": "South Korea",
+    "country_name_en": "South Korea",
+    "country_name_zh": "韩国",
     "total_cases": 2849954,
     "total_deaths": 0,
     "disease_count": 64

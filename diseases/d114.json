@@ -33,7 +33,9 @@
             "description": "Australian national notifiable diseases surveillance dashboard."
           }
         ],
-        "country_name": "Australia"
+        "country_name": "Australia",
+        "country_name_en": "Australia",
+        "country_name_zh": "澳大利亚"
       },
       {
         "country_code": "CH",
@@ -54,7 +56,9 @@
             "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
           }
         ],
-        "country_name": "Switzerland"
+        "country_name": "Switzerland",
+        "country_name_en": "Switzerland",
+        "country_name_zh": "瑞士"
       },
       {
         "country_code": "NZ",
@@ -75,7 +79,9 @@
             "description": "PHF Science (formerly ESR) monthly notifiable disease surveillance data via internal globalID2 crawler"
           }
         ],
-        "country_name": "New Zealand"
+        "country_name": "New Zealand",
+        "country_name_en": "New Zealand",
+        "country_name_zh": "新西兰"
       },
       {
         "country_code": "US",
@@ -96,7 +102,9 @@
             "description": "CDC National Notifiable Diseases Surveillance System provisional data."
           }
         ],
-        "country_name": "United States"
+        "country_name": "United States",
+        "country_name_en": "United States",
+        "country_name_zh": "美国"
       }
     ]
   },

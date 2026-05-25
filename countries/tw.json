@@ -4,6 +4,7 @@
     "dataset_id": "tw",
     "dataset_slug": "tw",
     "dataset_name": "Taiwan, China",
+    "dataset_name_zh": "中国台湾",
     "generated_at": "2026-05-16T00:00:00+00:00",
     "record_count": 6288,
     "date_range": {
@@ -53,6 +54,8 @@
   "summary": {
     "country_code": "TW",
     "country_name": "Taiwan, China",
+    "country_name_en": "Taiwan, China",
+    "country_name_zh": "中国台湾",
     "total_cases": 11163721,
     "total_deaths": 0,
     "disease_count": 48

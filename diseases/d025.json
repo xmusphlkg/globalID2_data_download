@@ -37,7 +37,9 @@
             "description": "Australian national notifiable diseases surveillance dashboard."
           }
         ],
-        "country_name": "Australia"
+        "country_name": "Australia",
+        "country_name_en": "Australia",
+        "country_name_zh": "澳大利亚"
       },
       {
         "country_code": "BR",
@@ -58,7 +60,9 @@
             "description": "Brazil Ministry of Health DATASUS/SINAN public DBC microdata aggregated to national monthly notification counts."
           }
         ],
-        "country_name": "Brazil"
+        "country_name": "Brazil",
+        "country_name_en": "Brazil",
+        "country_name_zh": "巴西"
       },
       {
         "country_code": "CH",
@@ -79,7 +83,9 @@
             "description": "Switzerland FOPH/BAG IDD mandatory reporting API normalized to national case rows. Monthly series may use the dashboard CHFL aggregate where CH-only monthly series are not exposed."
           }
         ],
-        "country_name": "Switzerland"
+        "country_name": "Switzerland",
+        "country_name_en": "Switzerland",
+        "country_name_zh": "瑞士"
       },
       {
         "country_code": "CN",
@@ -118,7 +124,9 @@
             "description": "Biomedical literature discovery feed used as supplementary context."
           }
         ],
-        "country_name": "China"
+        "country_name": "China",
+        "country_name_en": "China",
+        "country_name_zh": "中国"
       },
       {
         "country_code": "HK",
@@ -139,7 +147,9 @@
             "description": "Hong Kong, China CHP annual notifiable infectious disease CSVs normalized to national monthly totals"
           }
         ],
-        "country_name": "Hong Kong, China"
+        "country_name": "Hong Kong, China",
+        "country_name_en": "Hong Kong, China",
+        "country_name_zh": "中国香港"
       },
       {
         "country_code": "JP",
@@ -160,7 +170,9 @@
             "description": "Japan weekly infectious disease surveillance via NIID/JIHS."
           }
         ],
-        "country_name": "Japan"
+        "country_name": "Japan",
+        "country_name_en": "Japan",
+        "country_name_zh": "日本"
       },
       {
         "country_code": "NZ",
@@ -181,7 +193,9 @@
             "description": "PHF Science (formerly ESR) monthly notifiable disease surveillance data via internal globalID2 crawler"
           }
         ],
-        "country_name": "New Zealand"
+        "country_name": "New Zealand",
+        "country_name_en": "New Zealand",
+        "country_name_zh": "新西兰"
       },
       {
         "country_code": "US",
@@ -202,7 +216,9 @@
             "description": "CDC National Notifiable Diseases Surveillance System provisional data."
           }
         ],
-        "country_name": "United States"
+        "country_name": "United States",
+        "country_name_en": "United States",
+        "country_name_zh": "美国"
       }
     ]
   },

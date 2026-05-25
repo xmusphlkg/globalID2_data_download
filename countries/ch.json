@@ -4,6 +4,7 @@
     "dataset_id": "ch",
     "dataset_slug": "ch",
     "dataset_name": "Switzerland",
+    "dataset_name_zh": "瑞士",
     "generated_at": "2026-05-16T00:00:00+00:00",
     "record_count": 3609,
     "date_range": {
@@ -53,6 +54,8 @@
   "summary": {
     "country_code": "CH",
     "country_name": "Switzerland",
+    "country_name_en": "Switzerland",
+    "country_name_zh": "瑞士",
     "total_cases": 5228363,
     "total_deaths": 0,
     "disease_count": 43
