@@ -345,7 +345,7 @@
       "name_en": "Taiwan, China",
       "name_zh": "中国台湾",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 6288,
+      "record_count": 6289,
       "date_range": {
         "start": "2003-01-01",
         "end": "2026-05-01"
@@ -11963,7 +11963,7 @@
       "name_en": "Unspecified viral hepatitis",
       "name_zh": "未明示的病毒性肝炎",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 230,
+      "record_count": 231,
       "country_count": 2,
       "countries": [
         {
