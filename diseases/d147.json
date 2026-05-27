@@ -41,7 +41,7 @@
     "name_en": "Barmah Forest virus infection",
     "name_zh": "巴马森林病毒感染",
     "category": "Viral",
-    "total_cases": 28262,
+    "total_cases": 28257,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -679,7 +679,7 @@
         15,
         18,
         22,
-        18,
+        13,
         13
       ],
       "deaths": [
@@ -10782,10 +10782,10 @@
       "category": "Viral",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 18,
-      "weekly_equiv_cases": 4.064516129032258,
+      "cases": 13,
+      "weekly_equiv_cases": 2.935483870967742,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.06611061275135623,
+      "incidence_rate_per_100k": 0.047746553653757275,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
