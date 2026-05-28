@@ -93,10 +93,10 @@
       "name_en": "Switzerland",
       "name_zh": "瑞士",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 3609,
+      "record_count": 3611,
       "date_range": {
         "start": "2013-01-01",
-        "end": "2026-05-11"
+        "end": "2026-05-18"
       },
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/ch.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main/countries/ch.csv",
@@ -1119,7 +1119,7 @@
       "name_en": "COVID-19",
       "name_zh": "新型冠状病毒感染",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 1055,
+      "record_count": 1056,
       "country_count": 7,
       "countries": [
         {
@@ -7671,7 +7671,7 @@
       "name_en": "Influenza",
       "name_zh": "流行性感冒",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 1920,
+      "record_count": 1921,
       "country_count": 4,
       "countries": [
         {
