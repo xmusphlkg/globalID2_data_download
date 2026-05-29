@@ -306,7 +306,7 @@
       "name_en": "New Zealand",
       "name_zh": "新西兰",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 3380,
+      "record_count": 3471,
       "date_range": {
         "start": "2016-01-01",
         "end": "2026-04-01"
@@ -8095,7 +8095,7 @@
       "name_en": "Rubella",
       "name_zh": "风疹",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 2209,
+      "record_count": 2261,
       "country_count": 9,
       "countries": [
         {
@@ -15508,7 +15508,7 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 2013,
+      "record_count": 2050,
       "country_count": 8,
       "countries": [
         {
@@ -19469,7 +19469,7 @@
       "name_en": "Invasive group A streptococcal infection",
       "name_zh": "侵袭性A族链球菌感染",
       "generated_at": "2026-05-23T00:00:00+00:00",
-      "record_count": 28,
+      "record_count": 30,
       "country_count": 1,
       "countries": [
         {
