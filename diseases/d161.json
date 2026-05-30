@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D161",
+    "dataset_slug": "decompression-sickness",
+    "dataset_name": "Decompression sickness",
+    "generated_at": "2026-05-23T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D161",
+    "name_en": "Decompression sickness",
+    "name_zh": "减压病",
+    "category": "Other",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}
