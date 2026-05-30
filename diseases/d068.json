@@ -65,7 +65,7 @@
     "name_en": "Acute hepatitis B",
     "name_zh": "急性乙型肝炎",
     "category": "Viral",
-    "total_cases": 9520,
+    "total_cases": 9521,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -703,7 +703,7 @@
         3,
         8,
         12,
-        14,
+        15,
         11
       ],
       "deaths": [
@@ -19517,8 +19517,8 @@
       "category": "Viral",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 14,
-      "weekly_equiv_cases": 3.161290322580645,
+      "cases": 15,
+      "weekly_equiv_cases": 3.3870967741935485,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
