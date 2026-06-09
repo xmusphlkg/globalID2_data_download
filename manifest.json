@@ -54,7 +54,7 @@
       "name_en": "Brazil",
       "name_zh": "巴西",
       "generated_at": "2026-06-01T00:00:00+00:00",
-      "record_count": 8131,
+      "record_count": 8135,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-06-01"
@@ -3980,7 +3980,7 @@
       "name_en": "Rabies",
       "name_zh": "狂犬病",
       "generated_at": "2026-06-01T00:00:00+00:00",
-      "record_count": 2230,
+      "record_count": 2231,
       "country_count": 8,
       "countries": [
         {
@@ -5696,7 +5696,7 @@
       "name_en": "Pertussis",
       "name_zh": "百日咳",
       "generated_at": "2026-06-01T00:00:00+00:00",
-      "record_count": 3433,
+      "record_count": 3434,
       "country_count": 9,
       "countries": [
         {
@@ -7305,7 +7305,7 @@
       "name_en": "Schistosomiasis",
       "name_zh": "血吸虫病",
       "generated_at": "2026-06-01T00:00:00+00:00",
-      "record_count": 395,
+      "record_count": 397,
       "country_count": 2,
       "countries": [
         {
