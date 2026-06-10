@@ -41,7 +41,7 @@
     "name_en": "Ross River virus infection",
     "name_zh": "罗斯河病毒感染",
     "category": "Viral",
-    "total_cases": 110659,
+    "total_cases": 110664,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -680,9 +680,9 @@
         217,
         257,
         270,
-        299,
+        301,
         250,
-        31
+        34
       ],
       "deaths": [
         0,
@@ -10785,10 +10785,10 @@
       "category": "Viral",
       "date": "2026-04-01",
       "year_month": "2026-04",
-      "cases": 299,
-      "weekly_equiv_cases": 67.51612903225806,
+      "cases": 301,
+      "weekly_equiv_cases": 67.96774193548387,
       "deaths": 0,
-      "incidence_rate_per_100k": 1.098170734036417,
+      "incidence_rate_per_100k": 1.105516357675457,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10847,10 +10847,10 @@
       "category": "Viral",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 31,
-      "weekly_equiv_cases": 7.0,
+      "cases": 34,
+      "weekly_equiv_cases": 7.677419354838709,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.11385716640511348,
+      "incidence_rate_per_100k": 0.12487560186367286,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
