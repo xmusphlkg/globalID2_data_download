@@ -5,7 +5,7 @@
     "dataset_slug": "streptococcus-suis",
     "dataset_name": "Streptococcus suis",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "record_count": 260,
+    "record_count": 261,
     "country_count": 2,
     "countries": [
       "CN",
@@ -83,7 +83,7 @@
     "name_en": "Streptococcus suis",
     "name_zh": "人感染猪链球菌病",
     "category": "Bacterial",
-    "total_cases": 238,
+    "total_cases": 271,
     "total_deaths": 1,
     "global_monthly": {
       "months": [
@@ -342,7 +342,8 @@
         "2026-01",
         "2026-02",
         "2026-03",
-        "2026-04"
+        "2026-04",
+        "2026-05"
       ],
       "cases": [
         0,
@@ -600,7 +601,8 @@
         25,
         29,
         17,
-        23
+        23,
+        33
       ],
       "deaths": [
         0,
@@ -858,6 +860,7 @@
         1,
         0,
         0,
+        0,
         0
       ]
     }
@@ -883,7 +886,7 @@
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2026-01-01",
-      "coverage_end": "2026-04-01",
+      "coverage_end": "2026-05-01",
       "generated_at": "2026-06-06T00:00:00+00:00",
       "primary_source_scope": "cdc_weekly",
       "primary_source_label": "China CDC Weekly",
@@ -914,7 +917,7 @@
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2026-01-01",
-      "coverage_end": "2026-04-01",
+      "coverage_end": "2026-05-01",
       "generated_at": "2026-06-06T00:00:00+00:00",
       "primary_source_scope": "cdc_weekly",
       "primary_source_label": "China CDC Weekly",
@@ -945,7 +948,7 @@
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2026-01-01",
-      "coverage_end": "2026-04-01",
+      "coverage_end": "2026-05-01",
       "generated_at": "2026-06-06T00:00:00+00:00",
       "primary_source_scope": "cdc_weekly",
       "primary_source_label": "China CDC Weekly",
@@ -976,7 +979,38 @@
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2026-01-01",
-      "coverage_end": "2026-04-01",
+      "coverage_end": "2026-05-01",
+      "generated_at": "2026-06-06T00:00:00+00:00",
+      "primary_source_scope": "cdc_weekly",
+      "primary_source_label": "China CDC Weekly",
+      "primary_source_url": "https://weekly.chinacdc.cn",
+      "primary_source_type": "web",
+      "source_scopes": "cdc_weekly; nhc; pubmed",
+      "source_labels": "China CDC Weekly; National Disease Control and Prevention Administration; PubMed",
+      "source_urls": "https://weekly.chinacdc.cn; https://www.ndcpa.gov.cn; https://pubmed.ncbi.nlm.nih.gov",
+      "source_types": "web; web; web"
+    },
+    {
+      "dataset_kind": "disease",
+      "dataset_id": "D056",
+      "dataset_slug": "streptococcus-suis",
+      "dataset_name": "Streptococcus suis",
+      "country_code": "CN",
+      "country_name": "China",
+      "disease_id": "D056",
+      "disease_name_en": "Streptococcus suis",
+      "disease_name_zh": "人感染猪链球菌病",
+      "category": "Bacterial",
+      "date": "2026-05-01",
+      "year_month": "2026-05",
+      "cases": 33,
+      "weekly_equiv_cases": 7.700000000000001,
+      "deaths": 0,
+      "incidence_rate_per_100k": 0.0023355984817897864,
+      "incidence_rate_source": "wpp_computed",
+      "mortality_rate": null,
+      "coverage_start": "2026-01-01",
+      "coverage_end": "2026-05-01",
       "generated_at": "2026-06-06T00:00:00+00:00",
       "primary_source_scope": "cdc_weekly",
       "primary_source_label": "China CDC Weekly",
