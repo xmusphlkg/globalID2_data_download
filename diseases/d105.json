@@ -161,7 +161,7 @@
     "name_en": "Shigellosis",
     "name_zh": "志贺菌病",
     "category": "Bacterial",
-    "total_cases": 195207,
+    "total_cases": 195218,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -874,7 +874,7 @@
         854,
         850,
         760,
-        187
+        198
       ],
       "deaths": [
         0,
@@ -11075,10 +11075,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 22,
-      "weekly_equiv_cases": 4.967741935483871,
+      "cases": 33,
+      "weekly_equiv_cases": 7.451612903225806,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.08080186002943539,
+      "incidence_rate_per_100k": 0.12120279004415307,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
