@@ -54,7 +54,7 @@
       "name_en": "Brazil",
       "name_zh": "巴西",
       "generated_at": "2026-06-06T00:00:00+00:00",
-      "record_count": 8135,
+      "record_count": 8137,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-06-01"
@@ -4462,7 +4462,7 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-06-06T00:00:00+00:00",
-      "record_count": 2655,
+      "record_count": 2656,
       "country_count": 10,
       "countries": [
         {
@@ -9972,7 +9972,7 @@
       "name_en": "Chikungunya",
       "name_zh": "基孔肯雅热",
       "generated_at": "2026-06-06T00:00:00+00:00",
-      "record_count": 1968,
+      "record_count": 1969,
       "country_count": 9,
       "countries": [
         {
