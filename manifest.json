@@ -54,7 +54,7 @@
       "name_en": "Brazil",
       "name_zh": "巴西",
       "generated_at": "2026-06-06T00:00:00+00:00",
-      "record_count": 8137,
+      "record_count": 8139,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-06-01"
@@ -20836,7 +20836,7 @@
       "name_en": "Rabies post-exposure prophylaxis",
       "name_zh": "狂犬病暴露后处置",
       "generated_at": "2026-06-06T00:00:00+00:00",
-      "record_count": 197,
+      "record_count": 199,
       "country_count": 1,
       "countries": [
         {
