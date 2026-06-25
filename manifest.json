@@ -54,7 +54,7 @@
       "name_en": "Brazil",
       "name_zh": "巴西",
       "generated_at": "2026-06-20T00:00:00+00:00",
-      "record_count": 8142,
+      "record_count": 8146,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-06-01"
@@ -21130,7 +21130,7 @@
       "name_en": "Work-related mental disorder",
       "name_zh": "职业相关精神障碍",
       "generated_at": "2026-06-20T00:00:00+00:00",
-      "record_count": 204,
+      "record_count": 206,
       "country_count": 1,
       "countries": [
         {
@@ -21471,7 +21471,7 @@
       "name_en": "Trachoma",
       "name_zh": "沙眼",
       "generated_at": "2026-06-20T00:00:00+00:00",
-      "record_count": 156,
+      "record_count": 158,
       "country_count": 1,
       "countries": [
         {
