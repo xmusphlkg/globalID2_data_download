@@ -41,7 +41,7 @@
     "name_en": "Zoster",
     "name_zh": "带状疱疹",
     "category": "",
-    "total_cases": 161929,
+    "total_cases": 161955,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -682,7 +682,7 @@
         890,
         865,
         894,
-        520
+        546
       ],
       "deaths": [
         0,
@@ -10847,10 +10847,10 @@
       "category": "",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 520,
-      "weekly_equiv_cases": 117.41935483870967,
+      "cases": 546,
+      "weekly_equiv_cases": 123.29032258064517,
       "deaths": 0,
-      "incidence_rate_per_100k": 1.9098621461502907,
+      "incidence_rate_per_100k": 2.005355253457805,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

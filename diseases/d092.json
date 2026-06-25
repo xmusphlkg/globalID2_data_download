@@ -113,7 +113,7 @@
     "name_en": "Campylobacteriosis",
     "name_zh": "弯曲杆菌病",
     "category": "Bacterial",
-    "total_cases": 1134478,
+    "total_cases": 1134583,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -754,7 +754,7 @@
         6736,
         6697,
         7642,
-        5226
+        5331
       ],
       "deaths": [
         0,
@@ -10919,10 +10919,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 2148,
-      "weekly_equiv_cases": 485.03225806451616,
+      "cases": 2253,
+      "weekly_equiv_cases": 508.7419354838709,
       "deaths": 0,
-      "incidence_rate_per_100k": 7.889199788328509,
+      "incidence_rate_per_100k": 8.274845029378087,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
