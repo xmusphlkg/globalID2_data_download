@@ -227,7 +227,7 @@
     "name_en": "Tuberculosis",
     "name_zh": "肺结核",
     "category": "Bacterial",
-    "total_cases": 19328630,
+    "total_cases": 19328637,
     "total_deaths": 37451,
     "global_monthly": {
       "months": [
@@ -940,7 +940,7 @@
         64804,
         63278,
         58803,
-        1067
+        1074
       ],
       "deaths": [
         0,
@@ -11141,10 +11141,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 89,
-      "weekly_equiv_cases": 20.096774193548388,
+      "cases": 96,
+      "weekly_equiv_cases": 21.677419354838708,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.3268802519372613,
+      "incidence_rate_per_100k": 0.3525899346738999,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
