@@ -54,7 +54,7 @@
       "name_en": "Brazil",
       "name_zh": "巴西",
       "generated_at": "2026-06-20T00:00:00+00:00",
-      "record_count": 8146,
+      "record_count": 8147,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-06-01"
@@ -21032,7 +21032,7 @@
       "name_en": "Exogenous poisoning",
       "name_zh": "外源性中毒",
       "generated_at": "2026-06-20T00:00:00+00:00",
-      "record_count": 190,
+      "record_count": 191,
       "country_count": 1,
       "countries": [
         {
