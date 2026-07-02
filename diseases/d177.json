@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "dataset_kind": "disease",
+    "dataset_id": "D177",
+    "dataset_slug": "cat-scratch-disease",
+    "dataset_name": "Cat-scratch disease",
+    "generated_at": "2026-07-01T00:00:00+00:00",
+    "record_count": 0,
+    "country_count": 0,
+    "countries": [],
+    "source_info": []
+  },
+  "summary": {
+    "disease_id": "D177",
+    "name_en": "Cat-scratch disease",
+    "name_zh": "猫抓病",
+    "category": "Bacterial",
+    "total_cases": 0,
+    "total_deaths": 0,
+    "global_monthly": {
+      "months": [],
+      "cases": [],
+      "deaths": []
+    }
+  },
+  "records": []
+}
