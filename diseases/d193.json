@@ -41,7 +41,7 @@
     "name_en": "Work-related mental disorder",
     "name_zh": "职业相关精神障碍",
     "category": "Other",
-    "total_cases": 51308,
+    "total_cases": 51514,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -458,7 +458,7 @@
         498,
         201,
         89,
-        15
+        221
       ],
       "deaths": [
         0,
@@ -7039,8 +7039,8 @@
       "category": "Other",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 15,
-      "weekly_equiv_cases": 3.5,
+      "cases": 221,
+      "weekly_equiv_cases": 51.56666666666666,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

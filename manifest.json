@@ -54,7 +54,7 @@
       "name_en": "Brazil",
       "name_zh": "巴西",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 8147,
+      "record_count": 8154,
       "date_range": {
         "start": "2000-01-01",
         "end": "2026-06-01"
@@ -20738,7 +20738,7 @@
       "name_en": "Work accident with biological material",
       "name_zh": "生物材料职业暴露事故",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 208,
+      "record_count": 209,
       "country_count": 1,
       "countries": [
         {
@@ -20787,7 +20787,7 @@
       "name_en": "Serious work accident",
       "name_zh": "严重工伤",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 212,
+      "record_count": 213,
       "country_count": 1,
       "countries": [
         {
@@ -20885,7 +20885,7 @@
       "name_en": "Work-related cancer",
       "name_zh": "职业相关癌症",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 172,
+      "record_count": 173,
       "country_count": 1,
       "countries": [
         {
@@ -20934,7 +20934,7 @@
       "name_en": "Work-related dermatosis",
       "name_zh": "职业性皮肤病",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 191,
+      "record_count": 192,
       "country_count": 1,
       "countries": [
         {
@@ -21081,7 +21081,7 @@
       "name_en": "Work-related repetitive strain injury",
       "name_zh": "职业相关重复性劳损",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 176,
+      "record_count": 177,
       "country_count": 1,
       "countries": [
         {
@@ -21179,7 +21179,7 @@
       "name_en": "Noise-induced hearing loss",
       "name_zh": "噪声性听力损失",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 206,
+      "record_count": 207,
       "country_count": 1,
       "countries": [
         {
@@ -21228,7 +21228,7 @@
       "name_en": "Pneumoconiosis",
       "name_zh": "尘肺病",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 178,
+      "record_count": 179,
       "country_count": 1,
       "countries": [
         {
