@@ -345,10 +345,10 @@
       "name_en": "Taiwan, China",
       "name_zh": "中国台湾",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 6303,
+      "record_count": 6323,
       "date_range": {
         "start": "2003-01-01",
-        "end": "2026-06-01"
+        "end": "2026-07-01"
       },
       "json_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/master/countries/tw.json",
       "csv_path": "https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/master/countries/tw.csv",
@@ -637,7 +637,7 @@
       "name_en": "Cholera",
       "name_zh": "霍乱",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 2136,
+      "record_count": 2137,
       "country_count": 9,
       "countries": [
         {
@@ -2150,7 +2150,7 @@
       "name_en": "Hepatitis C",
       "name_zh": "丙型肝炎",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 1920,
+      "record_count": 1921,
       "country_count": 8,
       "countries": [
         {
@@ -4250,7 +4250,7 @@
       "name_en": "Japanese Encephalitis",
       "name_zh": "流行性乙型脑炎",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 1871,
+      "record_count": 1873,
       "country_count": 6,
       "countries": [
         {
@@ -4462,7 +4462,7 @@
       "name_en": "Dengue",
       "name_zh": "登革热",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 2662,
+      "record_count": 2663,
       "country_count": 10,
       "countries": [
         {
@@ -7006,7 +7006,7 @@
       "name_en": "Leptospirosis",
       "name_zh": "钩端螺旋体病",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 2617,
+      "record_count": 2618,
       "country_count": 9,
       "countries": [
         {
@@ -7401,7 +7401,7 @@
       "name_en": "Malaria",
       "name_zh": "疟疾",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 3422,
+      "record_count": 3423,
       "country_count": 10,
       "countries": [
         {
@@ -10954,7 +10954,7 @@
       "name_en": "Scrub Typhus",
       "name_zh": "恙虫病",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 1559,
+      "record_count": 1560,
       "country_count": 5,
       "countries": [
         {
@@ -11907,7 +11907,7 @@
       "name_en": "Acute hepatitis B",
       "name_zh": "急性乙型肝炎",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 600,
+      "record_count": 601,
       "country_count": 2,
       "countries": [
         {
@@ -14268,7 +14268,7 @@
       "name_en": "Invasive pneumococcal disease",
       "name_zh": "侵袭性肺炎球菌病",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 2421,
+      "record_count": 2422,
       "country_count": 8,
       "countries": [
         {
@@ -14772,7 +14772,7 @@
       "name_en": "Listeriosis",
       "name_zh": "李斯特菌病",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 1066,
+      "record_count": 1067,
       "country_count": 6,
       "countries": [
         {
@@ -15566,7 +15566,7 @@
       "name_en": "Q fever",
       "name_zh": "Q热",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 2071,
+      "record_count": 2072,
       "country_count": 8,
       "countries": [
         {
@@ -16177,7 +16177,7 @@
       "name_en": "Melioidosis",
       "name_zh": "类鼻疽",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 1443,
+      "record_count": 1444,
       "country_count": 5,
       "countries": [
         {
@@ -20089,7 +20089,7 @@
       "name_en": "Endemic typhus fever",
       "name_zh": "地方性斑疹伤寒",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 733,
+      "record_count": 735,
       "country_count": 3,
       "countries": [
         {
@@ -20196,7 +20196,7 @@
       "name_en": "Complicated varicella",
       "name_zh": "水痘并发症",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 147,
+      "record_count": 148,
       "country_count": 1,
       "countries": [
         {
@@ -20263,7 +20263,7 @@
       "name_en": "Severe complicated influenza",
       "name_zh": "流感并发重症",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 226,
+      "record_count": 227,
       "country_count": 1,
       "countries": [
         {
@@ -20524,7 +20524,7 @@
       "name_en": "Enterovirus infection with severe complications",
       "name_zh": "肠病毒感染并发重症",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 175,
+      "record_count": 177,
       "country_count": 1,
       "countries": [
         {
@@ -20573,7 +20573,7 @@
       "name_en": "Severe complicated COVID-19",
       "name_zh": "新冠并发重症",
       "generated_at": "2026-07-01T00:00:00+00:00",
-      "record_count": 23,
+      "record_count": 24,
       "country_count": 1,
       "countries": [
         {
