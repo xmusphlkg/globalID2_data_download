@@ -185,7 +185,7 @@
     "name_en": "Shiga toxin-producing Escherichia coli infection",
     "name_zh": "产志贺毒素大肠杆菌感染",
     "category": "Bacterial",
-    "total_cases": 132434,
+    "total_cases": 132443,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -825,8 +825,8 @@
         785,
         948,
         1042,
-        1172,
-        0
+        1176,
+        5
       ],
       "deaths": [
         0,
@@ -10960,10 +10960,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 67,
-      "weekly_equiv_cases": 15.129032258064516,
+      "cases": 71,
+      "weekly_equiv_cases": 16.03225806451613,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.24607839190782596,
+      "incidence_rate_per_100k": 0.26076963918590507,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -10991,10 +10991,10 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 0,
-      "weekly_equiv_cases": 0.0,
+      "cases": 5,
+      "weekly_equiv_cases": 1.1666666666666665,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.0,
+      "incidence_rate_per_100k": 0.01836405909759895,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
