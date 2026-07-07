@@ -41,7 +41,7 @@
     "name_en": "Severe complicated COVID-19",
     "name_zh": "新冠并发重症",
     "category": "Viral",
-    "total_cases": 2358,
+    "total_cases": 2362,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -93,8 +93,8 @@
         13,
         3,
         6,
-        31,
-        5
+        32,
+        8
       ],
       "deaths": [
         0,
@@ -820,8 +820,8 @@
       "category": "Viral",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 31,
-      "weekly_equiv_cases": 7.0,
+      "cases": 32,
+      "weekly_equiv_cases": 7.225806451612903,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
@@ -851,8 +851,8 @@
       "category": "Viral",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 5,
-      "weekly_equiv_cases": 1.1666666666666665,
+      "cases": 8,
+      "weekly_equiv_cases": 1.8666666666666667,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

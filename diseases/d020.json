@@ -179,7 +179,7 @@
     "name_en": "Japanese Encephalitis",
     "name_zh": "流行性乙型脑炎",
     "category": "Viral",
-    "total_cases": 17515,
+    "total_cases": 17516,
     "total_deaths": 723,
     "global_monthly": {
       "months": [
@@ -821,7 +821,7 @@
         0,
         2,
         3,
-        3,
+        4,
         0
       ],
       "deaths": [
@@ -59193,8 +59193,8 @@
       "category": "Viral",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 3,
-      "weekly_equiv_cases": 0.6774193548387096,
+      "cases": 4,
+      "weekly_equiv_cases": 0.9032258064516129,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
