@@ -251,7 +251,7 @@
     "name_en": "Pertussis",
     "name_zh": "百日咳",
     "category": "Bacterial",
-    "total_cases": 1533043,
+    "total_cases": 1533169,
     "total_deaths": 58,
     "global_monthly": {
       "months": [
@@ -964,8 +964,8 @@
         2885,
         2674,
         2665,
-        2908,
-        1419,
+        2930,
+        1523,
         65
       ],
       "deaths": [
@@ -17678,8 +17678,8 @@
       "category": "Bacterial",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 385,
-      "weekly_equiv_cases": 89.83333333333334,
+      "cases": 407,
+      "weekly_equiv_cases": 94.96666666666667,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
@@ -17709,8 +17709,8 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 126,
-      "weekly_equiv_cases": 28.451612903225808,
+      "cases": 230,
+      "weekly_equiv_cases": 51.93548387096774,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

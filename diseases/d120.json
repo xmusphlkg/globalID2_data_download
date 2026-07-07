@@ -185,7 +185,7 @@
     "name_en": "Tetanus",
     "name_zh": "破伤风",
     "category": "Bacterial",
-    "total_cases": 12226,
+    "total_cases": 12240,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -898,8 +898,8 @@
         86,
         69,
         94,
-        69,
-        11,
+        74,
+        20,
         0
       ],
       "deaths": [
@@ -17240,8 +17240,8 @@
       "category": "Bacterial",
       "date": "2026-05-01",
       "year_month": "2026-05",
-      "cases": 55,
-      "weekly_equiv_cases": 12.833333333333332,
+      "cases": 60,
+      "weekly_equiv_cases": 14.0,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
@@ -17271,8 +17271,8 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 6,
-      "weekly_equiv_cases": 1.3548387096774193,
+      "cases": 15,
+      "weekly_equiv_cases": 3.3870967741935485,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
