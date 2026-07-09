@@ -93,8 +93,8 @@
         13,
         3,
         6,
-        32,
-        11
+        35,
+        8
       ],
       "deaths": [
         0,
@@ -820,8 +820,8 @@
       "category": "Viral",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 32,
-      "weekly_equiv_cases": 7.225806451612903,
+      "cases": 35,
+      "weekly_equiv_cases": 7.903225806451614,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
@@ -851,8 +851,8 @@
       "category": "Viral",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 11,
-      "weekly_equiv_cases": 2.5666666666666664,
+      "cases": 8,
+      "weekly_equiv_cases": 1.8666666666666667,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
