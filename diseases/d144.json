@@ -185,7 +185,7 @@
     "name_en": "Creutzfeldt-Jakob disease",
     "name_zh": "克雅氏病",
     "category": "Prion",
-    "total_cases": 5577,
+    "total_cases": 5576,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -810,7 +810,7 @@
         29,
         26,
         23,
-        39,
+        38,
         14,
         11,
         12,
@@ -16977,8 +16977,8 @@
       "category": "Prion",
       "date": "2025-01-01",
       "year_month": "2025-01",
-      "cases": 27,
-      "weekly_equiv_cases": 0.5163934426229508,
+      "cases": 26,
+      "weekly_equiv_cases": 0.4972677595628415,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
