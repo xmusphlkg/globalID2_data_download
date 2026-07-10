@@ -209,7 +209,7 @@
     "name_en": "Invasive pneumococcal disease",
     "name_zh": "侵袭性肺炎球菌病",
     "category": "Bacterial",
-    "total_cases": 196235,
+    "total_cases": 196236,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -851,7 +851,7 @@
         1262,
         1247,
         1168,
-        770,
+        771,
         140
       ],
       "deaths": [
@@ -56123,8 +56123,8 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 17,
-      "weekly_equiv_cases": 3.8387096774193545,
+      "cases": 18,
+      "weekly_equiv_cases": 4.064516129032258,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

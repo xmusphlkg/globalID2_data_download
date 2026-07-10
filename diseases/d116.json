@@ -137,7 +137,7 @@
     "name_en": "Melioidosis",
     "name_zh": "类鼻疽",
     "category": "Bacterial",
-    "total_cases": 1131,
+    "total_cases": 1132,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -683,7 +683,7 @@
         9,
         3,
         2,
-        1,
+        2,
         0
       ],
       "deaths": [
@@ -40097,8 +40097,8 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 1,
-      "weekly_equiv_cases": 0.22580645161290322,
+      "cases": 2,
+      "weekly_equiv_cases": 0.45161290322580644,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

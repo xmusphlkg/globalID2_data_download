@@ -227,7 +227,7 @@
     "name_en": "Hepatitis C",
     "name_zh": "丙型肝炎",
     "category": "Viral",
-    "total_cases": 3845480,
+    "total_cases": 3845481,
     "total_deaths": 10077,
     "global_monthly": {
       "months": [
@@ -941,7 +941,7 @@
         16602,
         16486,
         15326,
-        15053,
+        15054,
         39
       ],
       "deaths": [
@@ -53583,8 +53583,8 @@
       "category": "Viral",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 34,
-      "weekly_equiv_cases": 7.677419354838709,
+      "cases": 35,
+      "weekly_equiv_cases": 7.903225806451614,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
