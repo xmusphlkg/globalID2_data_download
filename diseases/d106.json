@@ -209,7 +209,7 @@
     "name_en": "Invasive pneumococcal disease",
     "name_zh": "侵袭性肺炎球菌病",
     "category": "Bacterial",
-    "total_cases": 196321,
+    "total_cases": 196330,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -851,8 +851,8 @@
         1262,
         1246,
         1236,
-        771,
-        157
+        772,
+        165
       ],
       "deaths": [
         0,
@@ -11018,10 +11018,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 222,
-      "weekly_equiv_cases": 50.12903225806451,
+      "cases": 223,
+      "weekly_equiv_cases": 50.354838709677416,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.8153642239333934,
+      "incidence_rate_per_100k": 0.8190370357529132,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -11049,10 +11049,10 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 43,
-      "weekly_equiv_cases": 10.033333333333333,
+      "cases": 51,
+      "weekly_equiv_cases": 11.9,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.15793090823935096,
+      "incidence_rate_per_100k": 0.1873134027955093,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
