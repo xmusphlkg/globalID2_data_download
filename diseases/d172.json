@@ -41,7 +41,7 @@
     "name_en": "Severe complicated influenza",
     "name_zh": "流感并发重症",
     "category": "Viral",
-    "total_cases": 23191,
+    "total_cases": 23203,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -500,7 +500,7 @@
         38,
         37,
         61,
-        37
+        49
       ],
       "deaths": [
         0,
@@ -7753,8 +7753,8 @@
       "category": "Viral",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 37,
-      "weekly_equiv_cases": 8.633333333333333,
+      "cases": 49,
+      "weekly_equiv_cases": 11.433333333333334,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

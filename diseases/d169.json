@@ -89,7 +89,7 @@
     "name_en": "Endemic typhus fever",
     "name_zh": "地方性斑疹伤寒",
     "category": "Bacterial",
-    "total_cases": 1805,
+    "total_cases": 1806,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -636,7 +636,7 @@
         1,
         1,
         1,
-        2
+        3
       ],
       "deaths": [
         0,
@@ -23681,8 +23681,8 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 2,
-      "weekly_equiv_cases": 0.45161290322580644,
+      "cases": 3,
+      "weekly_equiv_cases": 0.6774193548387096,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
