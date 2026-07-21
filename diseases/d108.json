@@ -161,7 +161,7 @@
     "name_en": "Listeriosis",
     "name_zh": "李斯特菌病",
     "category": "Bacterial",
-    "total_cases": 5988,
+    "total_cases": 5989,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -804,7 +804,7 @@
         37,
         46,
         57,
-        28
+        29
       ],
       "deaths": [
         0,
@@ -25385,8 +25385,8 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 8,
-      "weekly_equiv_cases": 1.8666666666666667,
+      "cases": 9,
+      "weekly_equiv_cases": 2.1,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
