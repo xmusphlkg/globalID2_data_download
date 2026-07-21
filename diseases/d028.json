@@ -251,7 +251,7 @@
     "name_en": "Pertussis",
     "name_zh": "百日咳",
     "category": "Bacterial",
-    "total_cases": 1534715,
+    "total_cases": 1534774,
     "total_deaths": 58,
     "global_monthly": {
       "months": [
@@ -965,8 +965,8 @@
         2674,
         2665,
         2930,
-        2475,
-        659
+        2477,
+        716
       ],
       "deaths": [
         0,
@@ -11168,10 +11168,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 802,
-      "weekly_equiv_cases": 181.09677419354838,
+      "cases": 804,
+      "weekly_equiv_cases": 181.54838709677418,
       "deaths": 0,
-      "incidence_rate_per_100k": 2.9455950792548715,
+      "incidence_rate_per_100k": 2.9529407028939114,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -11199,10 +11199,10 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 359,
-      "weekly_equiv_cases": 83.76666666666667,
+      "cases": 416,
+      "weekly_equiv_cases": 97.06666666666666,
       "deaths": 0,
-      "incidence_rate_per_100k": 1.3185394432076045,
+      "incidence_rate_per_100k": 1.5278897169202328,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
