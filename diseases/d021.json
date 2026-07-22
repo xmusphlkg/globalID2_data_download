@@ -275,7 +275,7 @@
     "name_en": "Dengue",
     "name_zh": "登革热",
     "category": "Viral",
-    "total_cases": 28672362,
+    "total_cases": 28672363,
     "total_deaths": 15,
     "global_monthly": {
       "months": [
@@ -990,7 +990,7 @@
         93564,
         87912,
         63600,
-        17008
+        17009
       ],
       "deaths": [
         0,
@@ -80384,8 +80384,8 @@
       "category": "Viral",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 15,
-      "weekly_equiv_cases": 3.5,
+      "cases": 16,
+      "weekly_equiv_cases": 3.7333333333333334,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
