@@ -203,7 +203,7 @@
     "name_en": "Diphtheria",
     "name_zh": "白喉",
     "category": "Bacterial",
-    "total_cases": 1642,
+    "total_cases": 1646,
     "total_deaths": 9,
     "global_monthly": {
       "months": [
@@ -917,8 +917,8 @@
         56,
         117,
         135,
-        112,
-        22
+        113,
+        25
       ],
       "deaths": [
         0,
@@ -11120,10 +11120,10 @@
       "category": "Bacterial",
       "date": "2026-06-01",
       "year_month": "2026-06",
-      "cases": 111,
-      "weekly_equiv_cases": 25.064516129032256,
+      "cases": 112,
+      "weekly_equiv_cases": 25.29032258064516,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.4076821119666967,
+      "incidence_rate_per_100k": 0.41135492378621646,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -11151,10 +11151,10 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 22,
-      "weekly_equiv_cases": 5.133333333333333,
+      "cases": 25,
+      "weekly_equiv_cases": 5.833333333333334,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.08080186002943539,
+      "incidence_rate_per_100k": 0.09182029548799475,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",

@@ -251,7 +251,7 @@
     "name_en": "Meningococcal disease",
     "name_zh": "脑膜炎球菌病",
     "category": "Bacterial",
-    "total_cases": 17198,
+    "total_cases": 17203,
     "total_deaths": 214,
     "global_monthly": {
       "months": [
@@ -966,7 +966,7 @@
         40,
         34,
         33,
-        5
+        10
       ],
       "deaths": [
         0,
@@ -11199,10 +11199,10 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 0,
-      "weekly_equiv_cases": 0.0,
+      "cases": 5,
+      "weekly_equiv_cases": 1.1666666666666665,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.0,
+      "incidence_rate_per_100k": 0.01836405909759895,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
