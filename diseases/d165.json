@@ -65,7 +65,7 @@
     "name_en": "Amebiasis",
     "name_zh": "阿米巴病",
     "category": "Parasitic",
-    "total_cases": 6555,
+    "total_cases": 6557,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -780,7 +780,7 @@
         30,
         29,
         30,
-        20
+        22
       ],
       "deaths": [
         0,
@@ -20840,8 +20840,8 @@
       "category": "Parasitic",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 20,
-      "weekly_equiv_cases": 4.666666666666666,
+      "cases": 22,
+      "weekly_equiv_cases": 5.133333333333333,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",

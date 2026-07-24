@@ -107,7 +107,7 @@
     "name_en": "Dysentery",
     "name_zh": "细菌性和阿米巴性痢疾",
     "category": "Bacterial",
-    "total_cases": 1861864,
+    "total_cases": 1861868,
     "total_deaths": 332,
     "global_monthly": {
       "months": [
@@ -678,7 +678,7 @@
         1932,
         2665,
         3386,
-        29
+        33
       ],
       "deaths": [
         0,
@@ -38212,8 +38212,8 @@
       "category": "Bacterial",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 14,
-      "weekly_equiv_cases": 3.2666666666666666,
+      "cases": 18,
+      "weekly_equiv_cases": 4.2,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
