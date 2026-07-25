@@ -65,7 +65,7 @@
     "name_en": "Acute flaccid paralysis",
     "name_zh": "急性无力肢体麻痹",
     "category": "Other",
-    "total_cases": 9497,
+    "total_cases": 9500,
     "total_deaths": 0,
     "global_monthly": {
       "months": [
@@ -614,7 +614,7 @@
         5,
         12,
         5,
-        1
+        4
       ],
       "deaths": [
         0,
@@ -14918,8 +14918,8 @@
       "category": "Other",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 1,
-      "weekly_equiv_cases": 0.23333333333333334,
+      "cases": 4,
+      "weekly_equiv_cases": 0.9333333333333333,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
