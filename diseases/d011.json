@@ -203,7 +203,7 @@
     "name_en": "Hepatitis E",
     "name_zh": "戊型肝炎",
     "category": "Viral",
-    "total_cases": 487481,
+    "total_cases": 487482,
     "total_deaths": 299,
     "global_monthly": {
       "months": [
@@ -918,7 +918,7 @@
         3262,
         3011,
         2850,
-        47
+        48
       ],
       "deaths": [
         0,
@@ -66858,8 +66858,8 @@
       "category": "Viral",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 2,
-      "weekly_equiv_cases": 0.15384615384615385,
+      "cases": 3,
+      "weekly_equiv_cases": 0.23076923076923078,
       "deaths": 0,
       "incidence_rate_per_100k": null,
       "incidence_rate_source": "missing_population",
