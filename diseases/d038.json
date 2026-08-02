@@ -131,7 +131,7 @@
     "name_en": "Influenza",
     "name_zh": "流行性感冒",
     "category": "Viral",
-    "total_cases": 74079299,
+    "total_cases": 74079595,
     "total_deaths": 954,
     "global_monthly": {
       "months": [
@@ -775,8 +775,8 @@
         645629,
         524285,
         604674,
-        21940,
-        82
+        22014,
+        304
       ],
       "deaths": [
         0,
@@ -10974,10 +10974,10 @@
       "category": "Viral",
       "date": "2026-07-01",
       "year_month": "2026-07",
-      "cases": 19949,
-      "weekly_equiv_cases": 4654.766666666666,
+      "cases": 20023,
+      "weekly_equiv_cases": 4672.033333333333,
       "deaths": 0,
-      "incidence_rate_per_100k": 73.26892298760029,
+      "incidence_rate_per_100k": 73.54071106224477,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
@@ -11005,10 +11005,10 @@
       "category": "Viral",
       "date": "2026-08-01",
       "year_month": "2026-08",
-      "cases": 82,
-      "weekly_equiv_cases": 18.516129032258064,
+      "cases": 304,
+      "weekly_equiv_cases": 68.64516129032258,
       "deaths": 0,
-      "incidence_rate_per_100k": 0.3011705692006228,
+      "incidence_rate_per_100k": 1.1165347931340162,
       "incidence_rate_source": "wpp_computed",
       "mortality_rate": null,
       "coverage_start": "2000-01-01",
