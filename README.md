@@ -1,20 +1,13 @@
 # GlobalID Data Downloads
 
-This repository stores the generated download artifacts for the GlobalID public site.
+This repository stores directly downloadable datasets for the GlobalID public site.
 
-- Data version: `2026-08-01T00:00:00+00:00`
+- Generated at: `2026-08-01T00:00:00+00:00`
 - Country datasets: `10`
 - Disease datasets: `225`
+- Formats: CSV and JSON
 - Manifest: [`manifest.json`](./manifest.json)
 
-The publishing pipeline copies:
-
-- `countries/*.json`
-- `countries/*.csv`
-- `diseases/*.json`
-- `diseases/*.csv`
-- `manifest.json`
-
-Primary public base configured during generation:
+Public files are stable branch links under:
 
 `https://raw.githubusercontent.com/xmusphlkg/globalID2_data_download/main`
