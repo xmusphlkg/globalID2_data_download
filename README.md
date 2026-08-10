@@ -3,8 +3,8 @@
 This repository stores directly downloadable datasets for the GlobalID public site.
 
 - Generated at: `2026-08-01T00:00:00+00:00`
-- Country datasets: `10`
-- Disease datasets: `225`
+- Country datasets: `16`
+- Disease datasets: `239`
 - Formats: CSV, JSON and XLSX
 - Partitioning: stable calendar windows; only changed windows are committed
 - Manifest: [`manifest.json`](./manifest.json)
