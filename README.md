@@ -2,7 +2,7 @@
 
 This repository stores directly downloadable datasets for the GlobalID public site.
 
-- Generated at: `2026-10-10T00:00:00+00:00`
+- Generated at: `2026-10-12T00:00:00+00:00`
 - Country datasets: `295`
 - Disease datasets: `239`
 - Formats: CSV, JSON and XLSX
